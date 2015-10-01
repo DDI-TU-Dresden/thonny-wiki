@@ -17,5 +17,4 @@ The solution is to install the good version. Go to http://www.activestate.com/ac
 
 Required Python version
 -------------------------
-Currently Thonny requires Python 3.4 or later on Mac. If you have Python 3.3 and for some reason can't install Python 3.4, then you should open Thonny app (right click on it and select "Show Package Contents") and edit a file named "thonny" in Contents/MacOS. On first line change "python3" to "pythonw3".
-
+Currently Thonny requires Python 3.4 to be installed.
