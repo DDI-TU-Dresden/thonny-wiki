@@ -3,7 +3,7 @@ Thonny on Linux
 
 Requirements
 ----------------------
-Thonny needs Python 3.4 or later with tkinter and IDLE. Necessary packages for some distros (eg. Ubuntu) are ``python3``, ``python3-tk`` and ``python3-idle``, for some (eg. Fedora) these are ``python3`` and ``python3-tools``.
+Thonny needs Python 3.4 or later with tkinter and IDLE. Necessary packages for some distros (eg. Ubuntu) are ``python3``, ``python3-tk`` and ``python3-idle`` (if ``python3-idle`` doesn't exist then try ``idle3``), for some (eg. Fedora) these are ``python3`` and ``python3-tools``.
 
 
 Installing
