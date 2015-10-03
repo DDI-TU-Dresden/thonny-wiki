@@ -1,5 +1,6 @@
 Mac issues
 ===========
+Thonny's Mac distribution (version 1.0 and upwards) includes an embedded Python, so you don't need to install Python separately.
 
 Installation
 -----------------
