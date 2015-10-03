@@ -5,7 +5,7 @@ Requirements
 -------------
 Thonny is supported on OS X 10.8 (Mountain Lion) and later. It may work also on 10.7 (Lion).
 
-Starting with version 1.0 Thonny's Mac distribution includes an embedded Python, so you don't need to install Python separately.
+Starting with version 1.0 Thonny comes with an embedded Python, so you don't need to install Python separately.
 
 Installation
 -----------------
