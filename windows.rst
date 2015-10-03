@@ -3,7 +3,7 @@ Windows specific issues
 
 Requirements
 -------------
-Thonny is supported in Windows 7 and later.
+Thonny is supported on Windows 7 and later.
 
 Starting with version 1.0 Thonny comes with an embedded Python, so you don't need to install Python separately.
 
