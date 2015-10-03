@@ -46,4 +46,4 @@ Excecute the uninstall command shown by the installer, eg.
 
 .. sourcecode:: none
 
-    > sudo /opt/thonny/bin/thonny
+    > sudo /opt/thonny/bin/uninstall
