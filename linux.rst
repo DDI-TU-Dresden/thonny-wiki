@@ -9,33 +9,40 @@ Thonny needs Python 3.4 or later with tkinter and IDLE. Necessary packages for s
 Installing
 ------------
 
-`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension, unpack and run the installation script. If you would like to install it only for your user (perhaps because you don't have admin acces to the machine you're using), then execute following three commands:
+`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension, unpack and run the installation script. For example, in Ubuntu command line you could run following commands:
 
 .. sourcecode:: none
 
-    tar -zxvf thonny-0.2.2.tar.gz
-    cd thonny-0.2.2
-    ./install ~/.local
+    > tar -zxvf thonny-1.0.5.tar.gz
+    > cd thonny-1.0.5
+    > sudo ./install
 
-(If you want to install for all users, then your third command should be something like ``sudo ./install /usr/local``.)
-
-You should see something like this:
+If you would like to install it only for your user (perhaps because you don't have admin acces to the machine you're using), then you can tell installer to install thonny to some folder under your home folder:
 
 .. sourcecode:: none
 
-    Copying files to /home/aivar/.local/lib/thonny ... Done!
-    Creating executable /home/aivar/.local/bin/thonny ... Done!
-    Creating start menu item ... Done!
-    Creating desktop icon ... Done!
+    > tar -zxvf thonny-1.0.5.tar.gz
+    > cd thonny-1.0.5
+    > ./install ~/my_programs
 
+In either way, you should see something like this:
 
+.. sourcecode:: none
+
+    Checking available Python versions ................................... Done!
+    Thonny will use Python 3.4
+    Copying files to /opt/thonny ......................................... Done!
+    Creating start menu item (/usr/share/applications/Thonny.desktop) .... Done!
+    Creating uninstaller (/opt/thonny/bin/uninstall) ..................... Done!
+
+    Installation was successful, you can start Thonny from start menu
+    or by calling /opt/thonny/bin/thonny
+    
 
 Uninstalling
 ------------------------
-Just delete:
+Excecute the uninstall command shown in by the installer, eg. 
 
-* Thonny main folder (in the example above it's ``/home/aivar/.local/lib/thonny``);
-* executable (eg. ``/home/aivar/.local/bin/thonny``);
-* shortcuts:
-    * ``/usr/share/applications/Thonny.desktop`` or ``~/.local/share/applications/Thonny.desktop``
-    * ``~/Desktop/Thonny.desktop``
+.. sourcecode:: none
+
+    > sudo /opt/thonny/bin/thonny
