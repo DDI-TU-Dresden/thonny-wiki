@@ -42,7 +42,7 @@ For some reason, in Lubuntu 15.04, when you install under /home (and shortcut ge
 
 Uninstalling
 ------------------------
-Excecute the uninstall command shown in by the installer, eg. 
+Excecute the uninstall command shown by the installer, eg. 
 
 .. sourcecode:: none
 
