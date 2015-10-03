@@ -33,8 +33,8 @@ In either way, you should see something like this:
     Creating start menu item (/usr/share/applications/Thonny.desktop) .... Done!
     Creating uninstaller (/opt/thonny/bin/uninstall) ..................... Done!
 
-    Installation was successful, you can start Thonny from start menu
-    or by calling /opt/thonny/bin/thonny
+    Installation was successful, you can start Thonny from start menu under
+    Education or Programming, or by calling /opt/thonny/bin/thonny
     
 
 Uninstalling
