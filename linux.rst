@@ -9,7 +9,7 @@ Thonny needs Python 3.4 or later with tkinter and IDLE. Necessary packages for s
 Installing
 ------------
 
-`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension, unpack and run the installation script. For example, in Ubuntu command line you could run following commands:
+`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension, unpack and run the installation script. For example, in Ubuntu command line you could execute following commands:
 
 .. sourcecode:: none
 
