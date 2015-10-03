@@ -17,12 +17,10 @@ Installing
     > cd thonny-1.0.5
     > sudo ./install
 
-If you would like to install it only for your user (perhaps because you don't have admin acces to the machine you're using), then you can tell installer to install thonny to some folder under your home folder:
+If you would like to install it only for your user (perhaps because you don't have admin acces to the machine you're using), then you can tell installer to install thonny to some folder under your home folder. For example, instead of ``sudo ./install`` you would say:
 
 .. sourcecode:: none
 
-    > tar -zxvf thonny-1.0.5.tar.gz
-    > cd thonny-1.0.5
     > ./install ~/my_programs
 
 In either way, you should see something like this:
