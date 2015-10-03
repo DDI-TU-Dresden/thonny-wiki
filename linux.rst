@@ -36,6 +36,9 @@ In either way, you should see something like this:
     Installation was successful, you can start Thonny from start menu under
     Education or Programming, or by calling /opt/thonny/bin/thonny
     
+Note
+~~~~~~
+For some reason, in Lubuntu 15.04, when you install under /home (and shortcut gets installed into ~/.local/share/applications), Thonny item doesn't appear in start menu. The workaround is to install with sudo into default directory.
 
 Uninstalling
 ------------------------
