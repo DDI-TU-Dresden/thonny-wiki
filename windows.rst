@@ -17,7 +17,7 @@ Windows 8, 10 and SmartScreen Filter
 -------------------------------------
 Windows 8 and 10 include a feature called SmartScreen Filter, which tries to reduce the risk of users installing malware into their computers. See http://www.howtogeek.com/123938/htg-explains-how-the-smartscreen-filter-works-in-windows-8/ for more info.
 
-Short story is that currently Windows 8 and 10 may be suspicious about Thonny installer and may call it "unsafe".
+**Short story is that currently Windows 8 and 10 may be suspicious about Thonny installer and may call it "unsafe".**
 
 The warnings are strongest when the installer is downloaded and run via Internet Explorer (if downloaded and run with eg. Firefox, you should see the usual confirmation you've accustomed to see in previous Windows versions).
 
