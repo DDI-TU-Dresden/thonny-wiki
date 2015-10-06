@@ -21,7 +21,7 @@ Short story is that currently Windows 8 and 10 may be suspicious about Thonny in
 
 The warnings are strongest when the installer is downloaded and run via Internet Explorer (if downloaded and run with eg. Firefox, you should see the usual confirmation you've accustomed to see in previous Windows versions).
 
-Actually, it's hard to predict exactly what kind of warnings SmartScreen will give you, because it uses some kind of reputation system, which is not very transparent (the main idea is that, the more users install and approve Thonny, the more likely it is that next users won't be bothered with warnings).
+Actually, it's hard to predict exactly what kind of warnings SmartScreen will give you, because it uses some kind of reputation system, and Thonny's reputation most likely improves over time. (The system is not very transparent, but the main idea is that, the more users install and approve Thonny, the more likely it is that next users won't be bothered with warnings.)
 
 How to work around SmartScreen Filter?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
