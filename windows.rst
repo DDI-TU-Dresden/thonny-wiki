@@ -19,6 +19,12 @@ Windows 8 and 10 include a feature called SmartScreen Filter, which tries to red
 
 Short story is that currently Windows 8 and 10 may be suspicious about Thonny installer and may call it "unsafe".
 
-In Windows 8, the warnings are strongest when the installer is downloaded and run via Internet Explorer (if downloaded and run with eg. Firefox, you see the usual confirmation you've accustomed to see in previous Windows versions).
+The warnings are strongest when the installer is downloaded and run via Internet Explorer (if downloaded and run with eg. Firefox, you should see the usual confirmation you've accustomed to see in previous Windows versions).
 
-In Windows 10, the warnings are strong in all cases. 
+Actually, it's hard to predict exactly what kind of warnings SmartScreen will give you, because it uses some kind of reputation system, which is not very transparent (the main idea is that, the more users install and approve Thonny, the more likely it is that next users won't be bothered with warnings).
+
+How to work around SmartScreen Filter?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Option 1: If you run Thonny installer from Internet Explorer or Edge and see the warning "SmartScreen Filter reported Thonny-1.0.6.exe as unsafe", then click the button "View downloads", right-click on thonny installer and select "Run anyway". (We would be really glad, if you later also clicked "Report that this download is safe" -- this would add to Thonny's reputation and would reduce Windows' alarm level about Thonny)
+* Option 2: Just download the installer, open your Downloads folder in Windows Explorer and run the installer from there. Most likely you will see the usual confirmation titled "Do you want to run this file?". Just click "Run" and the installer will start.
+** If you get something stronger (eg. warning with no option to confirm your intention, or request to provide admin password when you don't have one), then close the warning, right-click the installer, select "Properties" and check "Unblock" at the bottom of "General" tab. Click "OK" and after this you should be able to run installer without problems.
