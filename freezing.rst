@@ -11,8 +11,8 @@ On CentOS (as root):
     yum -y groupinstall 'Development Tools'
 
     # From http://toomuchdata.com/2014/02/16/how-to-install-python-on-centos/
-    # (I excluded tk-devel, because I want newer Tk anyway)
-    yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel gdbm-devel db4-devel libpcap-devel xz-devel libX11-devel
+    # (yes, I include tk-devel even though I'll compile a newer version later. This seems to bring along nicer fonts in tkinter)
+    yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel gdbm-devel db4-devel libpcap-devel xz-devel libX11-devel tk-devel
 
 
 
