@@ -3,21 +3,25 @@ Linux
 
 Prepare requisites
 ------------------
+On CentOS (as root):
+
 .. sourcecode:: bash
 
-    yum groupinstall 'Development Tools'
-    yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
+    yum -y update
+    yum -y groupinstall 'Development Tools'
 
-    # TODO: something else?
+    # From http://toomuchdata.com/2014/02/16/how-to-install-python-on-centos/
+    # (I excluded tk-devel, because I want newer Tk anyway)
+    yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel gdbm-devel db4-devel libpcap-devel xz-devel
 
-    yum update
 
 
-Prepare directory for custom TclTk and Python
+Prepare directory for custom TclTk and Python. Let's chooce a nice path, because frozen Python modules will remember this location as their location. End user may see these locations in stacktraces.
 
 .. sourcecode:: bash
 
     mkdir /opt/pythonny
+    chmod 777 /opt/pythonny # if you want to do next steps as ordinary user
 
 Build TclTk 8.6
 ----------------
