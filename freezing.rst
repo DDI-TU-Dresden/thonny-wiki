@@ -80,3 +80,6 @@ Checkout and freeze Thonny
     cd thonny/installers/linux/
     ./create_frozen_tarball.sh
 
+    # test it
+    ./build/thonny-1.1.0b1/thonny_frontend
+
