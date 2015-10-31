@@ -29,11 +29,11 @@ Build TclTk 8.6
 .. sourcecode:: bash
 
     cd tcl8.6/unix
-    ./configure --prefix=/opt/pythonny/
+    ./configure --prefix=/opt/pythonny
     make install
 
     cd tk8.6/unix
-    ./configure --prefix=/opt/pythonny/
+    ./configure --prefix=/opt/pythonny
     make install
 
 Build Python
