@@ -1,5 +1,17 @@
 Linux
 ==========
+
+Prepare requisites
+------------------
+.. sourcecode:: bash
+
+    yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
+
+    # TODO: something else?
+
+    yum update
+
+
 Prepare directory for custom TclTk and Python
 
 .. sourcecode:: bash
