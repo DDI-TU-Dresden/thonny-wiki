@@ -37,7 +37,18 @@ set LD_LIBRARY_PATH (https://mail.python.org/pipermail/tkinter-discuss/2011-Marc
     ./conigure --prefix=/opt/pythonny --with-tcltk-includes=I/opt/pythonny/include --with-tcltk-libs=L/opt/pythonny/lib
     make
     make install
+    
+    /opt/pythonny/bin/python3.5 -m idlelib # check that it uses Tk 8.6
 
-Test 
-----
-...
+Install cx_Freeze
+-----------------
+4.3.4 does not work with Python 3.5, use a newer version (eg. from repo: 
+
+.. sourcecode:: sh
+
+    cd anthony_tuininga-cx_freeze-aebc9c32615c/
+    /opt/pythonny/bin/python3.5 setup.py install
+
+
+
+
