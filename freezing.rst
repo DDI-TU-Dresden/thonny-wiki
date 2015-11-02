@@ -44,7 +44,7 @@ Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourc
     make install
 
     cd tk8.6/unix
-    ./configure --prefix=/opt/pythonny
+    ./configure --prefix=/opt/pythonny --disable-xss # http://sourceforge.net/p/tktoolkit/bugs/2588/
     make install
 
 
