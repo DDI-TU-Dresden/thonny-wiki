@@ -21,7 +21,8 @@ http://askubuntu.com/questions/21547/what-are-the-packages-libraries-i-should-in
 
     sudo apt-get update
     sudo apt-get upgrade
-    sudo apt-get build-dep python # may work
+    sudo apt-get install git mercurial # needed below
+    sudo apt-get build-dep python # may work, but probably installs too much
     sudo apt-get install build-essential libncursesw5-dev libreadline6-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libbz2-dev
 
 Prepare directory for custom TclTk and Python. Let's chooce a nice path, because frozen Python modules will remember this location as their location. End user may see these locations in stacktraces.
@@ -101,7 +102,7 @@ Install cx_Freeze
 
 .. sourcecode:: sh
 
-    git clone https://bitbucket.org/anthony_tuininga/cx_freeze
+    hg clone https://bitbucket.org/anthony_tuininga/cx_freeze
     cd cx_freeze
     /opt/pythonny/bin/python3.5 setup.py install
 
