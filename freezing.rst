@@ -97,11 +97,12 @@ Build Python
 
 Install cx_Freeze
 -----------------
-4.3.4 does not work with Python 3.5, use a newer version (eg. from repo: 
+4.3.4 does not work with Python 3.5, use a newer version (eg. from repo): 
 
 .. sourcecode:: sh
 
-    cd anthony_tuininga-cx_freeze-aebc9c32615c/
+    git clone https://bitbucket.org/anthony_tuininga/cx_freeze
+    cd cx_freeze
     /opt/pythonny/bin/python3.5 setup.py install
 
 
