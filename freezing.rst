@@ -22,7 +22,7 @@ http://askubuntu.com/questions/21547/what-are-the-packages-libraries-i-should-in
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get build-dep python # may work
-    sudo apt-get install build-essential libncursesw5-dev libreadline5-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libbz2-dev
+    sudo apt-get install build-essential libncursesw5-dev libreadline-gplv-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libbz2-dev
 
 Prepare directory for custom TclTk and Python. Let's chooce a nice path, because frozen Python modules will remember this location as their location. End user may see these locations in stacktraces.
 
