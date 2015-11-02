@@ -33,6 +33,8 @@ Prepare directory for custom TclTk and Python. Let's chooce a nice path, because
 
 Build TclTk 8.6
 ----------------
+Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourceforge.net/projects/tcl/files/.
+
 
 .. sourcecode:: bash
 
