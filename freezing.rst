@@ -46,6 +46,33 @@ Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourc
     ./configure --prefix=/opt/pythonny
     make install
 
+
+Build tkhtml:
+Get source from https://github.com/olebole/tkhtml3 (or https://github.com/hkoba/tkhtml3)
+
+# Generate some source files (see readme in https://github.com/starseeker/tcltk/tree/master/tkhtml)
+/opt/pythonny/bin/tclsh8.6 src/cssprop.tcl 
+/opt/pythonny/bin/tclsh8.6 src/tokenlist.txt 
+/opt/pythonny/bin/tclsh8.6 src/mkdefaultstyle.tcl > htmldefaultstyle.c
+
+# copy these generated files to src
+mv *.c src
+mv *.h src
+
+# create build dir
+mkdir build
+cd build
+../confi
+
+# configure, make and install
+../configure --prefix=/opt/pythonny --with-tcl=/opt/pythonny/lib --with-tk=/opt/pythonny/lib --with-tclinclude=/opt/pythonny/include --with-tkinclude=/opt/pythonny/include
+make install
+
+
+
+
+
+
 Build Python
 -------------
 
