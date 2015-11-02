@@ -23,7 +23,7 @@ http://askubuntu.com/questions/21547/what-are-the-packages-libraries-i-should-in
     sudo apt-get upgrade
     sudo apt-get install git mercurial # needed below
     sudo apt-get build-dep python # may work, but probably installs too much
-    sudo apt-get install build-essential libncursesw5-dev libreadline6-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libbz2-dev lzma-dev liblzma-dev python-lzma lzma
+    sudo apt-get install build-essential libncursesw5-dev libreadline6-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libbz2-dev lzma-dev liblzma-dev python-lzma lzma xz-utils xz-lzma
 
 Prepare directory for custom TclTk and Python. Let's chooce a nice path, because frozen Python modules will remember this location as their location. End user may see these locations in stacktraces.
 
