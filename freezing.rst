@@ -141,5 +141,4 @@ http://www.pygame.org/wiki/CompileUbuntu
      
     # Finally build and install
     cd pygame
-    python3 setup.py build
-    sudo python3 setup.py install
+    /opt/pythonny/bin/python3.5 setup.py install
