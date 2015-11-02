@@ -125,3 +125,21 @@ Test it:
     
     ./build/thonny-1.1.0b1/thonny_frontend
 
+Build Pygame
+-------------
+http://www.pygame.org/wiki/CompileUbuntu
+
+.. sourcecode:: sh
+    
+    #install dependencies (without python3-numpy suggested in Pygame wiki)
+    sudo apt-get install mercurial python3-dev libav-tools \
+        libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev \
+        libsdl1.2-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev
+     
+    # Grab source
+    hg clone https://bitbucket.org/pygame/pygame
+     
+    # Finally build and install
+    cd pygame
+    python3 setup.py build
+    sudo python3 setup.py install
