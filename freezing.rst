@@ -14,7 +14,13 @@ On CentOS (as root):
     # (yes, I include tk-devel even though I'll compile a newer version later. This seems to bring along nicer fonts in tkinter)
     yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel gdbm-devel db4-devel libpcap-devel xz-devel libX11-devel tk-devel
 
+On Ubuntu:
+http://askubuntu.com/questions/21547/what-are-the-packages-libraries-i-should-install-before-compiling-python-from-so
 
+.. sourcecode:: bash
+
+    sudo apt-get build-dep python # may work
+    sudo apt-get install build-essential libncursesw5-dev libreadline5-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libbz2-dev
 
 Prepare directory for custom TclTk and Python. Let's chooce a nice path, because frozen Python modules will remember this location as their location. End user may see these locations in stacktraces.
 
