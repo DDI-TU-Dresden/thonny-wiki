@@ -144,6 +144,8 @@ TODO: First check that Tk8.6 is Current.
      
     # compile and install Python
     ./configure --enable-framework --with-ensurepip=install
+    # ./configure --enable-framework --with-ensurepip=install LDFLAGS=-L/usr/local/opt/openssl/lib CPPFLAGS=-I/usr/local/opt/openssl/include
+
     sudo make frameworkinstall
     
     # check that the newly built Python uses Tk 8.6 for Tkinter
