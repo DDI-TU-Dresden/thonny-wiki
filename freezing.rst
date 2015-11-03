@@ -107,7 +107,7 @@ Get source from http://tkhtml.tcl.tk/ or https://github.com/olebole/tkhtml3 (or 
 Build Python
 -------------
 
-
+On Linux:
 
 .. sourcecode:: bash
 
@@ -116,11 +116,26 @@ Build Python
     cd Python-3.5.0
      
     # set LD_LIBRARY_PATH (https://mail.python.org/pipermail/tkinter-discuss/2011-March/002808.html)
-    export LD_LIBRARY_PATH=/opt/pythonny/lib  # DYLD_LIBRARY_PATH on Mac
+    export LD_LIBRARY_PATH=/opt/pythonny/lib
 
     # compile and install Python
     ./configure --prefix=/opt/pythonny --with-tcltk-includes=-I/opt/pythonny/include --with-tcltk-libs=-L/opt/pythonny/lib
     make altinstall
+    
+    # check that the newly built Python uses Tk 8.6 for Tkinter
+    /opt/pythonny/bin/python3.5 -m idlelib 
+
+On Mac:
+
+.. sourcecode:: bash
+
+    wget https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tar.xz
+    tar xf Python-3.5.0.tar.xz 
+    cd Python-3.5.0
+     
+    # compile and install Python
+    ./configure --enable-framework
+    make frameworkinstall
     
     # check that the newly built Python uses Tk 8.6 for Tkinter
     /opt/pythonny/bin/python3.5 -m idlelib 
