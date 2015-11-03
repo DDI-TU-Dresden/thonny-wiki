@@ -100,7 +100,7 @@ Build Python
     ./configure --prefix=/opt/pythonny --with-tcltk-includes=-I/opt/pythonny/include --with-tcltk-libs=-L/opt/pythonny/lib
     make altinstall
     
-    # check that newly built Python uses Tk 8.6 for Tkinter
+    # check that the newly built Python uses Tk 8.6 for Tkinter
     /opt/pythonny/bin/python3.5 -m idlelib 
 
 Install cx_Freeze
