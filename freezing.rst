@@ -36,6 +36,7 @@ Build TclTk 8.6
 ----------------
 Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourceforge.net/projects/tcl/files/.
 
+On Linux:
 
 .. sourcecode:: bash
 
@@ -52,6 +53,27 @@ Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourc
     # see http://sourceforge.net/p/tktoolkit/bugs/2588/ for --disable-xss
     ./configure --prefix=/opt/pythonny --disable-xss # add --enable-aqua on Mac
     make install
+    cd ../..
+
+
+On Mac:
+https://mail.python.org/pipermail/python-list/2014-June/674026.html
+
+.. sourcecode:: bash
+
+    wget http://prdownloads.sourceforge.net/tcl/tcl8.6.4-src.tar.gz
+    tar -xzf tcl8.6.4-src.tar.gz
+    cd tcl8.6.4/unix
+    ./configure --enable-framework
+    sudo make install
+    cd ../..
+
+    wget http://prdownloads.sourceforge.net/tcl/tk8.6.4-src.tar.gz
+    tar -xzf tk8.6.4-src.tar.gz
+    cd tk8.6.4/unix
+    # see http://sourceforge.net/p/tktoolkit/bugs/2588/ for --disable-xss
+    ./configure --enable-framework --enable-aqua --disable-xss
+    sudo make install
     cd ../..
 
 
