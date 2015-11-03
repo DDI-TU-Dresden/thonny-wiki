@@ -94,7 +94,7 @@ Build Python
     cd Python-3.5.0
      
     # set LD_LIBRARY_PATH (https://mail.python.org/pipermail/tkinter-discuss/2011-March/002808.html)
-    export LD_LIBRARY_PATH=/opt/pythonny/lib
+    export LD_LIBRARY_PATH=/opt/pythonny/lib  # DYLD_LIBRARY_PATH on Mac
 
     # compile and install Python
     ./configure --prefix=/opt/pythonny --with-tcltk-includes=I/opt/pythonny/include --with-tcltk-libs=L/opt/pythonny/lib
