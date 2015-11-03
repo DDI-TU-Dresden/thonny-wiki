@@ -97,7 +97,7 @@ Build Python
     export LD_LIBRARY_PATH=/opt/pythonny/lib  # DYLD_LIBRARY_PATH on Mac
 
     # compile and install Python
-    ./configure --prefix=/opt/pythonny --with-tcltk-includes=I/opt/pythonny/include --with-tcltk-libs=L/opt/pythonny/lib
+    ./configure --prefix=/opt/pythonny --with-tcltk-includes=-I/opt/pythonny/include --with-tcltk-libs=-L/opt/pythonny/lib
     make altinstall
     
     # check that newly built Python uses Tk 8.6 for Tkinter
