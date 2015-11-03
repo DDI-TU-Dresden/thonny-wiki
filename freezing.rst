@@ -39,13 +39,20 @@ Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourc
 
 .. sourcecode:: bash
 
-    cd tcl8.6/unix
+    wget http://prdownloads.sourceforge.net/tcl/tcl8.6.4-src.tar.gz
+    tar -xzf tcl8.6.4-src.tar.gz
+    cd tcl8.6.4/unix
     ./configure --prefix=/opt/pythonny
     make install
+    cd ../..
 
-    cd tk8.6/unix
-    ./configure --prefix=/opt/pythonny --disable-xss # http://sourceforge.net/p/tktoolkit/bugs/2588/
+    wget http://prdownloads.sourceforge.net/tcl/tk8.6.4-src.tar.gz
+    tar -xzf tk8.6.4-src.tar.gz
+    cd tk8.6.4/unix
+    # see http://sourceforge.net/p/tktoolkit/bugs/2588/ for --disable-xss
+    ./configure --prefix=/opt/pythonny --disable-xss # add --enable-aqua on Mac
     make install
+    cd ../..
 
 
 Build tkhtml (required for some Thonny plug-ins):
