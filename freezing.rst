@@ -29,7 +29,7 @@ http://askubuntu.com/questions/21547/what-are-the-packages-libraries-i-should-in
 On mac:
 
 * install XZ http://macpkg.sourceforge.net/ (for lzma module)
-* install OpenSSL (https://wiki.openssl.org/index.php/Compilation_and_Installation#Mac)
+* install OpenSSL (https://wiki.openssl.org/index.php/Compilation_and_Installation#Mac, https://gist.github.com/tmiz/1441111)
 
 Prepare directory for custom TclTk and Python. Let's chooce a nice path, because frozen Python modules will remember this location as their location. End user may see these locations in stacktraces.
 
