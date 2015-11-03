@@ -127,6 +127,9 @@ On Linux:
 
 On Mac:
 
+TODO: First check that Tk8.6 is Current.
+
+
 .. sourcecode:: bash
 
     wget https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tar.xz
@@ -135,10 +138,10 @@ On Mac:
      
     # compile and install Python
     ./configure --enable-framework
-    make frameworkinstall
+    sudo make frameworkinstall
     
     # check that the newly built Python uses Tk 8.6 for Tkinter
-    /opt/pythonny/bin/python3.5 -m idlelib 
+    /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 -m idlelib 
 
 Install cx_Freeze
 -----------------
