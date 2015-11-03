@@ -48,8 +48,8 @@ Get sources from http:// www.tcl.tk/software/tcltk/download.html or http://sourc
     make install
 
 
-Build tkhtml:
-Get source from https://github.com/olebole/tkhtml3 (or https://github.com/hkoba/tkhtml3)
+Build tkhtml (required for some Thonny plug-ins):
+Get source from http://tkhtml.tcl.tk/ or https://github.com/olebole/tkhtml3 (or https://github.com/hkoba/tkhtml3)
 
 .. sourcecode:: bash
 
