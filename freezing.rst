@@ -146,7 +146,7 @@ TODO: First check that Tk8.6 is Current.
      
     # compile and install Python
     ./configure --enable-framework --with-ensurepip=install
-    # ./configure --enable-framework --with-ensurepip=install LDFLAGS=-L/usr/local/opt/openssl/lib-L/usr/local/Cellar/xz/5.2.2/lib/ CPPFLAGS=-I/usr/local/opt/openssl/include-I/usr/local/Cellar/xz/5.2.2/include/
+    # ./configure --enable-framework --with-ensurepip=install LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/Cellar/xz/5.2.2/lib/" CPPFLAGS="-I/usr/local/opt/openssl/include -I/usr/local/Cellar/xz/5.2.2/include/"
 
     sudo make frameworkinstall
     
