@@ -73,7 +73,7 @@ https://mail.python.org/pipermail/python-list/2014-June/674026.html
     cd tk8.6.4/unix
     # see http://sourceforge.net/p/tktoolkit/bugs/2588/ for --disable-xss
     ./configure --enable-framework --enable-aqua --disable-xss
-    sudo make install
+    sudo make install NATIVE_TCLSH=/usr/local/bin/tclsh8.6
     cd ../..
 
 
