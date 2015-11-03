@@ -137,7 +137,7 @@ TODO: First check that Tk8.6 is Current.
     cd Python-3.5.0
      
     # compile and install Python
-    ./configure --enable-framework
+    ./configure --enable-framework --with-ensurepip=install
     sudo make frameworkinstall
     
     # check that the newly built Python uses Tk 8.6 for Tkinter
