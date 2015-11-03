@@ -65,7 +65,7 @@ https://mail.python.org/pipermail/python-list/2014-June/674026.html
     tar -xzf tcl8.6.4-src.tar.gz
     cd tcl8.6.4/unix
     ./configure --enable-framework
-    sudo make install
+    sudo make install NATIVE_TCLSH=/usr/local/bin/tclsh8.6
     cd ../..
 
     wget http://prdownloads.sourceforge.net/tcl/tk8.6.4-src.tar.gz
