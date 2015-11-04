@@ -74,7 +74,8 @@ http://wiki.tcl.tk/12945
     tar -xzf tcl8.6.4-src.tar.gz
     cd tcl8.6.4/macosx
     ./configure --enable-framework
-    make embedded
+    make embedded # for inclusion in Thonny bundle
+    sudo make install NATIVE_TCLSH=/usr/local/bin/tclsh8.6 # for building Python
     cd ../..
 
     wget http://prdownloads.sourceforge.net/tcl/tk8.6.4-src.tar.gz
@@ -82,7 +83,8 @@ http://wiki.tcl.tk/12945
     cd tk8.6.4/macosx
     # see http://sourceforge.net/p/tktoolkit/bugs/2588/ for --disable-xss
     ./configure --enable-framework --enable-aqua --disable-xss
-    make embedded
+    make embedded # for inclusion in Thonny bundle
+    sudo make install NATIVE_TCLSH=/usr/local/bin/tclsh8.6 # for building Python
     cd ../..
 
 
