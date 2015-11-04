@@ -72,17 +72,17 @@ http://wiki.tcl.tk/12945
 
     wget http://prdownloads.sourceforge.net/tcl/tcl8.6.4-src.tar.gz
     tar -xzf tcl8.6.4-src.tar.gz
-    cd tcl8.6.4/unix
+    cd tcl8.6.4/macosx
     ./configure --enable-framework
-    sudo make install NATIVE_TCLSH=/usr/local/bin/tclsh8.6
+    make embedded
     cd ../..
 
     wget http://prdownloads.sourceforge.net/tcl/tk8.6.4-src.tar.gz
     tar -xzf tk8.6.4-src.tar.gz
-    cd tk8.6.4/unix
+    cd tk8.6.4/macosx
     # see http://sourceforge.net/p/tktoolkit/bugs/2588/ for --disable-xss
     ./configure --enable-framework --enable-aqua --disable-xss
-    sudo make install NATIVE_TCLSH=/usr/local/bin/tclsh8.6
+    make embedded
     cd ../..
 
 
