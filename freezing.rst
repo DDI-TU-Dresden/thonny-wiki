@@ -65,8 +65,9 @@ On Linux:
 
 
 On Mac:
-https://mail.python.org/pipermail/python-list/2014-June/674026.html
-http://wiki.tcl.tk/12945
+
+* https://mail.python.org/pipermail/python-list/2014-June/674026.html
+* http://wiki.tcl.tk/12945
 
 .. sourcecode:: bash
 
