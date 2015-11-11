@@ -141,6 +141,18 @@ On Mac:
 
 TODO: First check that Tk8.6 is Current.
 
+Then install xz for lzma:
+
+.. sourcecode:: bash
+
+    wget http://tukaani.org/xz/xz-5.2.2.tar.gz
+    tar -zxvf xz-5.2.2.tar.gz
+    cd xz-5.2.2
+    ./configure
+    make
+    sudo make install
+
+Intall Python as framework (not sure if this is required, maybe you could do with local install as well)
 
 .. sourcecode:: bash
 
@@ -149,8 +161,7 @@ TODO: First check that Tk8.6 is Current.
     cd Python-3.5.0
      
     # compile and install Python
-    ./configure --enable-framework --with-ensurepip=install
-    # ./configure --enable-framework --with-ensurepip=install LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/Cellar/xz/5.2.2/lib/" CPPFLAGS="-I/usr/local/opt/openssl/include -I/usr/local/Cellar/xz/5.2.2/include/"
+    ./configure --enable-framework --with-ensurepip=install LDFLAGS="-L/usr/local/opt/openssl/lib" CPPFLAGS="-I/usr/local/opt/openssl/include"
 
     sudo make frameworkinstall
     
