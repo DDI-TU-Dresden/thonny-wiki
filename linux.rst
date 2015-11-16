@@ -1,13 +1,15 @@
 Thonny on Linux
 ========================
-Oldest versions of distros, Thonny is successfully tested on:
+Thonny and Python bundle should work on:
 
 * Mint 13 Maya (glibc-2.15)
-* Debian 7 Wheezy (glibc-2.13)
+* Debian 8 Jessie (glibc-2.19)
 * Ubuntu 12.04 precise (glibc-2.15)
 * Opensuse 13.1 (glibc-2.19)
 * Fedora 21 (glibc-2.20)
-* CentOS 6.6 (glibc-2.12)
+* CentOS 7.1 (glibc-2.17)
+
+or newer.
 
 It may run on even older versions, but precompiled Thonny is linked against glibc-2.12, therefore the (only?) requirement is that the distro should be with glibc-2.12 or newer. 
 
