@@ -34,3 +34,11 @@ How to work around SmartScreen Filter?
 * Option 4: Lower the suspicion level from SmartScreen settings (type "SmartScreen settings" in Start Menu or Start Screen)
 
 If you have trouble following these recommendations, then check http://www.tenforums.com/tutorials/5357-unblock-file-window-10-a.html
+
+Visual C++ libraries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you install Thonny and get following error:
+
+    The program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem. 
+
+then ...
