@@ -216,3 +216,6 @@ http://www.pygame.org/wiki/CompileUbuntu
     # Finally build and install
     cd pygame
     /opt/pythonny/bin/python3.5 setup.py install
+
+
+http://adcdownload.apple.com/Developer_Tools/command_line_tools_os_x_lion_for_xcode__april_2013/xcode462_cltools_10_76938260a.dmg
