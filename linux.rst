@@ -16,7 +16,7 @@ Thonny and Python bundle should work on these Linuxes or newer:
 
 It may run on even older versions, but precompiled Thonny is linked against glibc-2.12, therefore the (only?) requirement is that the distro should be with glibc-2.12 or newer. 
 
-In case you can't run bundled Thonny, then use `universal install <universal>`_.
+If you can't install or run bundled Thonny, then try `universal install <universal>`_.
 
 
 
