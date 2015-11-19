@@ -35,10 +35,9 @@ How to work around SmartScreen Filter?
 
 If you have trouble following these recommendations, then check http://www.tenforums.com/tutorials/5357-unblock-file-window-10-a.html
 
-Visual C++ libraries
+Alternative
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you install Thonny and get following error:
+If you can't install or run bundled Thonny, then try `universal install <universal>`_.
 
-    The program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem. 
 
-then download and install Visual Studio Redistributables: https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe
+
