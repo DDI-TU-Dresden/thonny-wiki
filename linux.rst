@@ -28,32 +28,15 @@ Installing
 
 .. sourcecode:: none
 
-    > tar -zxvf thonny-1.0.5.tar.gz
-    > cd thonny-1.0.5
-    > sudo ./install
+    > tar -zxvf thonny-1.1.0b7-x86_64.tar.gz
+    > cd thonny
+    > ./install
 
-If you would like to install it only for your user (perhaps because you don't have admin acces to the machine you're using), then you can tell installer to install thonny to some folder under your home folder. For example, instead of ``sudo ./install`` you would say:
-
-.. sourcecode:: none
-
-    > ./install ~/my_programs
-
-In either way, you should see something like this:
+If you would like to install to a specific location, then you can specify parent folder for Thonny folder:
 
 .. sourcecode:: none
 
-    Checking available Python versions ................................... Done!
-    Thonny will use Python 3.4
-    Copying files to /opt/thonny ......................................... Done!
-    Creating start menu item (/usr/share/applications/Thonny.desktop) .... Done!
-    Creating uninstaller (/opt/thonny/bin/uninstall) ..................... Done!
-
-    Installation was successful, you can start Thonny from start menu under
-    Education or Programming, or by calling /opt/thonny/bin/thonny
-    
-Note
-~~~~~~
-For some reason, in Lubuntu 15.04, when you install under /home (and shortcut gets installed into ~/.local/share/applications), Thonny item doesn't appear in start menu. The workaround is to install with sudo into default directory.
+    > sudo ./install /opt
 
 Uninstalling
 ------------------------
