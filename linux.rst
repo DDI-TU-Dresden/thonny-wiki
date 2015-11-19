@@ -1,6 +1,10 @@
 Thonny on Linux
 ========================
-Thonny and Python bundle should work on:
+
+
+Requirements
+----------------------
+Thonny and Python bundle should work on these Linuxes or newer:
 
 * Mint 13 Maya (glibc-2.15)
 * Debian 8 Jessie (glibc-2.19)
@@ -9,13 +13,12 @@ Thonny and Python bundle should work on:
 * Fedora 21 (glibc-2.20)
 * CentOS 7.1 (glibc-2.17)
 
-or newer.
 
 It may run on even older versions, but precompiled Thonny is linked against glibc-2.12, therefore the (only?) requirement is that the distro should be with glibc-2.12 or newer. 
 
-Requirements
-----------------------
-Thonny needs Python 3.4 or later with tkinter and IDLE. Necessary packages for some distros (eg. Ubuntu) are ``python3``, ``python3-tk`` and ``python3-idle`` (if ``python3-idle`` doesn't exist then try ``idle3``), for some (eg. Fedora) these are ``python3`` and ``python3-tools``.
+In case you can't run bundled Thonny, then use `universal install <universal>`_.
+
+
 
 
 Installing
