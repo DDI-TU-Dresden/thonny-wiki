@@ -3,7 +3,7 @@ Windows specific issues
 
 Requirements
 -------------
-Thonny is supported on Windows Vista and later (7, 8, 10).
+Thonny is supported on Windows Vista and later (7, 8, 10). If you need to use it on XP, then try `universal install <universal>`_.
 
 Starting with version 1.0 Thonny comes with an embedded Python, so you don't need to install Python separately.
 
@@ -35,9 +35,7 @@ How to work around SmartScreen Filter?
 
 If you have trouble following these recommendations, then check http://www.tenforums.com/tutorials/5357-unblock-file-window-10-a.html
 
-Alternative
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you can't install or run bundled Thonny, then try `universal install <universal>`_.
+
 
 
 
