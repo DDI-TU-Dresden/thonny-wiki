@@ -37,7 +37,8 @@ If this happens, you should Ctrl-click (or right-click) the icon and select "Ope
 
 You will get a confirmation dialog where you should click "Open":
 
-...
+.. image:: https://bitbucket.org/repo/gXnbod/images/3258528481-Screen%20Shot%202015-11-26%20at%2014.54.39.png
+   :alt: Screen Shot 2015-11-26 at 14.54.39.png
 
 You may need to provide password for your (or admin) account. (If you don't have admin rights, then you can use this little trick to make your Mac believe the application didn't come from the internet: https://www.youtube.com/watch?v=I4TrFaYVlB0)
 
