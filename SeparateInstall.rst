@@ -9,7 +9,6 @@ General steps
 2. Install Thonny package with ``pip`` using your operating system command line.
 3. Run Thonny package.
 
-(In the following guides I explain how to install Thonny globally to your chosen Python installation, but if you know how to use virtual environments, you may install Thonny locally.)
 
 Windows
 --------
