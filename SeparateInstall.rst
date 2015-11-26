@@ -9,6 +9,7 @@ General steps
 2. Install Thonny package with ``pip`` using your operating system command line.
 3. Run Thonny package.
 
+(In the following guides I explain how to install Thonny globally to your chosen Python installation, but if you know how to use virtual environments, you may install Thonny locally.)
 
 Mac OS X
 -----------
@@ -33,6 +34,11 @@ You should see something like this:
 .. image:: https://bitbucket.org/repo/gXnbod/images/4031047622-Screen%20Shot%202015-11-26%20at%2014.24.23.png
    :alt: Screen Shot 2015-11-26 at 14.24.23.png
 
+Now you can run Thonny with following command:
+
+.. sourcecode:: bash
+
+    /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 -m thonny
 
 
 Updating Tcl/Tk (optional)
