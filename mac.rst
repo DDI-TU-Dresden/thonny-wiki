@@ -27,8 +27,15 @@ When copying has finished, you can close the original small window by Ctrl-click
 .. image:: https://bitbucket.org/repo/gXnbod/images/3393714686-Screen%20Shot%202015-11-26%20at%2012.04.04.png
    :alt: Screen Shot 2015-11-26 at 12.04.04.png
 
-Now you can run it by double-clicking. Most likely your Mac refuses to run Thonny, because I haven't paid Apple 99$ per year to prove that I'm a trustworthy developer :p
+Now you can (try to) run Thonny by double-clicking its icon on Desktop or Applications folder. Most likely your Mac refuses running it, because I haven't paid Apple 99$ per year to prove that I'm a trustworthy developer :p
 
+.. image:: https://bitbucket.org/repo/gXnbod/images/127107093-Screen%20Shot%202015-11-26%20at%2012.08.36.png
+   :alt: Screen Shot 2015-11-26 at 12.08.36.png
+
+If this happens, you should Ctrl-click (or right-click) the icon and select "Open" from context menu:
+
+.. image:: https://bitbucket.org/repo/gXnbod/images/3915137553-Screen%20Shot%202015-11-26%20at%2012.11.36.png
+   :alt: Screen Shot 2015-11-26 at 12.11.36.png
 
 Current workaround is that first time you run Thonny by Ctrl-clicking or right-clicking, selecting "Open" and selecting again "Open" in confirmation dialog. Alternative: go to System settings, open "Security & Privacy" and make it "Allow applications downloaded from anywhere" (you may need to click on the padlock before you can edit that setting). 
 
