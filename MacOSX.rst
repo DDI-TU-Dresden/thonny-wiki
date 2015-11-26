@@ -46,3 +46,6 @@ Opening Thonny first time may take several seconds, because Thonny needs to prep
 
 Finally you should see Thonny window. Next time you open Thonny, everything should go without any confirmations and much faster.
 
+Uninstallation
+===============
+Just Ctrl-click (or right-click) Thonny icon on your Desktop or Applications and select "Move to thrash".
