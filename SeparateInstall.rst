@@ -1,6 +1,6 @@
 Install Python and Thonny separately
 =====================================
-If there is no Thonny+Python bundle for your operating system or you can't or don't want to use it, you can first install Python (or use your existing Python 3.4 or later) and then install Thonny in the context of this Python installation.
+If there is no Thonny+Python bundle for your operating system or you can't or don't want to use it, you can first install Python (or use your existing Python) and then install Thonny in the context of this Python installation.
 
 General steps
 --------------
