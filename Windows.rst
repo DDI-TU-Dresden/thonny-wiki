@@ -1,7 +1,7 @@
 Using Thonny on Windows
 ================================
 
-Thonny is supported on Windows Vista and later (7, 8, 10). If you need to use it on XP, then Python 3.4 and Thonny `separately <SeparateInstall>`_.
+Thonny is supported on Windows Vista and later (7, 8, 10). If you need to use it on XP, then install Python 3.4 and Thonny `separately <SeparateInstall>`_.
 
 
 Installing
