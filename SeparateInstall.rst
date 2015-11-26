@@ -5,7 +5,7 @@ If there is no Thonny+Python bundle for your operating system or you can't or do
 General steps
 --------------
 
-1. Install Python 3.4 or later (or use an existing installation).
+1. Install Python 3.4 or later (or choose an existing installation).
 2. Install Thonny package with ``pip`` using your operating system command line.
 3. Run Thonny package.
 
