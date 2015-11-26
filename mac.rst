@@ -12,14 +12,14 @@ Thonny+Python bundle is supported on OS X 10.9 Mavericks and later. On older sys
 Installation
 -----------------
 
-Download latest *.dmg file and open it. You should see a small window with single icon labeled "Thonny" in it.
+1. Download latest *.dmg file and open it. You should see a small window with single icon labeled "Thonny" in it.
 
-.. image:: https://bitbucket.org/repo/gXnbod/images/766784258-Screen%20Shot%202015-11-26%20at%2011.53.51.png
-   :alt: Screen Shot 2015-11-26 at 11.53.51.png
+.. image:: https://bitbucket.org/repo/gXnbod/images/3178666057-Screen%20Shot%202015-11-26%20at%2011.55.30.png
+   :alt: Screen Shot 2015-11-26 at 11.55.30.png
 
-Drag the icon to your Desktop or Applications folder, where you can open it by double clicking.
+2. Drag the icon to your Desktop or Applications folder, where you can open it by double clicking.
 
-First obstacle: Most likely your Mac refuses to run Thonny, because I haven't paid Apple 99$ per year to prove that I'm a trustworthy developer :p
+3. Try to run it by double-clicking. Most likely your Mac refuses to run Thonny, because I haven't paid Apple 99$ per year to prove that I'm a trustworthy developer :p
 Current workaround is that first time you run Thonny by Ctrl-clicking or right-clicking, selecting "Open" and selecting again "Open" in confirmation dialog. Alternative: go to System settings, open "Security & Privacy" and make it "Allow applications downloaded from anywhere" (you may need to click on the padlock before you can edit that setting). 
 
 
