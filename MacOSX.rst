@@ -39,7 +39,7 @@ You will get a confirmation dialog where you should click "Open":
 
 ...
 
-You may need to provide password for your (or admin) account. (If you don't have admin rights, then you can use `this little trick <MacWithoutAdminRights>`_ to make your Mac believe the application didn't come from the internet.)
+You may need to provide password for your (or admin) account. (If you don't have admin rights, then you can use this little trick to make your Mac believe the application didn't come from the internet: https://www.youtube.com/watch?v=I4TrFaYVlB0)
 
 Opening Thonny first time may take several seconds, because Thonny needs to prepare it's files.
 
