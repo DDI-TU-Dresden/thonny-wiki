@@ -41,6 +41,12 @@ Now you can run Thonny with following command:
     /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 -m thonny
 
 
+.. topic:: Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
+
 Updating Tcl/Tk (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Thonny relies on something called Tcl/Tk. Your Python installation may use too old Tcl/Tk version, which means you may see Thonny crashing too often or doing weird things. (Python's IDLE has similar problems, see https://www.python.org/download/mac/tcltk)
