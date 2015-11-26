@@ -3,7 +3,7 @@ Using Thonny on Mac OS X
 
 Requirements
 -------------
-Thonny+Python bundle is supported on OS X 10.9 Mavericks and later. On older systems you can `install Python and Thonny separately <MacSeparateInstall>`_.
+Thonny+Python bundle is supported on OS X 10.9 Mavericks and later. On older systems you can `install Python and Thonny separately <MacOSX/SeparateInstall>`_.
 
 
 
