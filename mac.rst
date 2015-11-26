@@ -7,7 +7,7 @@ Thonny+Python bundle is supported on OS X 10.9 Mavericks and later. On older sys
 
 
 
-Installing Thonny and Python bundle
+Installation
 -------------------------------------
 
 Download latest *.dmg file and open it. You should see a small window with single icon labeled "Thonny" in it.
