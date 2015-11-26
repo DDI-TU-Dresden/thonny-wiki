@@ -28,6 +28,8 @@ Assuming you are using official Python 3.5 distribution, paste following into Te
 
     /Library/Frameworks/Python.framework/Versions/3.5/bin/pip3.5 install thonny
 
+You should see something like this:
+
 .. image:: https://bitbucket.org/repo/gXnbod/images/4031047622-Screen%20Shot%202015-11-26%20at%2014.24.23.png
    :alt: Screen Shot 2015-11-26 at 14.24.23.png
 
