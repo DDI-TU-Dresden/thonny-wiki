@@ -14,14 +14,27 @@ Mac OS X
 -----------
 If you don't have Python 3.4 or later installed, then go to https://www.python.org/downloads/mac-osx/ and install latest Python 3.5 from there.
 
+For installing Thonny as package, you need to go to system command line and execute something like ``pip install thonny``, but you need to make sure command ``pip`` is related to correct Python installation.
+
 For opening system command line: 
 
 1. open Finder
 2. from the menu choose Go => Utilities
 3. open "Terminal"
 
+Assuming you are using official Python 3.5 distribution, you should paste following command into Terminal and press ENTER:
 
+.. sourcecode:: bash
 
+    sudo /Library/Frameworks/Python.framework/Versions/3.5/bin/pip3.5 install thonny
+
+You need to enter your password when requested.
+
+If you don't have admin rights, then you can install ``thonny`` package only for your user:
+
+.. sourcecode:: bash
+
+    /Library/Frameworks/Python.framework/Versions/3.5/bin/pip3.5 install --user thonny
 
 Updating Tcl/Tk (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
