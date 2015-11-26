@@ -1,8 +1,6 @@
 Using Thonny on Mac OS X
 =========================
 
-Installation
--------------
 Requirements
 -------------
 Thonny+Python bundle is supported on OS X 10.9 Mavericks and later. On older systems you can use `universal install <universal>`_.
