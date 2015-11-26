@@ -17,7 +17,7 @@ Download latest *.dmg file and open it. You should see a small window with singl
 .. image:: https://bitbucket.org/repo/gXnbod/images/3178666057-Screen%20Shot%202015-11-26%20at%2011.55.30.png
    :alt: Screen Shot 2015-11-26 at 11.55.30.png
 
-Drag the icon to your Desktop or Applications folder. This will copy to your computer. 
+Drag the icon to your Desktop or Applications folder. This will copy Thonny to your computer. 
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/3987278567-Screen%20Shot%202015-11-26%20at%2012.02.09.png
    :alt: Screen Shot 2015-11-26 at 12.02.09.png
