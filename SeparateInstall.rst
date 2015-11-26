@@ -22,19 +22,20 @@ For opening system command line:
 2. from the menu choose Go => Utilities
 3. open "Terminal"
 
-Assuming you are using official Python 3.5 distribution, you should paste following command into Terminal and press ENTER:
+Assuming you are using official Python 3.5 distribution, paste into Terminal 
 
 .. sourcecode:: bash
 
     sudo /Library/Frameworks/Python.framework/Versions/3.5/bin/pip3.5 install thonny
 
-You need to enter your password when requested.
+and press ENTER. Enter your password when requested.
 
-If you don't have admin rights, then you can install ``thonny`` package only for your user:
+If you don't have admin rights, then you can install the package only for your user:
 
 .. sourcecode:: bash
 
     /Library/Frameworks/Python.framework/Versions/3.5/bin/pip3.5 install --user thonny
+
 
 Updating Tcl/Tk (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
