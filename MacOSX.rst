@@ -46,4 +46,4 @@ Finally you should see Thonny window. Next time you open Thonny, everything shou
 
 Uninstallation
 ===============
-Just Ctrl-click (or right-click) Thonny icon on your Desktop or Applications and select "Move to thrash".
+Just Ctrl-click (or right-click) Thonny icon on your Desktop or Applications and select "Move to trash".
