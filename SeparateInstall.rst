@@ -47,8 +47,4 @@ Now you can run Thonny with following command:
     the body of the topic, and are
     interpreted as body elements.
 
-Updating Tcl/Tk (optional)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Thonny relies on something called Tcl/Tk. Your Python installation may use too old Tcl/Tk version, which means you may see Thonny crashing too often or doing weird things. (Python's IDLE has similar problems, see https://www.python.org/download/mac/tcltk)
-
-The solution is to install newer version. Go to http://www.activestate.com/activetcl/downloads and download and install the latest 8.5 version of ActiveTcl. (Most likely your Python is linked with Tk 8.5. If IDLE-s about dialog says it uses 8.6, then install latest ActiveTcl 8.6)
+**Updating Tcl/Tk (optional)**. Thonny relies on something called Tcl/Tk. Your Python installation may use too old Tcl/Tk version, which means you may see Thonny crashing too often or doing weird things. (Python's IDLE has similar problems, see https://www.python.org/download/mac/tcltk). The solution is to install newer version. Go to http://www.activestate.com/activetcl/downloads and download and install the latest 8.5 version of ActiveTcl. (Most likely your Python is linked with Tk 8.5. If IDLE-s about dialog says it uses 8.6, then install latest ActiveTcl 8.6)
