@@ -11,6 +11,12 @@ General steps
 
 (In the following guides I explain how to install Thonny globally to your chosen Python installation, but if you know how to use virtual environments, you may install Thonny locally.)
 
+Windows
+--------
+If you need separate install, because you are using Windows XP, then you should first install Python 3.4, as later Python versions are not compatible with XP.
+
+
+
 Mac OS X
 -----------
 If you don't have Python 3.4 or later installed, then go to https://www.python.org/downloads/mac-osx/ and install latest Python 3.5 from there.
