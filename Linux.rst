@@ -47,7 +47,7 @@ Excecute the uninstall command shown by the installer, eg.
 
 
 Alternative
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 If you can't install or run bundled Thonny, then try `universal install <universal>`_.
 
 
