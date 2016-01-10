@@ -31,7 +31,7 @@ Installing
     > cd thonny
     > ./install
 
-If you would like to install to a specific location, then you can specify parent folder for Thonny folderm eg:
+If you would like to install to a specific location, then you can specify parent folder for Thonny folder eg:
 
 .. sourcecode:: none
 
