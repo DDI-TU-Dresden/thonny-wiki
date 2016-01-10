@@ -1,1 +1,1 @@
-delete me
+page deleted
