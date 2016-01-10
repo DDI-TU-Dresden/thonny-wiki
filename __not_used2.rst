@@ -1,2 +1,1 @@
-Install Python and Thonny separately
-======================================
+page deleted
