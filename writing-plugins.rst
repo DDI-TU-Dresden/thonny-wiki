@@ -1,6 +1,8 @@
 Writing Thonny plugins
 =========================
 
+TODO: This is just a draft
+
 Example
 --------
 Let's make a plugin which adds a view to Thonny.
