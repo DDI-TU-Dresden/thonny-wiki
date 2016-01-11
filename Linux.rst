@@ -23,7 +23,7 @@ It may run on even older versions, but precompiled Thonny is linked against glib
 Installing
 ------------
 
-`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension, unpack and run the installation script. For example, in Ubuntu command line you could execute following commands:
+`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix (run ``uname -m`` on terminal if you are not sure which you have). Unpack the file and run the installation script. For example, in Ubuntu command line you could execute following commands:
 
 .. sourcecode:: none
 
