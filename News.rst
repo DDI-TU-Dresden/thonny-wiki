@@ -1,5 +1,5 @@
-Version 1.2
-===========
+Version 1.2b1
+==================
 Single instance
 ----------------
 Previously, when you opened a py file with Thonny, a new Thonny instance (window) was created even if an instance existed already. This became nuisance if you opened several files. Now Thonny now works as single instance program, meaning only one instance of Thonny runs at the time. When you open another file, it is opened in existing window.
