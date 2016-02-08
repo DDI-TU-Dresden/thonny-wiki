@@ -1,4 +1,4 @@
-Version 1.2b1
+Version 1.2.0b1
 ==================
 Single instance
 ----------------
