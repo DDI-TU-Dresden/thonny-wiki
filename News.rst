@@ -1,3 +1,11 @@
+
+
+Version 1.2.0b3 (2016-02-??)
+=============================
+Fixed bugs
+----------
+* #98 -- debugging inner functions and methods crashed
+
 Version 1.2.0b2 (2016-02-10)
 =============================
 Single instance
