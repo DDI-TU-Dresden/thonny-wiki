@@ -22,3 +22,7 @@ CentOS 7
 
 
 (More info: http://li.nux.ro/repos.html and http://pkgs.org/download/pygame)
+
+Mac OS X
+---------
+`Building Pygame <PygameBuilding>`_
