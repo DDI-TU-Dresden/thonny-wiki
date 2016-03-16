@@ -1,9 +1,9 @@
 Using Pygame in Thonny
 =======================
 
-Thonny bundles for Linux have Pygame preinstalled, but don't contain Pygame requirements. In order to install these, you need to do:
+Thonny bundles for Linux have Pygame preinstalled, but don't contain Pygame requirements. This page explains how to install these.
 
-In Ubuntu, Mint, Debian
+Ubuntu, Mint, Debian
 ------------------------
 
 .. sourcecode:: bash
@@ -11,7 +11,7 @@ In Ubuntu, Mint, Debian
     sudo apt-get install python-pygame
 
 
-In CentOS 7
+CentOS 7
 ------------
 
 .. sourcecode:: bash
