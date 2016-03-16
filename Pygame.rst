@@ -21,4 +21,4 @@ In CentOS 7
     sudo yum -y install pygame
 
 
-(Relevant sources: http://li.nux.ro/repos.html and http://pkgs.org/download/pygame)
+(More info: http://li.nux.ro/repos.html and http://pkgs.org/download/pygame)
