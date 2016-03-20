@@ -1,7 +1,7 @@
 Version 1.2.0b3 (2016-03-??)
 =============================
-Added
------
+Pygame
+---------
 Thonny bundle will now contain Pygame
 
 Fixed bugs
