@@ -27,7 +27,7 @@ CentOS 7
 
 CentOS official repos don't contain the package for Pygame, but see http://li.nux.ro/repos.html and http://pkgs.org/download/pygame. 
 
-In order to add 
+In the following we add a new repo and install Pygame:
 
 .. sourcecode:: bash
 
