@@ -1,10 +1,24 @@
 Using Pygame in Thonny
 =======================
 
-(Future) Thonny bundles for Linux (will) have Pygame preinstalled, but don't contain Pygame requirements. This page explains how to install these.
+Thonny 1.3 bundles (and experimental bundles of 1.2) will have Pygame preinstalled, but don't contain all Pygame requirements on all platforms. This page explains how to install these.
+
+Windows
+--------
+Windows installer contains Pygame together with all requirements. Pygame should be ready to use after installing Thonny.
+
+Mac OS X
+---------
+Mac OS X bundle contains Pygame and most of the requirements (eg. SDL and co) but you need to install one more thing: http://www.xquartz.org/
+
+
+Linux
+--------
+
+Linux bundle contains Pygame itself but not the libraries required by it (SDL and co.). Fortunately popular distros have a Pygame package meant for Python 2, which we can use for installing Pygame dependencies.
 
 Ubuntu, Mint, Debian
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. sourcecode:: bash
 
@@ -12,7 +26,11 @@ Ubuntu, Mint, Debian
 
 
 CentOS 7
-------------
+~~~~~~~~~~~~~~ 
+
+CentOS official repos don't contain the package for Pygame, but see http://li.nux.ro/repos.html and http://pkgs.org/download/pygame. 
+
+In order to add 
 
 .. sourcecode:: bash
 
@@ -21,8 +39,3 @@ CentOS 7
     sudo yum -y install pygame
 
 
-(More info: http://li.nux.ro/repos.html and http://pkgs.org/download/pygame)
-
-Mac OS X
----------
-`Building Pygame <PygameBuilding>`_
