@@ -1,5 +1,9 @@
 Version 1.2.0b3 (2016-03-??)
 =============================
+Added
+-----
+Thonny bundle will now contain Pygame
+
 Fixed bugs
 ----------
 * #98 (Crash when debugging inner functions and methods)
