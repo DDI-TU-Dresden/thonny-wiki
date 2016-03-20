@@ -9,7 +9,8 @@ Windows installer contains Pygame together with all requirements. Pygame should 
 
 Mac OS X
 ---------
-Mac OS X bundle contains Pygame and most of the requirements (eg. SDL and co) but you need to install one more thing: http://www.xquartz.org/. It doesn't matter whether you install it before or after installing Thonny.
+Mac OS X bundle contains Pygame and the requirements (eg. SDL and co). 
+
 
 
 Linux
