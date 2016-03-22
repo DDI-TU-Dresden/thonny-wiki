@@ -22,8 +22,6 @@ openSUSE
 Fedora
 -----------------------
 
-TODO: This needs to be checked
-
 .. sourcecode:: bash
 
     sudo yum install pygame
