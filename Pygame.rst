@@ -12,6 +12,13 @@ Ubuntu, Mint, Debian
 
     sudo apt-get install python-pygame
 
+openSUSE
+-----------------------
+
+.. sourcecode:: bash
+
+    sudo zypper install python-pygame
+
 Fedora
 -----------------------
 
