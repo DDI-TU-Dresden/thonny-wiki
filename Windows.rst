@@ -59,7 +59,7 @@ and enter following command (assuming you installed Python to default location) 
         C:\Python34\Scripts pip install thonnyapp
 
 
-This command installs latest ``thonny`` package and also creates shortcuts to Desktop and Start menu.
+This command installs latest ``thonny`` and ``thonnyapp`` packages to your Python and also creates shortcuts on Desktop and in Start menu.
 
 You will see something like this:
 
