@@ -38,14 +38,19 @@ If you have trouble following these recommendations, then check http://www.tenfo
 
 Installing Thonny and Python separately
 -------------------------------------------
+
+In following I'm assuming you want to install Thonny on Python 3.4 and Python is installed to default location. 
+
 .. note::
 
-    If you are using Windows XP, then you should use Python 3.4 (eg. https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi), as Thonny is not compatible with earlier Python versions and later Python versions are not compatible with XP.
+    If you are using Windows XP, then Python 3.4 (eg. https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi) is your only choice, as Thonny is not compatible with earlier Python versions and later Python versions are not compatible with XP.
+
 
 After installing Python, open Windows command prompt:
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/1298914232-Clipboard02.png
    :alt: Clipboard02.png
+
 
 and enter following command (assuming you installed Python to default location) and hit ENTER:
 
