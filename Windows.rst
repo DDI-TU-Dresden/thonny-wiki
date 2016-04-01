@@ -56,7 +56,7 @@ and enter following command (assuming you installed Python to default location) 
 
 .. sourcecode:: bash
 
-        C:\Python34\Scripts pip install thonnyapp
+        C:\Python34\Scripts\pip install thonnyapp
 
 
 This command installs latest ``thonny`` and ``thonnyapp`` packages to your Python and also creates shortcuts on Desktop and in Start menu.
@@ -70,4 +70,4 @@ If you later want to update Thonny then open the command prompt again and enter:
 
 .. sourcecode:: bash
 
-        C:\Python34\Scripts pip install -U thonnyapp
+        C:\Python34\Scripts\pip install -U thonnyapp
