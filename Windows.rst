@@ -1,11 +1,11 @@
 Using Thonny on Windows
 ================================
 
-Thonny is supported on Windows Vista and later (7, 8, 10).
+Thonny is supported on Windows Vista and later (7, 8, 10). (If you need Thonny on XP, then see below how to install Thonny and Python separately.)
 
 
-Installing
------------------
+Installing Thonny and Python bundle
+------------------------------------
 The installing and uninstalling procedures are really standard, nothing much to say about this.
 
 *The slightly unusual thing with Windows installer is that it doesn't request admin privileges to run (but see the section on SmartScreen Filter). This way students can install it on their lab computers at school without bugging the administrator. Without admin privileges it's not possible to install under Program Files, that's why installer proposes a folder under current user's home folder. (BTW, Microsoft now recommends per user installs, look for "The recommended default installation context is per-user" in http://msdn.microsoft.com/en-us/library/aa367559%28v=vs.85%29.aspx)*
@@ -36,3 +36,33 @@ If you have trouble following these recommendations, then check http://www.tenfo
 
 
 
+Installing Thonny and Python separately
+-------------------------------------------
+.. note::
+
+    If you are using Windows XP, then you should use Python 3.4 (eg. https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi), as Thonny is not compatible with earlier Python versions and later Python versions are not compatible with XP.
+
+After installing Python, open Windows command prompt:
+
+.. image:: https://bitbucket.org/repo/gXnbod/images/1298914232-Clipboard02.png
+   :alt: Clipboard02.png
+
+and enter following command (assuming you installed Python to default location) and hit ENTER:
+
+.. sourcecode:: bash
+
+        C:\Python34\Scripts pip install thonnyapp
+
+
+This command installs latest ``thonny`` package and also creates shortcuts to Desktop and Start menu.
+
+You will see something like this:
+
+.. image:: https://bitbucket.org/repo/gXnbod/images/634140268-Clipboard03.png
+   :alt: Clipboard03.png
+
+If you later want to update Thonny then open the command prompt again and enter:
+
+.. sourcecode:: bash
+
+        C:\Python34\Scripts pip install -U thonnyapp
