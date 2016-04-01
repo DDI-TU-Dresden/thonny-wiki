@@ -35,7 +35,7 @@ You will see something like this:
 .. image:: https://bitbucket.org/repo/gXnbod/images/634140268-Clipboard03.png
    :alt: Clipboard03.png
 
-If you want to update Thonny then open the command prompt again and enter:
+If you later want to update Thonny then open the command prompt again and enter:
 
 .. sourcecode:: bash
 
