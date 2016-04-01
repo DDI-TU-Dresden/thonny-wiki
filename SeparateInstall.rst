@@ -12,7 +12,9 @@ General steps
 
 Windows
 --------
-If you need separate install, because you are using Windows XP, then you should first install Python 3.4, as later Python versions are not compatible with XP.
+.. note::
+
+    If you are using Windows XP, then you should first install Python 3.4 (eg. https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi), as later Python versions are not compatible with XP.
 
 
 
