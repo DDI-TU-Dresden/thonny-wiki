@@ -14,8 +14,32 @@ Windows
 --------
 .. note::
 
-    If you are using Windows XP, then you should first install Python 3.4 (eg. https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi), as later Python versions are not compatible with XP.
+    If you are using Windows XP, then you should use Python 3.4 (eg. https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi), as Thonny is not compatible with earlier Python versions and later Python versions are not compatible with XP.
 
+After installing Python, open Windows command prompt:
+
+.. image:: https://bitbucket.org/repo/gXnbod/images/1298914232-Clipboard02.png
+   :alt: Clipboard02.png
+
+and enter following command (assuming you installed Python to default location) and hit ENTER:
+
+.. sourcecode:: bash
+
+        C:\Python34\Scripts pip install thonnyapp
+
+
+This command installs latest ``thonny`` package and also creates shortcuts to Desktop and Start menu.
+
+You will see something like this:
+
+.. image:: https://bitbucket.org/repo/gXnbod/images/634140268-Clipboard03.png
+   :alt: Clipboard03.png
+
+If you want to update Thonny then open the command prompt again and enter:
+
+.. sourcecode:: bash
+
+        C:\Python34\Scripts pip install -U thonnyapp
 
 
 Mac OS X
