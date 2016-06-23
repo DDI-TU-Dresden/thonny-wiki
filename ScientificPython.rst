@@ -3,7 +3,7 @@ Using Scientific Python with Thonny
 
 Python distribution coming with Thonny doesn't contain scientific programming libraries (eg. `NumPy <http://numpy.org/>`_  and `Matplotlib <http://matplotlib.org/>`_). Installing them and their dependencies can be tricky, but fortunately you can install a separate scientific Python distribution (eg. `Anaconda <https://www.continuum.io/downloads>`_, `Canopy <https://www.enthought.com/products/canopy/>`_ or `Pyzo <http://www.pyzo.org/>`_) and let Thonny use this for running your programs.
 
-Example: Using Anaconda with Thonny
+Example: Using Anaconda
 ------------------------------------
 Go to https://www.continuum.io/downloads and download a suitable binary distribution for your platform. Most likely you want graphical installer and 64-bit version (you may need 32-bit version if you have very old system). Note that although Thonny runs only on Python 3, you can use both Python 3 and Python 2 versions of Anaconda with it (if you don't know which one to choose, then pick Python 3 version).
 
