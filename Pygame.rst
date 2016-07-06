@@ -56,4 +56,4 @@ In the following we add a new repo and install Pygame:
     sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
     sudo yum -y install pygame
 
-
+If you have trouble running yum because of PackageKit, then see http://ask.xmodulo.com/disable-packagekit-centos-fedora-rhel.html
