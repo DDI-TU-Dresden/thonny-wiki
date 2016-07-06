@@ -27,6 +27,18 @@ Fedora
     sudo yum install pygame
 
 
+Mageia
+-------
+.. sourcecode:: bash
+
+    sudo urpmi python-pygame
+
+Manjaro, Arch
+----------------
+.. sourcecode:: bash
+
+    sudo pacman -S python2-pygame
+
 CentOS 7
 ----------------
 
