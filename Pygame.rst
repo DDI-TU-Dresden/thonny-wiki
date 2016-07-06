@@ -5,7 +5,7 @@ Using Pygame in Thonny
 
     Thonny bundles older than 1.3 doesn't include Pygame. 
 
-**In Windows and Mac Pygame should work out-of-the-box.**
+**In Windows and Mac OS X Pygame should work out-of-the-box.**
 
 **Linux** bundles contain Pygame itself but not the libraries required by it (SDL and co.). Fortunately popular distros have a Pygame package meant for Python 2, which we can use for installing Pygame dependencies. It doesn't matter whether you install this package before or after installing Thonny.
 
