@@ -1,7 +1,9 @@
 Using Pygame in Thonny
 =======================
 
-Thonny bundles have Pygame preinstalled starting with 1.3. 
+.. note::
+
+    Thonny bundles older than 1.3 doesn't include Pygame. 
 
 **In Windows and Mac Pygame should work out-of-the-box.**
 
