@@ -72,6 +72,7 @@ Download and sudo yum install these rpms:
     sudo yum install python-devel SDL_image-devel SDL_mixer-devel SDL_ttf-devel SDL-devel numpy mercurial portmidi-devel freetype-devel libpng-devel libjpeg-devel
 
     export PORTMIDI_INC_PORTTIME=1 # https://bitbucket.org/pygame/pygame/pull-requests/65/allow-for-portmidi-library-to-contain/diff#comment-None
+    sudo touch /etc/timidity.cfg # Othewise playing midi will give error
 
 Compiling
 -----------------
