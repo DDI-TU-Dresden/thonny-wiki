@@ -68,6 +68,7 @@ Download and sudo yum install these rpms:
 
 .. sourcecode:: bash
 
+    sudo yum groupinstall 'Development Tools'
     sudo yum install python-devel SDL_image-devel SDL_mixer-devel SDL_ttf-devel SDL-devel numpy mercurial portmidi-devel freetype-devel libpng-devel libjpeg-devel
 
 Compiling
