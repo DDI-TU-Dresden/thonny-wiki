@@ -66,6 +66,10 @@ Download and sudo yum install these rpms:
 * ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/Kenzy:/packages/CentOS_7/x86_64/smpeg-0.4.5-2.4.x86_64.rpm
 * ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/Kenzy:/packages/CentOS_7/x86_64/smpeg-devel-0.4.5-2.4.x86_64.rpm
 
+.. sourcecode:: bash
+
+    sudo yum install python-devel SDL_image-devel SDL_mixer-devel SDL_ttf-devel SDL-devel numpy mercurial portmidi-devel freetype-devel libpng-devel libjpeg-devel
+
 Compiling
 -----------------
 
