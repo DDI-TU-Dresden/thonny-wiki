@@ -57,3 +57,11 @@ In the following we add a new repo and install Pygame:
     sudo yum -y install pygame
 
 If you have trouble running yum because of PackageKit, then see http://ask.xmodulo.com/disable-packagekit-centos-fedora-rhel.html
+
+Compiling
+-----------------
+
+.. sourcecode:: bash
+
+    sudo apt-get build-dep python-pygame 
+    yum-builddep package_name
