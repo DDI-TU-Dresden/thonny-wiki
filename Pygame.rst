@@ -58,6 +58,14 @@ In the following we add a new repo and install Pygame:
 
 If you have trouble running yum because of PackageKit, then see http://ask.xmodulo.com/disable-packagekit-centos-fedora-rhel.html
 
+Compiling in CentOs 7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Download and sudo yum install these rpms:
+
+* ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/Kenzy:/packages/CentOS_7/x86_64/smpeg-0.4.5-2.4.x86_64.rpm
+* ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/Kenzy:/packages/CentOS_7/x86_64/smpeg-devel-0.4.5-2.4.x86_64.rpm
+
 Compiling
 -----------------
 
