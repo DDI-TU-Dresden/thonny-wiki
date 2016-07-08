@@ -30,6 +30,9 @@ Fedora
 
     sudo yum install pygame
 
+Compiling in Fedora 24
+-----------------------
+There is package *python3-pygame* but this will won't install for Thonny's python.
 
 Mageia
 -------
