@@ -50,6 +50,7 @@ There is package *python3-pygame* but this will won't install for Thonny's pytho
     export PORTMIDI_INC_PORTTIME=1 # https://bitbucket.org/pygame/pygame/pull-requests/65/allow-for-portmidi-library-to-contain/diff#comment-None
     sudo touch /etc/timidity.cfg # Othewise playing midi will give error
 
+    wget http://www.libsdl.org/projects/SDL_mixer/timidity/timidity.tar.gz
 
 
 Mageia
