@@ -36,7 +36,7 @@ There is package *python3-pygame* but this will won't install for Thonny's pytho
 
 .. sourcecode:: bash
 
-    sudo dnf groupinstall 'Development Tools'
+    sudo dnf groupinstall 'Development Tools' 'C Development Tools and Libraries'
     sudo dnf install wget python-devel SDL_image-devel SDL_mixer-devel SDL_ttf-devel SDL-devel numpy mercurial portmidi-devel freetype-devel libpng-devel libjpeg-devel
 
     wget ftp://ftp5.gwdg.de/pub/opensuse/repositories/home:/zhonghuaren/Fedora_23/x86_64/smpeg-0.4.5-8.1.x86_64.rpm
