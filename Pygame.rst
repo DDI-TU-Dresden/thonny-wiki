@@ -34,6 +34,24 @@ Compiling in Fedora 24
 -----------------------
 There is package *python3-pygame* but this will won't install for Thonny's python.
 
+.. sourcecode:: bash
+
+    sudo dnf groupinstall 'Development Tools'
+    sudo dnf install wget python-devel SDL_image-devel SDL_mixer-devel SDL_ttf-devel SDL-devel numpy mercurial portmidi-devel freetype-devel libpng-devel libjpeg-devel
+
+    wget ftp://ftp5.gwdg.de/pub/opensuse/repositories/home:/zhonghuaren/Fedora_23/x86_64/smpeg-0.4.5-8.1.x86_64.rpm
+    wget ftp://ftp5.gwdg.de/pub/opensuse/repositories/home:/zhonghuaren/Fedora_23/x86_64/smpeg-devel-0.4.5-8.1.x86_64.rpm
+    sudo dnf install smpeg*.rpm
+    rm smpeg*.rpm
+
+    hg clone https://bitbucket.org/pygame/pygame
+    cd pygame
+
+    export PORTMIDI_INC_PORTTIME=1 # https://bitbucket.org/pygame/pygame/pull-requests/65/allow-for-portmidi-library-to-contain/diff#comment-None
+    sudo touch /etc/timidity.cfg # Othewise playing midi will give error
+
+
+
 Mageia
 -------
 .. sourcecode:: bash
@@ -72,8 +90,8 @@ Compiling in CentOs 7
 
     wget ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/Kenzy:/packages/CentOS_7/x86_64/smpeg-0.4.5-2.4.x86_64.rpm
     wget ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/Kenzy:/packages/CentOS_7/x86_64/smpeg-devel-0.4.5-2.4.x86_64.rpm
-    sudo yum --nogpgcheck install smpeg-0.4.5-2.4.x86_64.rpm smpeg-devel-0.4.5-2.4.x86_64.rpm
-    rm smpeg-0.4.5-2.4.x86_64.rpm smpeg-devel-0.4.5-2.4.x86_64.rpm
+    sudo yum --nogpgcheck install smpeg*.rpm
+    rm *.rpm
 
     export PORTMIDI_INC_PORTTIME=1 # https://bitbucket.org/pygame/pygame/pull-requests/65/allow-for-portmidi-library-to-contain/diff#comment-None
     sudo touch /etc/timidity.cfg # Othewise playing midi will give error
