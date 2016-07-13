@@ -104,3 +104,9 @@ Compiling
 
     sudo apt-get build-dep python-pygame 
     yum-builddep package_name
+
+Installing with pip
+------------------------
+Thonny Tools => Open system shell
+
+python3.5 -m pip install hg+http://bitbucket.org/pygame/pygame
