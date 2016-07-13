@@ -109,4 +109,6 @@ Installing with pip
 ------------------------
 Thonny Tools => Open system shell
 
-python3.5 -m pip install hg+http://bitbucket.org/pygame/pygame
+.. sourcecode:: bash
+
+    python3.5 -m pip install hg+http://bitbucket.org/pygame/pygame
