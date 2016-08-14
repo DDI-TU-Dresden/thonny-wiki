@@ -1,9 +1,9 @@
-Using Pygame in Thonny
-=======================
+(Obsoloete page) Using Pygame in Thonny (Obsoloete page) 
+========================================================
 
 .. note::
 
-    Thonny bundles older than 1.3 doesn't include Pygame. 
+    Following text is not relevant anymore as Pygame can now be installed with pip
 
 **In Windows and Mac OS X Pygame should work out-of-the-box.**
 
