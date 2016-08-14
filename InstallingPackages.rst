@@ -10,6 +10,6 @@ Starting with Thonny 1.3.0b4 it's possible to install new Python packages with *
 #. Reset interpreter by selecting "Stop/Reset" from "Run menu" (this is required only first time you do pip install)
 #. Start using the package
 
-..admonition details
+.. admonition:: details
 
     ataster
