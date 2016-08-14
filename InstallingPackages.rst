@@ -10,9 +10,11 @@ Starting with Thonny 1.3.0b4 it's possible to install new Python packages with *
 #. Reset interpreter by selecting "Stop/Reset" from "Run menu" (this is required only first time you do pip install)
 #. Start using the package
 
-Under the hood
+Details
 --------------
-If you use Thonny's built in Python, then pip installs packages inside .thonny directory under your home directory. This way you don't need to reinstall the packages when you update Thonny.
+If you use Thonny's built in Python, then "Open system shell" opens terminal with certain environment variables (PIP_USER and PYTHONUSERBASE) which cause *pip* to install packages inside .thonny directory under your home directory. This way you don't need to reinstall the packages when you update Thonny.
+
+If you use a separate interpreter, then its *pip* behaves as it would without Thonny.
 
 Using scientific Python packages
 ----------------------------------
