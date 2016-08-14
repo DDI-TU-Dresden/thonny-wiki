@@ -10,6 +10,10 @@ Starting with Thonny 1.3.0b4 it's possible to install new Python packages with *
 #. Reset interpreter by selecting "Stop/Reset" from "Run menu" (this is required only first time you do pip install)
 #. Start using the package
 
-.. note::
+Under the hood
+--------------
+If you use Thonny's built in Python, then pip installs packages inside .thonny directory under your home directory. This way you don't need to reinstall the packages when you update Thonny.
 
-    If you use Thonny's built in Python, then pip installs packages inside .thonny directory under your home directory. This way you don't need to reinstall the packages when you update Thonny.
+Using scientific Python packages
+----------------------------------
+Recent versions of most popular scientific Python packages (numpy and co) have wheels available for popular platforms so you can most likely install them with pip but in case you have troubles, you could try using Thonny with `separate Python distribution meant for scientific computing <ScientificPython>`_.
