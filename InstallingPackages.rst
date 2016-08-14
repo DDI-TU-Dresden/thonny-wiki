@@ -16,4 +16,4 @@ If you use Thonny's built in Python, then pip installs packages inside .thonny d
 
 Using scientific Python packages
 ----------------------------------
-Recent versions of most popular scientific Python packages (numpy and co) have wheels available for popular platforms so you can most likely install them with pip but in case you have troubles, you could try using Thonny with `separate Python distribution meant for scientific computing <ScientificPython>`_.
+Recent versions of most popular scientific Python packages (eg. numpy, pandas and matplotlib) have wheels available for popular platforms so you can most likely install them with pip but in case you have troubles, you could try using Thonny with `separate Python distribution meant for scientific computing <ScientificPython>`_.
