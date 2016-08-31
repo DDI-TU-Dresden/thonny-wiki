@@ -24,6 +24,7 @@ Installing
 1. `Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix (run ``uname -m`` in terminal if you are not sure which you have).
 2. Unpack the file and run the installation script.For example, in Ubuntu command line you could execute following commands (don't forget to change the filename in first command):
 
+
 .. sourcecode:: none
 
     > tar -zxvf thonny-1.1.0b7-x86_64.tar.gz
