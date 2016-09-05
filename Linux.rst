@@ -28,6 +28,8 @@ Download a file with .sh extension and run it with bash. Example (don't forget t
     > cd ~/Downloads
     > bash thonny-2.0.0b4.sh
 
+This script will download and unpack suitable installer for your platform and executes it.
+
 Alternative way for installing
 ------------------------------
 If you want more control, then you can do the install steps separately.
