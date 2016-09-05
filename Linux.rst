@@ -21,7 +21,7 @@ If you can't install or run bundled Thonny, then try to `install Python and Thon
 
 Installing
 ------------
-Download a file with .sh extension and run it with bash. Example (don't forget to change the filename): 
+`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with .sh extension and run it with bash. Example (don't forget to change the filename): 
 
 .. sourcecode:: none
 
