@@ -19,12 +19,22 @@ It may run on other distros/versions, but the requirement is that the distro sho
 If you can't install or run bundled Thonny, then try to `install Python and Thonny separately <SeparateInstall>`_.
 
 
-
 Installing
 ------------
+Download a file with .sh extension and run it with bash. Example (don't forget to change the filename): 
 
-1. `Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix (run ``uname -m`` in terminal if you are not sure which you have).
-2. Unpack the file and run the installation script.For example, in Ubuntu command line you could execute following commands (don't forget to change the filename in first command):
+.. sourcecode:: none
+
+    > cd ~/Downloads
+    > bash thonny-2.0.0b4.sh
+
+Alternative way for installing
+------------------------------
+If you want more control, then you can do the install steps separately.
+
+`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix (run ``uname -m`` in terminal if you are not sure which you have).
+
+Unpack the file and run the installation script.For example, in Ubuntu command line you could execute following commands:
 
 
 .. sourcecode:: none
