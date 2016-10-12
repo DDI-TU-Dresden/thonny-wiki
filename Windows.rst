@@ -6,7 +6,7 @@ Installing Thonny and Python bundle
 ------------------------------------
 .. note::
 
-    Thonny bundles are supported on Windows Vista and later (7, 8, 10). If you need Thonny on XP, then see below how to install Thonny and Python separately.
+    Thonny bundles are supported on 7, 8 and 10. If you need Thonny on Vista or XP, then see below how to install Thonny and Python separately.
 
 
 The installing and uninstalling procedures are really standard, nothing much to say about this.
