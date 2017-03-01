@@ -19,5 +19,3 @@ If you use a separate interpreter, then its *pip* behaves as it would without Th
 Using scientific Python packages
 ----------------------------------
 Recent versions of most popular scientific Python packages (eg. numpy, pandas and matplotlib) have wheels available for popular platforms so you can most likely install them with pip but in case you have troubles, you could try using Thonny with `separate Python distribution meant for scientific computing <ScientificPython>`_.
-
-issue #88
