@@ -4,6 +4,8 @@ Installing extra packages
 With pip-GUI
 -------------
 From "Tools" menu select "Manage packages..." and follow the instructions.
+.. image:: https://bitbucket.org/repo/gXnbod/images/2226680569-pipgui_big.png
+   :alt: pipgui_big.png
 
 With pip on command line
 ------------------------
