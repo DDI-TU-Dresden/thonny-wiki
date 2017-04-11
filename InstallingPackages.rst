@@ -17,6 +17,9 @@ With pip on command line
 #. Reset interpreter by selecting "Stop/Reset" from "Run menu" (this is required only first time you do pip install)
 #. Start using the package
 
+.. image:: https://bitbucket.org/repo/gXnbod/images/1183520217-pipinstall_cmdline.png
+   :alt: pipinstall_cmdline.png
+
 
 Using scientific Python packages
 ================================
