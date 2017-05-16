@@ -32,7 +32,7 @@ Example: Using Anaconda
 ------------------------------------
 Go to https://www.continuum.io/downloads and download a suitable binary distribution for your platform. Most likely you want graphical installer and 64-bit version (you may need 32-bit version if you have very old system). Note that Thonny supports only on Python 3, so make sure you choose Python 3 version of Anaconda.
 
-Install it and find out where it puts Python executable (*pythonw.exe* in Windows and *python3* or *python* in Linux and Mac). For example in Windows the full path is by default "c:\anaconda\pythonw.exe".
+Install it and find out where it puts Python executable (*pythonw.exe* in Windows and *python3* or *python* in Linux and Mac). For example in Windows the full path is by default ``c:\anaconda\pythonw.exe``.
 
 In Thonny open "Tools" menu and select "Options...". In the options dialog open "Intepreter" tab, click "Select executable" and show the location of Anaconda's Python executable.
 
