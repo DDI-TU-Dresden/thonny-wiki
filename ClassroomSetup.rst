@@ -8,7 +8,7 @@ Thonny installer doesn't require admin privileges. This is supposed to allow the
 
 Default **installation path** is ``%LOCALAPPDATA%\Programs\Thonny`` (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny``). Depending on the setup of your classroom, it may make sense to install Thonny under `%APPDATA%` (eg. ``C:\Users\Aivar\AppData\Roaming\Thonny``). If you want to choose a directory outside %USERPROFILE% then you may need to  run the installer as administrator.
 
-It is OK to install Thonny into one directory and then copy the installation directory to another place (eg. to a network location).
+It is OK to install Thonny into one directory and then copy the installation directory to another place, eg. to a network location. This way you can create a shared installation in the classroom. With this approach you currently need to create the shortcuts by yourself, though.
 
 On first run Thonny creates a user-specific directory for storing configuration and default virtual environment for executing user programs. By default its path is ``%USERPROFILE%\.thonny`` (eg. ``C:\Users\Aivar\.thonny``). This may change in future versions (see #279), but you can change it already by running Thonny with environment variable ``THONNY_USER_DIR`` pointing to desired location.
 
