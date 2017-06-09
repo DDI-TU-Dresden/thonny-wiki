@@ -5,11 +5,11 @@ Windows
 --------
 Thonny installer doesn't require admin privileges. This is supposed to allow the students to install Thonny also into classroom computers where they have restricted access.
 
-Default installation path is `%LOCALAPPDATA%\Programs\Thonny` (eg. `C:\Users\Aivar\AppData\Local\Programs\Thonny`). Depending on the setup of your classroom, it may make sense to install Thonny under `%APPDATA%` (eg. `C:\Users\Aivar\AppData\Roaming\Thonny`).
+Default installation path is ``%LOCALAPPDATA%\Programs\Thonny`` (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny``). Depending on the setup of your classroom, it may make sense to install Thonny under `%APPDATA%` (eg. ``C:\Users\Aivar\AppData\Roaming\Thonny``).
 
-On first run Thonny creates a user-specific directory for storing configuration and default virtual environment for executing user programs. By default its path is `%USERPROFILE%\.thonny` (eg. `C:\Users\Aivar\.thonny`). This may change in future versions (see #279), but you can change it already by running Thonny with environment variable `THONNY_USER_DIR` pointing to desired location.
+On first run Thonny creates a user-specific directory for storing configuration and default virtual environment for executing user programs. By default its path is ``%USERPROFILE%\.thonny`` (eg. ``C:\Users\Aivar\.thonny``). This may change in future versions (see #279), but you can change it already by running Thonny with environment variable ``THONNY_USER_DIR`` pointing to desired location.
 
-One option for specifying `THONNY_USER_DIR` is to create a bat-file which sets it and then runs Thonny. Since version 2.1.10 you can alternatively create a script named `customize.py` under `thonny` package (eg. `C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny`) which makes desired changes in the environment:
+One option for specifying ``THONNY_USER_DIR`` is to create a bat-file which sets it and then runs Thonny. Since version 2.1.10 you can alternatively create a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``) which makes desired changes in the environment:
 
 
 .. sourcecode:: python
