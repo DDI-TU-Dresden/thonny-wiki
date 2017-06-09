@@ -13,8 +13,7 @@ It is OK to install Thonny into one directory and then copy the installation dir
 On first run Thonny creates a user-specific directory for storing configuration and default virtual environment for executing user programs. By default its path is ``%USERPROFILE%\.thonny`` (eg. ``C:\Users\Aivar\.thonny``). This may change in future versions (see #279), but you can change it already by running Thonny with environment variable ``THONNY_USER_DIR`` pointing to desired location.
 
 customize.py
-~~~~~~~~~~~~~~
-
+------------
 One option for specifying ``THONNY_USER_DIR`` is to create a bat-file which sets it and then runs Thonny. Since version 2.1.10 you can alternatively create a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``) which makes desired changes in the environment:
 
 
@@ -25,3 +24,17 @@ One option for specifying ``THONNY_USER_DIR`` is to create a bat-file which sets
     
 
 If present, this script is run as first step of launching Thonny.
+
+user_dir_template
+-----------------
+This section is relevant if you use Thonny as shared installation (eg. when it sits in a network location).
+
+Since version 2.1.10 you can tell Thonny how it should initialize Thonny's user directories (THONNY_USER_DIR). For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). 
+
+For example, if you want Thonny by default to use bundled python.exe directly (instead of creating a virtual environment), you should put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
+
+
+.. sourcecode:: ini
+
+    [run]
+    backend_configuration = Python (C:\Users\Aivar\AppData\Local\Programs\Thonny\python.exe)
