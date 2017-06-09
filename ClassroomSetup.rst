@@ -27,9 +27,7 @@ If present, this script is run as first step of launching Thonny.
 
 user_dir_template
 -----------------
-This section is relevant if you use Thonny as shared installation (eg. when it sits in a network location).
-
-Since version 2.1.10 you can tell Thonny how it should initialize Thonny's user directories (THONNY_USER_DIR). For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). 
+Since version 2.1.10 you can tell Thonny how it should initialize its user directories (THONNY_USER_DIR). For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``N:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny``). 
 
 For example, if you want Thonny by default to use bundled python.exe directly (instead of creating a virtual environment), you should put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
 
@@ -37,4 +35,4 @@ For example, if you want Thonny by default to use bundled python.exe directly (i
 .. sourcecode:: ini
 
     [run]
-    backend_configuration = Python (C:\Users\Aivar\AppData\Local\Programs\Thonny\python.exe)
+    backend_configuration = Python (N:\ClassroomNetworkPrograms\Thonny\python.exe)
