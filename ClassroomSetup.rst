@@ -37,7 +37,7 @@ For example, if you want students' programs to use bundled python.exe directly (
     [run]
     backend_configuration = Python (N:\ClassroomNetworkPrograms\Thonny\python.exe)
 
-Don't forget that you can also use a separate Python installation:
+Don't forget that you can also use a separate Python installation for the backend:
 
 .. sourcecode:: ini
 
