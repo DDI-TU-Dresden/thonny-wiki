@@ -29,7 +29,7 @@ user_dir_template
 -----------------
 Since version 2.1.10 you can tell Thonny how it should initialize its user directories (THONNY_USER_DIR). For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``N:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny``). 
 
-For example, if you want Thonny by default to use bundled python.exe directly (instead of creating a virtual environment), you should put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
+For example, if you want students' programs to use bundled python.exe directly (instead of creating a virtual environment), you should put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
 
 
 .. sourcecode:: ini
