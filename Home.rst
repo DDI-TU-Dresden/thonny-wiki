@@ -2,6 +2,7 @@ Thonny wiki
 ===========
 
 * `News <News>`_
+* `FAQ <FAQ>`_
 * `Using Thonny on Mac OS X <MacOSX>`_
 * `Using Thonny on Windows <Windows>`_
 * `Using Thonny on Linux <Linux>`_
