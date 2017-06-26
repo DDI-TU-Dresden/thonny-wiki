@@ -1,6 +1,6 @@
 FAQ
 ===
-Some questions, that have came up several times in various discussions.
+Some questions, that have come up several times in various discussions.
 
 I want to help by translating Thonny UI or webpage to another language. How should I start?
 --------------------------------------------------------------------------------------------
