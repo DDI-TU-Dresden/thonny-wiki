@@ -1,5 +1,6 @@
 FAQ
 ===
+.
 
 I want to help by translating Thonny UI or webpage to another language. How should I start?
 --------------------------------------------------------------------------------------------
