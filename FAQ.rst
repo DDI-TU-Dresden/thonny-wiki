@@ -8,7 +8,7 @@ We're grateful for everybody who have offered translations, but at the moment Th
 
 On the other hand, we're glad to add links to tutorials / help / documentation written in other languages.
 
-*A related issue: Thonny's main developers are not native English speakers. We're grateful for corrections in grammar / spelling / style.*
+*A related issue: Thonny's main developers are not native English speakers. Feel free to suggest corrections for grammar / spelling / style.*
 
 
 Why doesn't Thonny support breakpoints?
