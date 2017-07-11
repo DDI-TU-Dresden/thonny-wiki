@@ -14,7 +14,7 @@ Thonny and Python bundle should work on these Linuxes or newer:
 * CentOS 7.1
 
 
-It may run on other distros/versions, but the requirement is that the distro should be with *glibc-2.12* or newer.
+It may run on other distros/versions, but the requirement is that the distro should be with *glibc-2.15* or newer.
 
 If you can't install or run bundled Thonny, then try to `install Python and Thonny separately <SeparateInstall>`_.
 
@@ -58,9 +58,3 @@ Excecute the uninstall command shown by the installer, eg.
 .. sourcecode:: none
 
     > sudo /opt/thonny/bin/uninstall
-
-
-
-
-
-
