@@ -36,7 +36,9 @@ How to work around SmartScreen Filter?
 If you have trouble following these recommendations, then check http://www.tenforums.com/tutorials/5357-unblock-file-window-10-a.html
 
 
-
+Missing vcruntime140.dll
+------------------------
+If Thonny complains about missing vcruntime140.dll, then you could try installing Visual Studion 2015 runtime libraries:  https://www.microsoft.com/en-us/download/details.aspx?id=52685 (vc_redist.x86.exe) 
 
 
 Installing Thonny and Python separately
