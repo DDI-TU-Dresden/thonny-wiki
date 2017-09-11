@@ -38,7 +38,7 @@ If you have trouble following these recommendations, then check http://www.tenfo
 
 Missing vcruntime140.dll
 ------------------------
-If Thonny complains about missing vcruntime140.dll, then you could try installing Visual Studion 2015 runtime libraries:  https://www.microsoft.com/en-us/download/details.aspx?id=52685 (vc_redist.x86.exe) 
+If Thonny complains about missing vcruntime140.dll, then you could try installing Visual Studio 2015 runtime libraries:  https://www.microsoft.com/en-us/download/details.aspx?id=52685 (vc_redist.x86.exe) 
 
 
 Installing Thonny and Python separately
