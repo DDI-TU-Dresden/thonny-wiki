@@ -1,9 +1,12 @@
 Thonny on Linux
 ========================
 
+Raspberry Pi
+-------------
+Since July 2017, Raspberry Pi's Raspbian comes with Thonny preinstalled.
 
-Requirements
-----------------------
+Desktop Linux requirements
+---------------------------
 Thonny and Python bundle should work on these Linuxes or newer:
 
 * Mint 13 Maya
