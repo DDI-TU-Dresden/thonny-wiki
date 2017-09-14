@@ -26,7 +26,7 @@ Installing
 .. sourcecode:: none
 
     > cd ~/Downloads
-    > bash thonny-2.0.3.sh
+    > bash thonny-2.1.11.sh
 
 This script will download and unpack suitable installer for your platform and executes it.
 
