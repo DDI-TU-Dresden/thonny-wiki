@@ -28,7 +28,7 @@ Installing
     > cd ~/Downloads
     > bash thonny-2.1.11.sh
 
-This script will download and unpack suitable installer for your platform and executes it.
+This script downloads and unpacks suitable installer for your platform and executes it.
 
 Alternative way for installing
 ------------------------------
