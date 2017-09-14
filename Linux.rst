@@ -1,12 +1,15 @@
+========================
 Thonny on Linux
 ========================
 
-Raspberry Pi
--------------
+Installing via distribution's package manager
+----------------------------------------------
 Since July 2017, Raspberry Pi's Raspbian comes with Thonny preinstalled.
 
-Desktop Linux requirements
----------------------------
+We're looking for contributors, who are willing to package Thonny for other distros.
+
+Installing prebuilt Thonny+Python bundles
+-----------------------------------------
 Thonny and Python bundle should work on these Linuxes or newer:
 
 * Mint 13 Maya
@@ -23,7 +26,7 @@ If you can't install or run bundled Thonny, then try to `install Python and Thon
 
 
 Installing
-------------
+~~~~~~~~~~~~
 `Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with .sh extension and run it with bash. Example (don't forget to change the filename): 
 
 .. sourcecode:: none
@@ -34,7 +37,7 @@ Installing
 This script downloads and unpacks suitable installer for your platform and executes it.
 
 Alternative way for installing
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 If you want more control, then you can do the install steps separately.
 
 `Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix (run ``uname -m`` in terminal if you are not sure which you have).
@@ -55,7 +58,7 @@ This will install Thonny under *apps* directory in your home directory. If you w
     > sudo ./install /opt
 
 Uninstalling
-------------------------
+~~~~~~~~~~~~~~~~~~~~ 
 Excecute the uninstall command shown by the installer, eg. 
 
 .. sourcecode:: none
