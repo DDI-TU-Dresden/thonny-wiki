@@ -1,14 +1,14 @@
 ==========================
 Portable version of Thonny
 ==========================
-You can copy Thonny program directory (eg. ``C:\Users\...\AppData\Local\Programs\Thonny in Windows``) to another location (including a flash stick) and it should work without problems. 
+Thonny doesn't depend on its installation location: you can copy its program directory (eg. ``C:\Users\...\AppData\Local\Programs\Thonny in Windows``) to another location (including a flash stick) and it should work without problems. 
 
-THONNY_USER_DIR
----------------
-By default Thonny keeps its configuration files, default virtual environment and plugins under ``~/.thonny``. You can change this with THONNY_USER_DIR environment variable. 
+This allows you to make Thonny's main program portable. In order to avoid regenerating user directory each time you use Thonny in new computer, you need to do some more tweaking.
 
-customize.py
--------------
+THONNY_USER_DIR + customize.py
+-------------------------------
+By default Thonny keeps its configuration files, default virtual environment and plugins under ``~/.thonny``. You can change this with THONNY_USER_DIR environment variable.
+
 If you want to make THONNY_USER_DIR relative to program directory, then you should take advantage of the possibility to customize Thonny's startup. You should create a file named *customize.py* in Thonny package directory (eg. ``C:\Users\...\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``) and create the environment variable in there:
 
 
