@@ -20,6 +20,6 @@ If you want to make THONNY_USER_DIR relative to program directory, then you shou
     user_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", ".thonny")
     os.environ["THONNY_USER_DIR"] = os.path.abspath(user_dir)
 
-Don't use default (virtual environment) interpreter
-----------------------------------------------------
+Using front-end interpreter instead of default (virtual environment) interpreter
+----------------------------------------------------------------------------------
 The remaining problem is that by default Thonny generates a virtual environment for running your programs. The virtual environment is related to the base interpreter through an absolute path. Fortunately Thonny allows you to specify different backend instead of the default venv (Tools => Options => Interpreter). Since version 2.1.12 you can specify there that back-end interpreter should be the same as front-end interpreter (in older versions you could browse the correct interpreter, but this would result in absolute path).
