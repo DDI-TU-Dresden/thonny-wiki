@@ -72,3 +72,25 @@ Upgrading shared Thonny
 Nothing special here, just replace Thonny program files. Just be careful not to lose your customizations (``configure.py`` and/or ``user_dir_template``).
 
 With micro updates (eg. 2.1.12 => 2.1.14) you should be able to just copy the new files over older ones. With minor and major updates (eg. 2.1.12 => 2.2.0 or 2.1.12 => 3.0) it's safer to discard the old Thonny directory and prepare new from scratch.
+
+Creating a portable version of Thonny
+-------------------------------------
+You can use the information from previous sections to prepare yourself a portable, USB-stick-ready Thonny.
+
+1) Make THONNY_USER_DIR relative to the main Thonny directory. Following ``configure.py`` should do:
+
+.. sourcecode:: python
+
+    import os.path
+    
+    user_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", ".thonny")
+    os.environ["THONNY_USER_DIR"] = os.path.abspath(user_dir)
+
+2) Configure Thonny to use front-end interpreter also for the back-end by putting following ``configuration.ini`` into ``.thonny``:
+
+.. sourcecode:: ini
+
+    [run]
+    backend_configuration = Python (same as front-end)
+
+(The second step is necessary, because the default virtual environment would be connected to base Python via an absolute path)
