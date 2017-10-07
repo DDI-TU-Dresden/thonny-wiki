@@ -3,7 +3,7 @@ Using Thonny on Windows
 
 .. note::
     
-    For classroom use see `alternative deplyment options <DeploymentOptions>`_.
+    For classroom use see `alternative deployment options <DeploymentOptions>`_.
 
 
 
