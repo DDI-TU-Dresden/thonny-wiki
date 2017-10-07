@@ -16,7 +16,7 @@ If the computer lab supports persistent user profiles and users' disk quota is b
 
 If you can't use persistent profiles, then you can **preinstall Thonny either locally or to a network drive**. In Windows you can use Thonny installer, but note that it does not request admin privileges even if you enter a restricted target directory. Alternatively you can install Thonny under your own profile and then copy its program folder (by default ``C:\Users\<username>\AppData\Local\Programs\Thonny``) into a shared location. In both cases you probably also want to create the shortcuts for all users.
 
-Even if the main program is installed centrally, by default Thonny still creates a virtual environment under user home (if it doesn't exist yet). If you want to avoid this, then you can configure Thonny to **use the front-end interpreter** (ie. the same Python executable it uses for running the GUI) also for the back-end (ie. for running user programs). 
+Even if the main program is installed centrally, by default Thonny still creates a virtual environment under user home (if it doesn't exist yet). If you want to avoid this, then you can configure Thonny to **use the front-end interpreter** (ie. the same Python executable it uses for running the GUI) **also for the back-end** (ie. for running user programs). 
 
 You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their ``.thonny`` directory. Since version 2.1.10 you can do it by letting Thonny know how to initialize the user directory (THONNY_USER_DIR). For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny``). 
 
