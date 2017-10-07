@@ -12,7 +12,7 @@ With such scheme the user can easily update the main program without losing the 
 
 Classroom
 ----------
-If the computer lab supports persistent user profiles and users' disk quota is big enough, then the **single user** deployment scheme should be suitable also in classroom setting. (Depending on your lab set-up you may want to recommend students to install into ``...\AppData\Roaming\...`` instead of ``...\AppData\Local\...``.)
+If the computer lab supports persistent user profiles and users' disk quota is big enough, then the **single user** deployment scheme is suitable also in classroom setting. (Depending on your lab set-up you may want to recommend students to install into ``...\AppData\Roaming\...`` instead of ``...\AppData\Local\...``.)
 
 If you can't use persistent profiles, then you can **preinstall Thonny either locally or to a network drive**. In Windows you can use Thonny installer, but note that it does not request admin privileges even if you enter a restricted target directory, so you may want to run it as administrator. Alternatively you can install Thonny under your own profile and then copy its program folder (by default ``C:\Users\<username>\AppData\Local\Programs\Thonny``) into a shared location. In both cases you probably also want to create the shortcuts for all users.
 
