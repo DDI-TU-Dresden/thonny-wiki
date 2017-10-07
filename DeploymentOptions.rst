@@ -65,7 +65,7 @@ You can use this to prepare the environment for Thonny, eg:
 .. sourcecode:: python
 
     import os
-    os.environ["THONNY_USER_DIR"] = "H:\home\.thonny" 
+    os.environ["THONNY_USER_DIR"] = "H:\\home\\.thonny" 
     
 Upgrading shared Thonny
 -------------------------
