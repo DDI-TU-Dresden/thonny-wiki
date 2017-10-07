@@ -1,6 +1,11 @@
 Using Thonny on Windows
 ================================
 
+.. note::
+    
+    For classroom use see `alternative deplyment options <DeploymentOptions>`_.
+
+
 
 Installing Thonny and Python bundle
 ------------------------------------
