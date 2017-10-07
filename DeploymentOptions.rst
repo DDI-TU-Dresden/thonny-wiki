@@ -50,3 +50,25 @@ You can arrange your shared Thonny so that the students can start off with same 
 If you want your students to use **their own virtual environments** (ie. you are using the default back-end), then you should use the regular tools ("Tools => Manage packages ..." and "Tools => Manage plug-ins...") to prepare a suitable ``.thonny`` directory in your computer and then copy it into shared ``user_dir_template`` (see previous section). NB! Check the ``home`` variable in ``.thonny\BundledPython36\pyvenv.cfg`` to make sure students can access Thonny directory with the same path!
 
 If you have configured Thonny to **use the main interpreter also for the back-end process**, then you should pip-install the required packages and plug-ins directly into base ``site-packages``. The easiest way for this is to open Thonny with sufficient privileges, select "Tools => Open system shell..." and use command-line pip.
+
+Changing the location of user directory
+------------------------------------------------------
+Regardless of your deployment scheme, you may want to override the path of Thonny user directory (``%USERPROFILE%\Thonny`` / ``~/.thonny`` by default). This can be done with ``THONNY_USER_DIR`` environment variable. You could create a launch script which sets this variable and then runs Thonny, or you can read further ...
+
+
+``configure.py``
+-----------------
+Since version 2.1.10 Thonny looks for a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). If present this is run as first step of launching.
+
+You can use this to prepare the environment for Thonny, eg:
+
+.. sourcecode:: python
+
+    import os
+    os.environ["THONNY_USER_DIR"] = "H:\home\.thonny" 
+    
+Upgrading shared Thonny
+-------------------------
+Nothing special here, just replace Thonny program files. Just be careful not to lose your customizations (``configure.py`` and/or ``user_dir_template``).
+
+With micro updates (eg. 2.1.12 => 2.1.14) you should be able to just copy the new files over older ones. With minor and major updates (eg. 2.1.12 => 2.2.0 or 2.1.12 => 3.0) it's safer to discard the old Thonny directory and prepare new from scratch.
