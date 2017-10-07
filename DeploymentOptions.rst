@@ -56,7 +56,7 @@ Changing the location of user directory
 Regardless of your deployment scheme, you may want to override the path of Thonny user directory (``%USERPROFILE%\Thonny`` / ``~/.thonny`` by default). This can be done with ``THONNY_USER_DIR`` environment variable. You could create a launch script which sets this variable and then runs Thonny, or you can read further ...
 
 
-``configure.py``
+configure.py
 -----------------
 Since version 2.1.10 Thonny looks for a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). If present this is run as first step of launching.
 
