@@ -86,7 +86,7 @@ You can use the information from previous sections to prepare yourself a portabl
     user_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", ".thonny")
     os.environ["THONNY_USER_DIR"] = os.path.abspath(user_dir)
 
-2) Configure Thonny to use front-end interpreter also for the back-end by putting following ``configuration.ini`` into ``.thonny``:
+2) Configure Thonny to use front-end interpreter also for the back-end by putting following ``configuration.ini`` into ``.thonny`` (requires version 2.1.12 or later):
 
 .. sourcecode:: ini
 
