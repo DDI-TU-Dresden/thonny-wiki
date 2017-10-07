@@ -20,7 +20,7 @@ Even if the main program is installed centrally, by default Thonny still creates
 
 You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their Thonny user directory. Since version 2.1.10 you can do it by letting Thonny know how to initialize that directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny\user_dir_template``). 
 
-If you want students' programs to front-end interpreter, you could put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
+If you want students' programs to use front-end interpreter, you could put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
 
 .. sourcecode:: ini
 
