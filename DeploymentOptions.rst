@@ -4,7 +4,7 @@ Deployment options
 
 Single user
 ------------
-Main Thonny+Python bundles can be installed by the end user (Windows installer does not require admin privileges and installs under ``%LOCALAPPDATA%\Programs\Thonny`` by default).
+Main Thonny+Python bundles are designed to be installed by the end user. Therefore Windows installer does not require admin privileges and installs under ``%LOCALAPPDATA%\Programs\Thonny`` by default.
 
 Independently of Thonny main files' location, on first run it creates a directory named ``.thonny`` in user home directory, which is used for storing user configuration, plug-ins and 3rd party packages the user has installed. For organizing the 3rd party packages Thonny generates a virtual environment.
 
