@@ -56,7 +56,7 @@ Changing the location of user directory
 Regardless of your deployment scheme, you may want to override the path of Thonny user directory (``%USERPROFILE%\Thonny`` / ``~/.thonny`` by default). This can be done with ``THONNY_USER_DIR`` environment variable. You could create a launch script which sets this variable and then runs Thonny, or you can read further ...
 
 
-configure.py
+customize.py
 -----------------
 Since version 2.1.10 Thonny looks for a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). If present this is run as first step of launching.
 
@@ -69,7 +69,7 @@ You can use this to prepare the environment for Thonny, eg:
     
 Upgrading shared Thonny
 -------------------------
-Nothing special here, just replace Thonny program files. Just be careful not to lose your customizations (``configure.py`` and/or ``user_dir_template``).
+Nothing special here, just replace Thonny program files. Just be careful not to lose your customizations (``customize.py`` and/or ``user_dir_template``).
 
 With micro updates (eg. 2.1.12 => 2.1.14) you should be able to just copy the new files over older ones. With minor and major updates (eg. 2.1.12 => 2.2.0 or 2.1.12 => 3.0) it's safer to discard the old Thonny directory and prepare new from scratch.
 
@@ -77,7 +77,7 @@ Creating a portable version of Thonny
 -------------------------------------
 You can use the information from previous sections to prepare yourself a portable, USB-stick-ready Thonny.
 
-1) Make THONNY_USER_DIR relative to the main Thonny directory. Following ``configure.py`` should do:
+1) Make THONNY_USER_DIR relative to the main Thonny directory. Following ``customize.py`` should do:
 
 .. sourcecode:: python
 
