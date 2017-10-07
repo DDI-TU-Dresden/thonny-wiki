@@ -20,14 +20,14 @@ Even if the main program is installed centrally, by default Thonny still creates
 
 You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their Thonny user directory. Since version 2.1.10 you can do it by letting Thonny know how to initialize that directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny\user_dir_template``). 
 
-For example, if you want students' programs to use bundled python.exe directly (instead of creating a virtual environment), you should put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
+If you want students' programs to front-end interpreter, you could put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
 
 .. sourcecode:: ini
 
     [run]
     backend_configuration = Python (N:\ClassroomNetworkPrograms\Thonny\python.exe)
 
-Since version 2.1.12 you can use a special macro ``same as front-end``:
+Since version 2.1.12 it's better to use a special macro ``same as front-end``:
 
 .. sourcecode:: ini
 
