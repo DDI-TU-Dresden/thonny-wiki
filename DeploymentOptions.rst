@@ -94,3 +94,7 @@ You can use the information from previous sections to prepare yourself a portabl
     backend_configuration = Python (same as front-end)
 
 (The second step is necessary, because the default virtual environment would be connected to base Python via an absolute path)
+
+pip-installing Thonny to an existing Python 
+--------------------------------------------
+See `here <SeparateInstall>`_.
