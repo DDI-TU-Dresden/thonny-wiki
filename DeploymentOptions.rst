@@ -18,7 +18,7 @@ If you can't use persistent profiles, then you can **preinstall Thonny either lo
 
 Even if the main program is installed centrally, by default Thonny still creates a virtual environment under user home (if it doesn't exist yet). If you want to avoid this, then you can configure Thonny to **use the front-end interpreter** (ie. the same Python executable it uses for running the GUI) **also for the back-end** (ie. for running user programs). 
 
-You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their ``.thonny`` directory. Since version 2.1.10 you can do it by letting Thonny know how to initialize the user directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny``). 
+You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their Thonny user directory. Since version 2.1.10 you can do it by letting Thonny know how to initialize that directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny\user_dir_template``). 
 
 For example, if you want students' programs to use bundled python.exe directly (instead of creating a virtual environment), you should put a ``configuration.ini`` under ``user_dir_template``, which looks something like this:
 
