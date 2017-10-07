@@ -41,3 +41,10 @@ Don't forget that you can also use a separate Python installation for the backen
 
     [run]
     backend_configuration = Python (C:\Python36\python.exe)
+
+
+Preparing 3rd party packages and plug-ins in shared deployment
+--------------------------------------------------------------
+You can arrange your shared Thonny so that the students can start off with a set of 3rd party packages.
+
+If want your students to use their own virtual environments (ie. you are using the default back-end), then you should use the regular tools ("Tools => Manage packages ..." and "Tools => Manage plug-ins...") to prepare a suitable ``.thonny`` directory in your computer and then copy it into shared ``user_dir_template`` (see previous section). NB! Check ``.thonny\BundledPython36\pyvenv.cfg`` to make sure students can access Thonny directory with the same path!
