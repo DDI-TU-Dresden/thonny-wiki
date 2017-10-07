@@ -18,4 +18,4 @@ If you can't use persistent profiles, then you can **preinstall Thonny either lo
 
 Even if the main program is installed centrally, by default Thonny still creates a virtual environment under user home (if it doesn't exist yet). If you want to avoid this, then you can configure Thonny to **use the front-end interpreter (ie. the same Python executable it uses for running the GUI) also for the back-end (ie. for running user programs)**. 
 
-You could pre-configure Thonny for all users by arranging a suitable ``configuration.ini`` in their ``.thonny`` directory before they first run Thonny, but since version
+You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their ``.thonny`` directory before they first run Thonny, but since version
