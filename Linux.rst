@@ -29,7 +29,7 @@ It may run on other distros/versions, but the requirement is that the distro sho
 
 Installing
 ~~~~~~~~~~~~
-If you want to install latest bundle with default settings, then execut following command in terminal: 
+If you want to install latest bundle with default settings, then execute following command in terminal: 
 
 .. sourcecode:: none
 
