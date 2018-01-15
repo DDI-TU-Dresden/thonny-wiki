@@ -5,7 +5,7 @@ Thonny on Linux
 Installing via distribution's package manager
 ----------------------------------------------
 
-* **Raspberry Pi** Stretch comes with Thonny preinstalled. You may be able to install it on older Raspbians with ``sudo apt-get install thonny``.
+* **Raspberry Pi** since Stretch comes with Thonny preinstalled. You may be able to install it on older Raspbians with ``sudo apt-get install thonny``.
 * **Fedora** since 27: ``sudo dnf install thonny``
 
 **NB! We're looking for contributors, who are willing to package Thonny for other distros!**
