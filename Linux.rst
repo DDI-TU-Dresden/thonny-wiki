@@ -27,12 +27,11 @@ It may run on other distros/versions, but the requirement is that the distro sho
 
 Installing
 ~~~~~~~~~~~~
-`Download <https://bitbucket.org/plas/thonny/downloads>`_ the file with .sh extension and run it with bash. Example (don't forget to change the filename): 
+If you want to install latest bundle with default settings, then execut following command in terminal: 
 
 .. sourcecode:: none
 
-    > cd ~/Downloads
-    > bash thonny-2.1.11.sh
+    > bash <(curl -s http://thonny.org/installer-for-linux)
 
 This script downloads and unpacks suitable installer for your platform and executes it.
 
