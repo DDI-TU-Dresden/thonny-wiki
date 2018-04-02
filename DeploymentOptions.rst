@@ -62,10 +62,19 @@ Since version 2.1.10 Thonny looks for a script named ``customize.py`` under ``th
 
 You can use this to prepare the environment for Thonny, eg:
 
+For Thonny 2.1:
+
 .. sourcecode:: python
 
     import thonny
     thonny.THONNY_USER_DIR = "H:\\home\\.thonny" 
+
+For Thonny 2.2 and newer:
+
+.. sourcecode:: python
+
+    import os
+    os.environ["THONNY_USER_DIR"] = "H:\\home\\.thonny" 
     
 Upgrading shared Thonny
 -------------------------
@@ -78,6 +87,17 @@ Creating a portable version of Thonny
 You can use the information from previous sections to prepare yourself a portable, USB-stick-ready Thonny.
 
 1) Make THONNY_USER_DIR relative to the main Thonny directory. Following ``customize.py`` should do:
+
+For Thonny 2.1:
+
+.. sourcecode:: python
+
+    import os.path
+    
+    user_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", ".thonny")
+    os.environ["THONNY_USER_DIR"] = os.path.abspath(user_dir)
+
+For Thonny 2.2 and newer:
 
 .. sourcecode:: python
 
