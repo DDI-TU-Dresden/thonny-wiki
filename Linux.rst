@@ -5,7 +5,8 @@ Thonny on Linux
 Installing via distribution's package manager
 ----------------------------------------------
 
-* **Raspbian** since Stretch comes with Thonny preinstalled. On older Raspbians try ``sudo apt-get install thonny``.
+* **Raspbian** since Stretch comes with Thonny preinstalled. On older Raspbians try ``sudo apt-get install python3-thonny``.
+* **Ubuntu** since 18.04: ``sudo apt install thonny``
 * **Fedora** since 27: ``sudo dnf install thonny``
 
 **NB! We're looking for contributors, who are willing to package Thonny for other distros!**
