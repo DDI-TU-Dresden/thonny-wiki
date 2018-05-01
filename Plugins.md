@@ -5,13 +5,18 @@ Plug-ins
 
 Thonny can be extended with 3rd party plug-ins. Usually they are distributed via https://pypi.org and can be installed with Tools => Mangage plug-ins.
 
+```
+if True:
+    pass
+```
+
 Writing plug-ins
 -----------------
 A 3rd-party Thonny plug-in is a Python module (or package) located under ``thonnycontrib`` (or ``thonnycontrib.backend``) `namespace package <https://packaging.python.org/guides/packaging-namespace-packages/>`_ and containing parameterless function ``load_plugin``.
 
 Here's an example of a plug-in which adds a command into "Tools" menu:
 
-.. sourcecode::
+.. sourcecode:: py3
 
     from thonny import get_workbench
     from tkinter.messagebox import showinfo
