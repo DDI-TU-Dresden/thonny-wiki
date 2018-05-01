@@ -22,3 +22,11 @@ The plug-in implementing "Desert Sunset Plus" could be something like this:
             "keyword"       : {"foreground" : "#DE8C3A", "font" : "EditorFont"},
             "current_line"  : {"background" : "#525252"},
         })
+
+Look around in ``thonny.plugins.base_syntax_themes`` to learn about available syntactic and other elements and their configuration options.
+
+UI Themes
+----------
+In order to create a new UI theme you need to first look around in ``thonny.plugins.base_ui_themes`` and ````thonny.plugins.clean_ui_themes``.
+ 
+In general you should be familiar with Tkinter (or Tk) ttk styles unless you just want to create a derivative of "Clean Dark" or "Clean Light" (in this case I'm sure you can figure out from the examples of "Clean Dark Green" and friends).
