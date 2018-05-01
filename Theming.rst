@@ -11,7 +11,7 @@ Let's say you mostly like the built-in "Desert Sunset" theme, but you wish the k
 
 A plug-in can add a new syntax theme via workbench method ``add_syntax_theme``. You need to pass a unique name for your theme, name of the parent theme and a dictionary specifying visual properties for syntactical elements to be overridden. (Instead of the dictionary you can also provide a parameterless function returning the dictionary -- this way you can postpone computing the properties on theme loading time.)
 
-Let's first inspect the original theme. All built-in syntax themes are defined in ``thonny.plugins.base_syntax_themes``. Locate this file and find the line with ``get_workbench().add_syntax_theme("Desert Sunset", "Default Dark", desert_sunset)``. As we see it's parent theme is "Default Dark" and it provides properties as a function. After investigating the properties of "Desert Sunset" and "Default Dark", you could come up with a plug-in like this:
+Let's first inspect the original theme. All built-in syntax themes are defined in ``thonny.plugins.base_syntax_themes``. Locate this file and find the line with ``get_workbench().add_syntax_theme("Desert Sunset", "Default Dark", desert_sunset)``. As we see its parent theme is "Default Dark" and it provides properties as a function. After investigating the properties of "Desert Sunset" and "Default Dark", you could come up with a plug-in like this:
 
 The plug-in implementing "Desert Sunset Plus" could be something like this:
 
