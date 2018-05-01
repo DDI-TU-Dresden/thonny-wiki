@@ -1,6 +1,8 @@
 Theming
 =======
 
+**NB! Theming system may change, especially during the beta phase of Thonny 2.2!**
+
 Since version 2.2 Thonny supports UI themes, which allow changing the appearance of widgets, and Syntax themes, which allow specifying coloring scheme for editors and the shell. A couple of themes are built into Thonny (see "Tools => Options => Theme & Font", but users can add their own themes via the `plug-in system <Plugins>`_.
 
 Adding a syntax theme
@@ -27,6 +29,6 @@ Look around in ``thonny.plugins.base_syntax_themes`` to learn about available sy
 
 UI Themes
 ----------
-In order to create a new UI theme you need to first look around in ``thonny.plugins.base_ui_themes`` and ````thonny.plugins.clean_ui_themes``.
+In order to create a new UI theme you need to first look around in ``thonny.plugins.base_ui_themes`` and ``thonny.plugins.clean_ui_themes``.
  
 In general you should be familiar with Tkinter (or Tk) ttk styles unless you just want to create a derivative of "Clean Dark" or "Clean Light" (in this case I'm sure you can figure out from the examples of "Clean Dark Green" and friends).
