@@ -6,6 +6,8 @@ Plug-ins
 Thonny can be extended with 3rd party plug-ins. Usually they are distributed via https://pypi.org and can be installed with Tools => Mangage plug-ins.
 
 ```
+#!python
+
 if True:
     pass
 ```
