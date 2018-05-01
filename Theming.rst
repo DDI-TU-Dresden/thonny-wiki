@@ -27,6 +27,8 @@ The plug-in implementing "Desert Sunset Plus" could be something like this:
 
 Look around in ``thonny.plugins.base_syntax_themes`` to learn about available syntactic and other elements and their configuration options.
 
+Note that even if you want to create a whole new theme, it's recommended to specify a parent theme (either "Default Dark" or "Default Light") in order to benefit from fallback properties which may be introduced in future Thonny versions.
+
 UI Themes
 ----------
 In order to create a new UI theme you need to first look around in ``thonny.plugins.base_ui_themes`` and ``thonny.plugins.clean_ui_themes``.
