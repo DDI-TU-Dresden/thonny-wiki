@@ -10,50 +10,45 @@ A 3rd-party Thonny plug-in is a Python module (or package) located under `thonny
 
 Here's an example of a plug-in which adds a command into "Tools" menu:
 
-.. sourcecode :: python
+```
+from thonny import get_workbench
+from tkinter.messagebox import showinfo
 
-    from thonny import get_workbench
-    from tkinter.messagebox import showinfo
+def hello():
+    showinfo("Hello!", "Thonny rules!")
 
-    def hello():
-        showinfo("Hello!", "Thonny rules!")
+def load_plugin():
+    get_workbench().add_command(command_id="hello",
+                                menu_name="tools",
+                                command_label="Hello!",
+                                handler=hello)
+```
 
-    def load_plugin():
-        get_workbench().add_command(command_id="hello",
-                                    menu_name="tools",
-                                    command_label="Hello!",
-                                    handler=hello)
+During startup Thonny locates all such modules and calls their `load_plugin` function.
 
-During startup Thonny locates all such modules and calls their ``load_plugin`` function.
+For Thonny's plug-in mechanism, this is really all there is to be said. Plug-in writers, of course, want to know what they can do in `load_plugin` and how to package and distribute their work.
 
-For Thonny's plug-in mechanism, this is really all there is to be said. Plug-in writers, of course, want to know what they can do in ``load_plugin`` and how to package and distribute their work.
-
-Location of the plug-ins
-~~~~~~~~~~~~~~~~~~~~~~~~
-
+## Location of the plug-ins
 
 
-What can a plug-in (ie. function ``load_plugin``) do?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## What can a plug-in (ie. function ``load_plugin``) do?
+
 In short: whatever. 
 
 More pragmatically: ``load_plugin`` usually retrieves the singleton instance of the class ``thonny.workbench.Workbench`` and calls its public methods like ``add_command`` or ``add_syntax_theme`` with suitable arguments.
 
-"Hello world!" plug-in
------------------------
-Save following code to a file named ``helloworld.py`` 
 
+## Back-end plug-ins
 
-Back-end plug-ins
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 TODO:
 
-How to package and distribute your plug-in?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## How to package and distribute your plug-in?
+
 In short: same way as you would package and distribute any Python module or package.
 
 TODO: expand this 
 
-Built-in plug-ins
-~~~~~~~~~~~~~~~~~~~~~~ 
+## Built-in plug-ins
+
 Built-in plug-ins are located under ``thonny.plugins``.
