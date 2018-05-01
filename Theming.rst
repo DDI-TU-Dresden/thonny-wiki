@@ -5,10 +5,20 @@ Since version 2.2 Thonny supports UI themes, which allow changing the appearance
 
 Adding a syntax theme
 ------------------------
-Let's say you mostly like the built-in "Desert Sunset" theme, but you wish the keywords had lighter color and regular weight and current line was more pronounced. In this case it you can write a plug-in which adds a new syntax theme  (let's call it "Desert Sunset Plus"), which is based on "Desert Sunset" but changes aforementioned properties.
+Let's say you mostly like the built-in "Desert Sunset" theme, but you wish the keywords had lighter foreground and regular weight and current line was more pronounced. In this case it you can write a plug-in which adds a new syntax theme  (let's call it "Desert Sunset Plus"), which is based on "Desert Sunset" but changes aforementioned properties.
 
-A plug-in can add a new syntax theme via workbench method ``add_syntax_theme``. You need to pass a unique name, name of the parent theme and a dictionary specifying visual properties for syntactical elements to be overridden. (Instead of the dictionary you can also provide a parameterless callable returning the dictionary -- this may speed up the process of adding (unused) syntax themes.)
+A plug-in can add a new syntax theme via workbench method ``add_syntax_theme``. You need to pass a unique name for your theme, name of the parent theme and a dictionary specifying visual properties for syntactical elements to be overridden. (Instead of the dictionary you can also provide a parameterless function returning the dictionary -- this way you can postpone computing the properties on theme loading time.)
 
-When you start enhancing a theme, you probably want to start by looking up theme's original properties. All built-in syntax themes are defined in ``thonny.plugins.base_syntax_themes``. Locate this file and find the line with 
+Let's first inspect the original theme. All built-in syntax themes are defined in ``thonny.plugins.base_syntax_themes``. Locate this file and find the line with ``get_workbench().add_syntax_theme("Desert Sunset", "Default Dark", desert_sunset)``. As we see it's parent theme is "Default Dark" and it provides properties as a function. After investigating the properties of "Desert Sunset" and "Default Dark", you could come up with a plug-in like this:
 
 The plug-in implementing "Desert Sunset Plus" could be something like this:
+
+..sourcecode:: py3
+
+    from thonny import get_workbench
+
+    def load_plugin():
+        get_workbench().add_syntax_theme("Desert Sunset Plus", "Desert Sunset", {
+            "keyword"       : {"foreground" : "#DE8C3A", "font" : "EditorFont"},
+            "current_line"  : {"background" : "#525252"},
+        })
