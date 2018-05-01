@@ -26,8 +26,6 @@ def load_plugin():
 
 During startup Thonny locates all such modules and calls their `load_plugin` function.
 
-For Thonny's plug-in mechanism, this is really all there is to be said. Plug-in writers, of course, want to know what they can do in `load_plugin` and how to package and distribute their work.
-
 ## Location of the plug-ins
 
 
