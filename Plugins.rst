@@ -11,7 +11,7 @@ A 3rd-party Thonny plug-in is a Python module (or package) located under ``thonn
 
 Here's an example of a plug-in which adds a command into "Tools" menu:
 
-.. sourcecode:: py3
+.. sourcecode:: python
 
     from thonny import get_workbench
     from tkinter.messagebox import showinfo
