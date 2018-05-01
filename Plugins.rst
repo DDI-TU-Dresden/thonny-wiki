@@ -12,6 +12,15 @@ if True:
     pass
 ```
 
+lll
+
+.. sourcecode :: python
+ 
+ def wiki_rocks(text):
+    formatter = lambda t: "funky"+t
+    return formatter(text)
+
+
 Writing plug-ins
 -----------------
 A 3rd-party Thonny plug-in is a Python module (or package) located under ``thonnycontrib`` (or ``thonnycontrib.backend``) `namespace package <https://packaging.python.org/guides/packaging-namespace-packages/>`_ and containing parameterless function ``load_plugin``.
