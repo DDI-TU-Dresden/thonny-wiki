@@ -1,15 +1,34 @@
 Plug-ins
 =========
 
+**NB! Plug-in system was changed in 2.2 and may still change during the beta phase.**
+
 Thonny can be extended with 3rd party plug-ins. Usually they are distributed via https://pypi.org and can be installed with Tools => Mangage plug-ins.
 
 Writing plug-ins
 -----------------
-A 3rd-party Thonny plug-in is a Python module (or package) located under ``thonnycontrib`` (or ``thonnycontrib.backend``) namespace package and containing parameterless function ``load_plugin``. 
+A 3rd-party Thonny plug-in is a Python module (or package) located under ``thonnycontrib`` (or ``thonnycontrib.backend``) `namespace package <https://packaging.python.org/guides/packaging-namespace-packages/>`_ and containing parameterless function ``load_plugin``.
+
+Here's an example of a plug-in which adds a command into "Tools" menu:
+
+.. sourcecode:: py3
+
+    from thonny import get_workbench
+    from tkinter.messagebox import showinfo
+
+    def hello():
+        showinfo("Hello!", "Thonny rules!")
+
+    def load_plugin():
+        get_workbench().add_command("helloworld", "tools", "Hello!", hello)
 
 During startup Thonny locates all such modules and calls their ``load_plugin`` function.
 
 For Thonny's plug-in mechanism, this is really all there is to be said. Plug-in writers, of course, want to know what they can do in ``load_plugin`` and how to package and distribute their work.
+
+Location of the plug-ins
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 What can a plug-in (ie. function ``load_plugin``) do?
@@ -18,7 +37,10 @@ In short: whatever.
 
 More pragmatically: ``load_plugin`` usually retrieves the singleton instance of the class ``thonny.workbench.Workbench`` and calls its public methods like ``add_command`` or ``add_syntax_theme`` with suitable arguments.
 
-TODO: document Workbench API
+"Hello world!" plug-in
+-----------------------
+Save following code to a file named ``helloworld.py`` 
+
 
 Back-end plug-ins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
