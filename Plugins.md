@@ -1,29 +1,12 @@
-Plug-ins
-=========
+# Plug-ins
 
 **NB! Plug-in system was changed in 2.2 and may still change during the beta phase.**
 
 Thonny can be extended with 3rd party plug-ins. Usually they are distributed via https://pypi.org and can be installed with Tools => Mangage plug-ins.
 
-```
-#!python
+## Writing plug-ins
 
-if True:
-    pass
-```
-
-lll
-
-.. sourcecode :: python
- 
- def wiki_rocks(text):
-    formatter = lambda t: "funky"+t
-    return formatter(text)
-
-
-Writing plug-ins
------------------
-A 3rd-party Thonny plug-in is a Python module (or package) located under ``thonnycontrib`` (or ``thonnycontrib.backend``) `namespace package <https://packaging.python.org/guides/packaging-namespace-packages/>`_ and containing parameterless function ``load_plugin``.
+A 3rd-party Thonny plug-in is a Python module (or package) located under `thonnycontrib` (or `thonnycontrib.backend`) [namespace package](https://packaging.python.org/guides/packaging-namespace-packages/) and containing parameterless function ``load_plugin``.
 
 Here's an example of a plug-in which adds a command into "Tools" menu:
 
