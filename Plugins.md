@@ -26,8 +26,11 @@ def load_plugin():
 
 During startup Thonny locates all such modules and calls their `load_plugin` function.
 
-## Location of the plug-ins
+## Setting up the development
 
+Where does aforementioned `thonnycontrib` package live? As it is a [namespace package](https://packaging.python.org/guides/packaging-namespace-packages/), it can be spread out to several places on Python path. This means you can either use a directory which is already on Python path or you can create your project anywhere and run Thonny with project directory added to the path.
+
+If you don't want to mess with the path then it's easiest to develop and test the plug-in under `~/.thonny/plugins/Python??/site-packages/thonnycontrib`. If this directory doesn't exist yet, then I recommend to install an existing plugin first -- this will create the proper directory. As a quick test, save the example plug-in code from above to `hello.py` in this folder. When you now (re)start Thonny, you should see a new item in Tools-menu.
 
 
 ## What can a plug-in (ie. function ``load_plugin``) do?
@@ -35,6 +38,8 @@ During startup Thonny locates all such modules and calls their `load_plugin` fun
 In short: whatever. 
 
 More pragmatically: ``load_plugin`` usually retrieves the singleton instance of the class ``thonny.workbench.Workbench`` and calls its public methods like ``add_command`` or ``add_syntax_theme`` with suitable arguments.
+
+At the moment these methods are not documented, so you need to read the code in `thonny.workbench` and/or some existing plug-ins (either 3rd party plug-ins listed above or built-in plug-ins under `thonny.plugins` package)
 
 
 ## Back-end plug-ins
