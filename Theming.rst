@@ -13,7 +13,7 @@ Let's first inspect the original theme. All built-in syntax themes are defined i
 
 The plug-in implementing "Desert Sunset Plus" could be something like this:
 
-..sourcecode:: py3
+.. sourcecode:: py3
 
     from thonny import get_workbench
 
