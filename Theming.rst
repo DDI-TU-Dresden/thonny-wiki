@@ -1,7 +1,7 @@
 Theming
 =======
 
-**NB! Theming system may change, especially during the beta phase of Thonny 2.2!**
+**NB! Theming system may be changed during the beta phase of Thonny 2.2!**
 
 Since version 2.2 Thonny supports UI themes, which allow changing the appearance of widgets, and Syntax themes, which allow specifying coloring scheme for editors and the shell. A couple of themes are built into Thonny (see "Tools => Options => Theme & Font", but users can add their own themes via the `plug-in system <Plugins>`_.
 
