@@ -44,14 +44,12 @@ At the moment these methods are not documented, so you need to read the code in 
 
 ## Back-end plug-ins
 
-TODO:
+Regular plug-ins work in Thonny's front-end process, but it's also possible to add plug-ins for CPython back-end. These plug-ins must live under `thonnycontrib.backend`.
+
+TODO: See ____ for an example.
 
 ## How to package and distribute your plug-in?
 
 In short: same way as you would package and distribute any Python module or package.
 
-TODO: expand this 
-
-## Built-in plug-ins
-
-Built-in plug-ins are located under ``thonny.plugins``.
+TODO: add an example
