@@ -33,7 +33,7 @@ Where does aforementioned `thonnycontrib` package live? As it is a [namespace pa
 If you don't want to mess with the path then it's easiest to develop and test the plug-in under `~/.thonny/plugins/Python??/site-packages/thonnycontrib`. If this directory doesn't exist yet, then I recommend to install an existing plugin first -- this will create the proper directory. As a quick test, save the example plug-in code from above to `hello.py` in this folder. When you now (re)start Thonny, you should see a new item in Tools-menu.
 
 
-## What can a plug-in (ie. function ``load_plugin``) do?
+## What can a plug-in do?
 
 In short: whatever. 
 
