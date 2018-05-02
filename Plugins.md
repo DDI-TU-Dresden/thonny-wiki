@@ -4,7 +4,7 @@
 
 Thonny can be extended with 3rd party plug-ins. Usually they are distributed via https://pypi.org and can be installed with Tools => Mangage plug-ins.
 
-## Writing plug-ins
+## About writing plug-ins
 
 A 3rd-party Thonny plug-in is a Python module (or package) located under `thonnycontrib` (or `thonnycontrib.backend`) [namespace package](https://packaging.python.org/guides/packaging-namespace-packages/) and containing parameterless function ``load_plugin``.
 
