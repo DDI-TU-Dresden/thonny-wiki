@@ -39,7 +39,7 @@ NB! In version 2.2b5 the location `~/.thonny/plugins/` will be replaced by the d
 
 In short: whatever. 
 
-More pragmatically: ``load_plugin`` usually retrieves the singleton instance of the class ``thonny.workbench.Workbench`` and calls its public methods like ``add_command`` or ``add_syntax_theme`` with suitable arguments.
+More pragmatically: ``load_plugin`` usually retrieves the singleton instance of the class ``thonny.workbench.Workbench`` (using ``thonny.get_workbench()``) and calls its public methods like ``add_command`` or ``add_syntax_theme`` with suitable arguments.
 
 At the moment these methods are not documented, so you need to read the code in `thonny.workbench` and/or some existing plug-ins (either 3rd party plug-ins listed above or built-in plug-ins under `thonny.plugins` package)
 
