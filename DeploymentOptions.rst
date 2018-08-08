@@ -4,7 +4,7 @@ Deployment options
 
 Single user
 ------------
-Main Thonny+Python bundles are designed to be installed by the end user. Therefore Windows installer does not require admin privileges and installs under ``%LOCALAPPDATA%\Programs\Thonny`` by default.
+Main Thonny+Python bundles are designed to be installed by the end user. Therefore Windows installer does not require admin privileges and installs under ``%LOCALAPPDATA%\Programs\Thonny`` by default. Since version 2.1.21 the installer has also all-users mode -- for this you just need to run it as administrator (Right-click and "Run as administrator").
 
 Independently of Thonny main files' location, on first run it creates a directory named ``.thonny`` in user home directory, which is used for storing user configuration, plug-ins and 3rd party packages the user has installed. For organizing the 3rd party packages Thonny generates a virtual environment there.
 
@@ -115,6 +115,12 @@ For Thonny 2.2 and newer:
     backend_configuration = Python (same as front-end)
 
 (The second step is necessary, because the default virtual environment would be connected to base Python via an absolute path)
+
+Windows installer options
+-------------------------
+As mentioned above, Thonny Windows installer behaves differently, depending on whether it was run as administrator or not.
+
+If you want to script your installation, then you can use command line options described here: http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline
 
 pip-installing Thonny to an existing Python 
 --------------------------------------------
