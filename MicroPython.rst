@@ -1,0 +1,120 @@
+MicroPython support in Thonny
+=============================
+Since 3.0.0b1 Thonny has basic MicroPython support built-in. In addition to this, there are several plug-ins which add more complete support for specific devices, 
+depend on this plug-in:
+
+* `thonny-circuitpython <https://bitbucket.org/plas/thonny-circuitpython/>`_
+* `thonny-esp <https://bitbucket.org/plas/thonny-esp/>`_
+* `thonny-pyboard <https://bitbucket.org/plas/thonny-pyboard/>`_
+* `thonny-calliope <https://bitbucket.org/plas/thonny-calliope/>`_
+
+At the moment `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ is separate from this line.  
+
+Installation
+------------
+If your device is supported by a more specific plug-in (listed above), then 
+it is recommended to install that plug-in first.
+
+For this, open Thonny's plug-in manager 
+(Tools → Manage plug-ins ...), enter the name of your chosen plug-in name
+and press "Search".  You should now see the details. Press "Install" to
+install the default version or "..." to choose specific version.
+
+Note that you need to restart Thonny for the plug-ins to take effect.
+
+
+Configuration
+-------------
+Before continuing make sure you have your device attached to a USB port. If
+required, install necessary drivers for serial communication.
+
+In Thonny open the back-end manager (Tools → Options → Back-end) and choose 
+the type of your device from the drop-down list. If your device doesn't have
+specific plug-in, then try "MicroPython on generic device".
+
+Now you can specify the port your device is connected to, but if you have only
+one board connected, then you could leave this setting for automatic 
+detection.
+
+If you press "OK", then after a moment you should see the prompt of your 
+device's REPL in Thonny's Shell view.
+
+(If you don't have suitable MicroPython (or CircuitPython) firmware installed 
+on your device yet, then see see below for the section about firmware installation.) 
+
+
+Usage
+-----
+Each time Thonny connects with your device, it first interrupts the current process 
+and enters the REPL, which is supposed to work just like Thonny's regular Python REPL.
+
+During writing your scripts, Thonny also offers autocomplete (performed by 
+`jedi <https://jedi.readthedocs.io/>`_ library).
+At the moment this is based on the API-s scraped from specific devices with specific
+MicroPython / CircuitPython versions (different for each backend type).
+This means that if you are using a different version of firmware then 
+autocompleter may offer some names that are not present on your device and miss 
+some that are. Most often used names should be correctly offered, though.
+
+This plug-in allows you to run your scripts without storing them to the device 
+first. You just save your script to a location on your main computer, hit F5
+and the script will be executed on your device.
+
+Once you are happy with your program, you can store it as device's main script
+which is run each time you reset the device. For this you just need to select
+*Device → Upload current script as main script* or press *Ctrl-U*. (Note that
+with micro:bit and Calliope mini this feature requires that firmware doesn't have
+a main script embedded into it.)
+
+You can list files on device's filesystem with magic command ``%lsdevice``.
+
+If you want to test the uploaded main script via Thonny, then select *Device → Soft reboot*
+or press Ctrl-D. (This is also the way to enter auto-reload mode with CircuitPython -- 
+just follow the Ctrl-D with a Ctrl-C.) 
+
+Even with devices which allow easy saving of scripts to their flash memory, we recommend
+keeping the originals of your scripts in your main computer (preferably under version
+control) and copy them to the device as required. It's too easy to lose your work if
+you rely only on the device's flash memory. Still, Thonny also tries to support
+the working mode where you save your scripts to the device directly -- each save is 
+performed together with a synchronization command which reduces the possibility of
+corrupting your flash memory with an unprepared unplugging or hard reset. 
+
+Firmware installation / upgrade
+-------------------------------
+Device specific plug-ins in this plug-in line also offer support for uploading or 
+updating devices firmware. Look for suitable commands under "Device" menu. In some cases
+latest firmware is provided by the plug-in, in some cases the plug-in assists you
+in downloading one and in some cases you need to download and point it yourself.
+
+
+Thonny REPL vs. plain MicroPython serial REPL
+----------------------------------------------
+After connecting with your device Thonny switches it to raw REPL mode and uses this 
+mode under the hood to run the scripts, query global variables, etc (don't worry, 
+Thonny doesn't make any permanent modifications -- after resetting the device, the
+REPL is back in regular mode). For the user it is still presented as regular REPL.
+
+Because of using raw REPL under the hood, Thonny doesn't support Ctrl-A and Ctrl-B
+for switching between raw and regular REPL. It also doesn't support Ctrl-E for entering
+paste mode -- this is not necessary as you can paste any amount of code into 
+regular Thonny REPL.
+
+We hope that most users will find it convenient that upon connecting to a device
+Thonny interrupts the currently running program and presents the REPL. Depending on the
+device, this may still leave the possibility to inspect the program's global variables
+(this doesn't work in CircuitPython, as it clears the variables after interrupt).
+But this approach doesn't support connecting to a device to observe its serial output.
+Therefore, if you have a MicroPython device running and you want to see it's output
+without interrupting it, then you should connect to it via another 
+program (screen, Putty, mu). If you don't mind restarting the process, then you can still
+use Thonny -- just issue *Device → Soft reboot* after connecting. 
+
+Support
+-------
+At the moment, the plug-ins for specific boards are developed by Thonny's main developers, so you can
+use `Thonny's forum <https://groups.google.com/forum/#!forum/thonny>`_ for asking help.
+
+General bugs and proposals should be registered under 
+`Thonny's bug-tracker <https://bitbucket.org/plas/thonny/issues>`_.
+Device specific issues should be reported under specific projects' bug-trackers.
