@@ -9,3 +9,4 @@ Thonny wiki
 * `Deployment options <DeploymentOptions>`_
 * `Installing Thonny to an existing Python <SeparateInstall>`_
 * `Installing extra packages <InstallingPackages>`_
+* `Using Thonny for MicroPython <MicroPython>`_
