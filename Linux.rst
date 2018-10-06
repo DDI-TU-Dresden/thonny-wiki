@@ -34,7 +34,7 @@ If you want to install latest bundle with default settings, then execute followi
 
 .. sourcecode:: none
 
-    bash <(curl -s http://thonny.org/installer-for-linux)
+    bash <(curl -s https://thonny.org/installer-for-linux)
 
 This script downloads and unpacks suitable installer for your platform and executes it.
 
