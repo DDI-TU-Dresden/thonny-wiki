@@ -34,6 +34,29 @@ If you don't want to mess with the path then it's easiest to develop and test th
 
 NB! In current master and in releases starting from 2.2b5 the location `~/.thonny/plugins/` will be replaced by the directory where your `pip install --user` packages go.
 
+### An example with Linux commands
+
+First make sure you have installed all [required Python packages](https://bitbucket.org/plas/thonny/src/master/requirements.txt?at=master&fileviewer=file-view-default) (either with pip into a virtual environment or via system tools).
+
+Following commands show how to set up both Thonny and your plugin project with the hello plugin shown above. When you run thonny on the last line, you should see the new item in Tools menu.
+
+
+```
+#!bash
+
+cd ~
+mkdir thonny_stuff
+cd thonny_stuff
+git clone https://bitbucket.org/plas/thonny
+mkdir -p my_plugin/thonnycontrib
+cp hello.py my_plugin/thonnycontrib
+export PYTHONPATH=~/thonny_stuff/my_plugin
+cd thonny
+python3 -m thonny
+
+```
+
+
 
 ## What can a plug-in do?
 
