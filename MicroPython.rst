@@ -2,7 +2,7 @@ MicroPython support in Thonny
 =============================
 Since 3.0.0b1 Thonny has basic MicroPython support built-in. In addition to this, there are several plug-ins which add more complete support for specific devices:
 
-* `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ (NB! Version 0.2 is meant for Thonny 2.1. Thonny 3 requires version 0.3b2 or later of this plug-in!)  
+* `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ (NB! Version 0.2 is meant for Thonny 2.1. Thonny 3 requires version 0.3b2 or later of this plug-in! Click on "..." button in plug-in manager to install beta versions)  
 * `thonny-circuitpython <https://bitbucket.org/plas/thonny-circuitpython/>`_
 * `thonny-esp <https://bitbucket.org/plas/thonny-esp/>`_
 * `thonny-pyboard <https://bitbucket.org/plas/thonny-pyboard/>`_
