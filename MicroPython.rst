@@ -6,8 +6,7 @@ Since 3.0.0b1 Thonny has basic MicroPython support built-in. In addition to this
 * `thonny-esp <https://bitbucket.org/plas/thonny-esp/>`_
 * `thonny-pyboard <https://bitbucket.org/plas/thonny-pyboard/>`_
 * `thonny-calliope <https://bitbucket.org/plas/thonny-calliope/>`_
-
-At the moment `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ is separate from this line.  
+* `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ (NB! Thonny 3 requires version 0.3b2 or later of this plug-in!)  
 
 Installation
 ------------
