@@ -5,7 +5,7 @@ If there is no Thonny+Python bundle for your operating system or you can't or do
 General steps
 --------------
 
-1. Install Python 3.4 or later (or choose an existing installation).
+1. Install Python 3.5 or later (or choose an existing installation).
 2. Install Thonny package with ``pip`` using your operating system command line.
 3. Run Thonny package.
 
@@ -26,11 +26,11 @@ For opening system command line:
 2. from the menu choose Go => Utilities
 3. open "Terminal"
 
-Assuming you are using official Python 3.5 distribution, paste following into Terminal and press ENTER:
+Assuming you are using official Python 3.7 distribution, paste following into Terminal and press ENTER:
 
 .. sourcecode:: bash
 
-    /Library/Frameworks/Python.framework/Versions/3.5/bin/pip3.5 install thonny
+    /Library/Frameworks/Python.framework/Versions/3.7/bin/pip3.7 install thonny
 
 You should see something like this:
 
@@ -41,7 +41,4 @@ Now you can run Thonny with following command:
 
 .. sourcecode:: bash
 
-    /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 -m thonny
-
-
-**Updating Tcl/Tk (optional)**. *Thonny relies on something called Tcl/Tk. Your Python installation may use too old Tcl/Tk version, which means you may see Thonny crashing too often or doing weird things. (Python's IDLE has similar problems, see https://www.python.org/download/mac/tcltk). The solution is to install newer version. Go to http://www.activestate.com/activetcl/downloads and download and install the latest 8.5 version of ActiveTcl. (Most likely your Python is linked with Tk 8.5. If IDLE-s about dialog says it uses 8.6, then you probably don't have these problems, but you may install latest ActiveTcl 8.6 anyway)*
+    /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 -m thonny
