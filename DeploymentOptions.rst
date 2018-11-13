@@ -11,6 +11,7 @@ Independently of Thonny main files' location, on first run it creates a user dat
 * ``%APPDATA%\Thonny`` on Windows
 * ``~/Library/Thonny`` on macOS
 * ``$XDG_CONFIG_HOME/Thonny`` (usually ``~/.config/Thonny``) on Linux
+* (When Thonny is pip-installed into a virtual environment, the user directory will be ``.thonny`` in the root of the virtual environment.
 
 This directory can be opened when you select "Tools => Open Thonny data directory" in Thonny.
 
