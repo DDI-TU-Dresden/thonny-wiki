@@ -1,6 +1,3 @@
-Installing extra packages
-============================
-
 With pip-GUI
 -------------
 From "Tools" menu select "Manage packages..." and follow the instructions.
