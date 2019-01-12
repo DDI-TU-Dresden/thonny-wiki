@@ -8,9 +8,3 @@ On the other hand, we're glad to add links to tutorials / help / documentation w
 
 *A related issue: Thonny's main developers are not native English speakers. Feel free to suggest corrections for grammar / spelling / style.*
 
-
-Why doesn't Thonny support breakpoints?
-----------------------------------------
-We believe that current "breakpointless" style is easier to understand for complete beginners.
-
-On the other hand, we understand that in certain cases breakpoints are useful or even necessary. See issue #177 for discussion about adding breakpoints to Thonny
