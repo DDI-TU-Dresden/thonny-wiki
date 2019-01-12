@@ -1,1 +1,0 @@
-See https://bitbucket.org/plas/thonny/src/master/CHANGELOG.rst
