@@ -1,3 +1,6 @@
+For users
+---------
+
 * `Changelog <https://github.com/thonny/thonny/blob/master/CHANGELOG.rst>`_
 * `FAQ <FAQ>`_
 * `Using Thonny on Mac OS X <MacOSX>`_
@@ -7,3 +10,9 @@
 * `Installing Thonny to an existing Python <SeparateInstall>`_
 * `Installing extra packages <InstallingPackages>`_
 * `Using Thonny for MicroPython <MicroPython>`_
+
+For contributors
+----------------
+* `Overview <https://github.com/thonny/thonny/blob/master/CONTRIBUTING.rst>`_
+* TODO: Running Thonny from source
+* `Writing plug-ins <Plugins>`_
