@@ -1,5 +1,4 @@
-For users
----------
+For users:
 
 * `Changelog <https://github.com/thonny/thonny/blob/master/CHANGELOG.rst>`_
 * `FAQ <FAQ>`_
@@ -11,8 +10,8 @@ For users
 * `Installing extra packages <InstallingPackages>`_
 * `Using Thonny for MicroPython <MicroPython>`_
 
-For contributors
-----------------
+For contributors:
+
 * `Overview <https://github.com/thonny/thonny/blob/master/CONTRIBUTING.rst>`_
 * TODO: Running Thonny from source
 * `Writing plug-ins <Plugins>`_
