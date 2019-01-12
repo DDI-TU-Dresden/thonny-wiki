@@ -1,6 +1,4 @@
-=======================================
-Deployment options (since version 3.0)
-=======================================
+NB! These instructions apply to Thonny since version 3.0
 
 Single user
 ------------
