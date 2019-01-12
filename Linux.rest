@@ -1,7 +1,3 @@
-========================
-Thonny on Linux
-========================
-
 Installing via distribution's package manager
 ----------------------------------------------
 
