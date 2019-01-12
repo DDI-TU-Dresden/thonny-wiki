@@ -1,6 +1,3 @@
-Thonny wiki
-===========
-
 * `News <News>`_
 * `FAQ <FAQ>`_
 * `Using Thonny on Mac OS X <MacOSX>`_
