@@ -1,1 +1,0 @@
-Page moved to `another location <SeparateInstall>`_
