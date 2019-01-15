@@ -73,6 +73,6 @@ TODO: See ____ for an example.
 
 ## How to package and distribute your plug-in?
 
-In short: same way as you would package and distribute any Python module or package. Just make sure your distribution name starts with `thonny-` and you have specified supported Thonny version range under dependencies (even if you manage to create a plug-in which works both with Thonny 2.1 and 2.2+). 
+In short: same way as you would package and distribute any Python module or package. Just make sure your distribution name starts with `thonny-` and you have specified supported Thonny version range under dependencies. 
 
-TODO: add an example
+Here is an example: https://github.com/thonny/thonny-pi
