@@ -28,11 +28,9 @@ During startup Thonny locates all such modules and calls their `load_plugin` fun
 
 ## Setting up the development
 
-Where does aforementioned `thonnycontrib` package live? As it is a [namespace package](https://packaging.python.org/guides/packaging-namespace-packages/), it can be spread out to several places on Python path. This means you can either use a directory which is already on Python path or you can create your project anywhere and run Thonny with project directory added to the path.
+Where does aforementioned `thonnycontrib` package live? As it is a [namespace package](https://packaging.python.org/guides/packaging-namespace-packages/), it can be spread out to several places on Python path. This means you can either use a directory which is already on Python path or you can create your project anywhere and run Thonny with project directory added to the path (eg. via PYTHONPATH environment variable).
 
-If you don't want to mess with the path then it's easiest to develop and test the plug-in under `~/.thonny/plugins/Python??/site-packages/thonnycontrib`. If this directory doesn't exist yet, then I recommend to install an existing plugin first -- this will create the proper directory. As a quick test, save the example plug-in code from above to `hello.py` in this folder. When you now (re)start Thonny, you should see a new item in Tools-menu.
-
-NB! In current master and in releases starting from 2.2b5 the location `~/.thonny/plugins/` will be replaced by the directory where your `pip install --user` packages go.
+If you don't want to mess with the path then it's easiest to develop and test the plug-in under your Python's user site directory (the exact path is given in the Tools => Manage Plug-ins dialog)
 
 ### An example setup (with Linux commands)
 
