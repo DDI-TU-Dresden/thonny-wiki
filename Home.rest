@@ -13,6 +13,6 @@ For users:
 For contributors:
 
 * `Overview <https://github.com/thonny/thonny/blob/master/CONTRIBUTING.rst>`_
-* `Running Thonny from source <RunningFromSource>`_
+* `Running Thonny from the source <Running-from-the-source>`_
 * `Writing plug-ins <Plugins>`_
 * `Writing themes (as plug-ins) <Theming>`_
