@@ -16,3 +16,5 @@ For contributors:
 * `Running Thonny from the source <Running-from-the-source>`_
 * `Writing plug-ins <Plugins>`_
 * `Writing themes (as plug-ins) <Theming>`_
+
+[testing]
