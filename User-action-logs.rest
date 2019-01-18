@@ -1,0 +1,10 @@
+Thonny logs each user action to a directory under user home directory. You'll find this directory by selecting *Tools => Open Thonny data folder* and check into subdirectory *user_logs*. The data in these logs is sufficent to reconstruct the history of how the user edited and ran their programs, which commands did they issue and which results did they get.
+
+You can replay these logs when you switch Thonny to expert mode (Tools => Options => General => UI mode). After restarting Thonny you should see a new item in the Tools menu ("Open replayer..."). In the Replayer first select a log from the left and then browse through the events in the right. The replayer is currently "academic quality" software, sorry about this.
+
+If you want to gather logs from your students, ask them to select *Tools => Export usage logs* and send it to you.
+
+Format of the logs
+------------------
+Short story: Each file in the user logs directory represents one session (from starting Thonny GUI till closing it). Each item in the JSON array represents an event. Event name is in the "sequence" field (bad name, I know). One user event (eg. pressing Ctrl+V for paste) may end up as several events in the log (one about executing the specific high-level command and other about new characters appearing in the editor). Most editor events become more clear if you familiarize yourself with Tkinter Text widget (http://infohost.nmt.edu/tcc/help/pubs/tkinter/web/text.html)
+
