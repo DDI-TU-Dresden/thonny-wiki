@@ -9,6 +9,7 @@ For users:
 * `Installing Thonny to an existing Python <SeparateInstall>`_
 * `Installing extra packages <InstallingPackages>`_
 * `Using Thonny for MicroPython <MicroPython>`_
+* `Custom shortcuts <Custom-shortcuts>`_
 
 For contributors:
 
