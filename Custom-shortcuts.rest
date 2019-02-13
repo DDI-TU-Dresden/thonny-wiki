@@ -1,0 +1,20 @@
+As of version 3.1, Thonny lacks `the GUI for changing commands' keyboard shortcuts <https://github.com/thonny/thonny/issues/306>`, but if you really want, then the shortcuts can be changed by editing the configuration file manually.
+
+Let's say you want to change the shortcut for "Run => Run current script" to ``Ctrl+E`` (I know, ``Ctrl+R`` would be more suitable, but it wouldn't suit as an example, because this command already has ``Ctrl+R`` as alternative shortcut. I know, hidden alternative shortcuts may not be the best idea, maybe I'll get rid of these in the future).
+
+Anyway, in order to make Thonny run current script on ``Ctrl+E`` follow these steps:
+
+1. From Thonny "Tools" menu select "Open Thonny data folder ..."
+2. Close Thonny (otherwise your manual changes will be overwritten when Thonny gets closed later)
+3. Open configuration.ini from the data folder in a text editor.
+4. If the section ``[shortcuts]`` is missing, then add it to the end of the configuration file. 
+5. Under ``[shortcuts]`` add following line: ``run_current_script = <Control-e>``.
+6. Save the configuration file.
+7. Open Thonny
+8. Enjoy your new shortcut.
+
+Let's analyze ``run_current_script = <Control-e>``. Left part is the command id and right part is `Tkinter event sequence <http://infohost.nmt.edu/tcc/help/pubs/tkinter/web/event-sequences.html>`_.
+
+In order to find what command id-s are available, you need to `search the codebase for ".add_command" <https://github.com/thonny/thonny/search?q=.add_command&unscoped_q=.add_command>`_. Command id is the first argument to this call.
+
+Event sequence usually consists of a modifier (eg. ``Alt``, ``Control``, ``Command``) and a letter. NB! If you don't want to include ``Shift`` in the shortcut then write the letter in lowercase. Don't worry how the 
