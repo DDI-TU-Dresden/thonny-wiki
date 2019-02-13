@@ -1,4 +1,4 @@
-As of version 3.1, Thonny lacks `the GUI for changing commands' keyboard shortcuts <https://github.com/thonny/thonny/issues/306>`, but if you really want, then the shortcuts can be changed by editing the configuration file manually.
+As of version 3.1, Thonny lacks `the GUI for changing commands' keyboard shortcuts <https://github.com/thonny/thonny/issues/306>`_, but if you really want, then the shortcuts can be changed by editing the configuration file manually.
 
 Let's say you want to change the shortcut for "Run => Run current script" to ``Ctrl+E`` (I know, ``Ctrl+R`` would be more suitable, but it wouldn't suit as an example, because this command already has ``Ctrl+R`` as alternative shortcut. I know, hidden alternative shortcuts may not be the best idea, maybe I'll get rid of these in the future).
 
@@ -17,4 +17,4 @@ Let's analyze ``run_current_script = <Control-e>``. Left part is the command id 
 
 In order to find what command id-s are available, you need to `search the codebase for ".add_command" <https://github.com/thonny/thonny/search?q=.add_command&unscoped_q=.add_command>`_. Command id is the first argument to this call.
 
-Event sequence usually consists of a modifier (eg. ``Alt``, ``Control``, ``Command``) and a letter. NB! If you don't want to include ``Shift`` in the shortcut then write the letter in lowercase. Don't worry how the 
+Event sequence usually consists of a modifier (eg. ``Alt``, ``Control``, ``Command``) and a letter or a `special key <http://infohost.nmt.edu/tcc/help/pubs/tkinter/web/key-names.html>`_. NB! If you don't want to include ``Shift`` in the shortcut then write the letter in lowercase. Thonny takes care of proper presentation of the shortcut in menu items.
