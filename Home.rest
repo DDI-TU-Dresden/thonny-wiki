@@ -10,6 +10,7 @@ For users:
 * `Installing extra packages <InstallingPackages>`_
 * `Using Thonny for MicroPython <MicroPython>`_
 * `Custom shortcuts <Custom-shortcuts>`_
+* `Custom layout <Custom-layout>`_
 
 For contributors:
 
