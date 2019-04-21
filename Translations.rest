@@ -7,4 +7,4 @@ Discussion: https://github.com/thonny/thonny/issues/668
 **NB!**
 
 * At the moment only part of the UI strings are marked as translatable. Help is welcome here!
-* Don't expect the source strings to remain stable across Thonny versions! If a string that you've translated seems to been reverted to English in next version, then the source string was probably updated and you need look it up and translate again in the POEditor.
+* Don't expect the source strings to remain stable across Thonny versions! If a string that you've translated seems to been reverted to English in next version, then the source string was probably updated and you need look it up in the POEditor and translate again.
