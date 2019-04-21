@@ -18,7 +18,7 @@ For contributors:
 * `Running Thonny from the source <Running-from-the-source>`_
 * `Writing plug-ins <Plugins>`_
 * `Writing themes (as plug-ins) <Theming>`_
-* `Adding (or enhancing) translations <Translation>`_
+* `Adding (or enhancing) translations <Translations>`_
 
 For education researchers:
 
