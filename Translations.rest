@@ -1,6 +1,6 @@
 Thonny will be translatable in version 3.2
 
-Directions: https://github.com/thonny/thonny/blob/master/docs/translate.md
+Instructions: https://github.com/thonny/thonny/blob/master/docs/translate.md
 
 Discussion: https://github.com/thonny/thonny/issues/668
 
