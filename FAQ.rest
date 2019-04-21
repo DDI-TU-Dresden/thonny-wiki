@@ -2,11 +2,9 @@ Some questions, that have come up several times in various discussions.
 
 I want to help by translating Thonny UI or webpage to another language. How should I start?
 --------------------------------------------------------------------------------------------
-We're grateful to everybody who have offered translations, but at the moment Thonny doesn't have any infrastructure set up for this. (We haven't considered it a priority because Thonny users need to deal with English anyway, because of Python keywords and libraries).
+See `Translations <Translations>`_
 
-UPDATE: There are `plans to get the infrastructure done <https://github.com/thonny/thonny/issues/668>`_.
-
-On the other hand, we're glad to add links to tutorials / help / documentation written in other languages.
+We're glad to add links to tutorials / help / documentation written in other languages.
 
 *A related issue: Thonny's main developers are not native English speakers. Feel free to suggest corrections for grammar / spelling / style.*
 
