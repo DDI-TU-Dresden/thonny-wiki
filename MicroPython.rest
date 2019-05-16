@@ -24,7 +24,7 @@ Configuration
 Before continuing make sure you have your device attached to a USB port. If
 required, install necessary drivers for serial communication.
 
-In Thonny open the back-end manager (Tools → Options → Back-end) and choose 
+In Thonny open the back-end manager (Tools → Options → Interpreter) and choose 
 the type of your device from the drop-down list. If your device doesn't have
 specific plug-in, then try "MicroPython on generic device".
 
