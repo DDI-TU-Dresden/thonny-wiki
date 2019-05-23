@@ -18,6 +18,6 @@ If it is under Applications, then use following command instead:
 ```
 
 ### See the logs (macOS) ###
-The logs are in a hidden folder, so you can't just navigate there in Finder. You need to go there directly -- press `Command+Shift+G` and enter `~/.thonny` into the dialog that appears. (If it complains that folder doesn't exist, then Thonny has crashed before creating this folder).
+The logs are in a hidden folder, so you can't just navigate there in Finder. You need to go there directly -- press `Command+Shift+G` and enter `~/Library/Thonny` into the dialog that appears. (If it complains that folder doesn't exist, then Thonny has probably crashed before creating this folder).
 
 If you see any non-empty files with ".log" extension, then you could inspect these to learn more (or send them to Thonny developers).
