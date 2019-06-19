@@ -8,12 +8,12 @@ Location of configuration and log files
 ----------------------------------------
 Independently of Thonny main files' location, on first run it creates a directory which is used for storing user configuration and logs. The path of this directory computed as follows:
 
-* (Since 3.2) if Thonny runs in portable mode ⇒ ``thonny_data`` under the main directory of the program (eg. ``F:\Thonny\thonny_data\`` or ``\media\MY_USB_DRIVE\thonny\thonny_data``)
-* else if pip-installed into a virtual environment ⇒ ``thonny_data`` under the root of the environment (before 3.2 it was ``.thonny`` and it could be overridden by ``THONNY_USER_DIR``)
-* else if environment variable ``THONNY_USER_DIR`` is defined ⇒ the value of this variable
-* else if installed on Windows ⇒ ``%APPDATA%\Thonny``
-* else if installed on macOS ⇒ ``~/Library/Thonny``
-* else if installed on Linux ⇒ ``$XDG_CONFIG_HOME/Thonny`` (usually ``~/.config/Thonny``)
+* (Since 3.2) if Thonny runs in **portable mode** ⇒ ``thonny_data`` under the main directory of the program (eg. ``F:\Thonny\thonny_data\`` or ``\media\MY_USB_DRIVE\thonny\thonny_data``)
+* else if pip-installed into a **virtual environment** ⇒ ``thonny_data`` under the root of the environment (before 3.2 it was ``.thonny`` and it could be overridden by ``THONNY_USER_DIR``)
+* else if **environment variable** ``THONNY_USER_DIR`` is defined ⇒ the value of this variable
+* else if installed on **Windows** ⇒ ``%APPDATA%\Thonny``
+* else if installed on **macOS** ⇒ ``~/Library/Thonny``
+* else if installed on **Linux** ⇒ ``$XDG_CONFIG_HOME/Thonny`` (usually ``~/.config/Thonny``)
 
 This directory can be opened when you select "Tools => Open Thonny data directory" in Thonny.
 
