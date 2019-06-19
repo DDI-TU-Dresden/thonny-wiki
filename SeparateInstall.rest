@@ -14,7 +14,7 @@ See `Windows <Windows>`_
 
 Mac OS X
 -----------
-If you don't have Python 3.6 or later installed, go to https://www.python.org/downloads/mac-osx/ and install the latest Python 3.7 from there. (NB! Thonny 3.0 requires Python which is linked to Tk 8.6. Python 3.7 provided at www.python.org is suitable for this.)
+If you don't have Python 3.5 or later installed, go to https://www.python.org/downloads/mac-osx/ and install the latest Python from there. (NB! Thonny requires Python which is linked to Tk 8.6. Python installers provided at www.python.org are suitable.)
 
 For installing Thonny as a package, you need to go to the system command line and execute something like ``pip install thonny``, but you need to make sure command ``pip`` is related to correct Python installation.
 
