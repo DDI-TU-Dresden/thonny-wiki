@@ -6,7 +6,7 @@ Main Thonny+Python bundles are designed to be installed by the end user. Therefo
 
 Location of configuration and log files
 ----------------------------------------
-Independently of Thonny main files' location, on first run it creates a directory which is used for storing user configuration and logs. The path of this directory computed as follows:
+Independently of Thonny program files' location, on first run it creates a directory which is used for storing user configuration and logs. The path of this directory computed as follows:
 
 * if **environment variable** ``THONNY_USER_DIR`` is defined ⇒ the value of this variable
 * else if Thonny runs in **portable mode** ⇒ ``user_data`` under the main directory of the program (Since 3.2)
