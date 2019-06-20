@@ -20,7 +20,7 @@ Pre-configuring an all-users installation
 -----------------------------------------
 You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their Thonny user directory. You can do it by letting Thonny know how to initialize that directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny\user_dir_template``). 
 
-For example, if you want to use a separate Python installation for the backend:
+For example, if you want to use a separate Python installation for the backend, the `configuration.ini` should be something like this:
 
 .. sourcecode:: ini
 
@@ -38,29 +38,6 @@ You can arrange your shared Thonny so that the students can start off with same 
 Just  pip-install the required packages and plug-ins directly into the ``site-packages`` of the bundled Python (or external Python if so configured). The easiest way for this is to open Thonny, select "Tools => Open system shell..." and use command-line pip. 
 
 **NB!** Each time you re-install Thonny, its program directory will be cleaned first. This means, the shared packages you installed into bundled Python's ``site-packages`` need to be reinstalled after reinstalling/upgrading Thonny.
-
-
-Changing the location of user directory
-------------------------------------------------------
-Regardless of your deployment scheme, you may want to override the path of Thonny user directory. This can be done with ``THONNY_USER_DIR`` environment variable. You could create a launch script which sets this variable and then runs Thonny, or you can read further ...
-
-
-customize.py
------------------
-Since version 2.1.10 Thonny looks for a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). If present this is run as first step of launching.
-
-You can use this to prepare the environment for Thonny, eg:
-
-.. sourcecode:: python
-
-    import thonny
-    thonny.THONNY_USER_DIR = "H:\\home\\.thonny"
-
-    
-Upgrading shared Thonny
--------------------------
-Nothing special here, just reinstall or replace Thonny program files. Just be careful not to lose your customizations (``customize.py`` and/or ``user_dir_template``) -- the installer first cleans the target directory!
-
 
 Creating a portable version of Thonny
 -------------------------------------
@@ -81,8 +58,8 @@ pip-installing Thonny to an existing Python
 --------------------------------------------
 See `here <SeparateInstall>`_.
 
-Location of configuration and log files
-----------------------------------------
+Location of Thonny's user data (configuration and log files)
+------------------------------------------------------------
 Independently of Thonny program files' location, on first run it creates a directory which is used for storing user configuration and logs. The path of this directory is chosen as follows:
 
 * if **environment variable** ``THONNY_USER_DIR`` is defined ⇒ the value of this variable
@@ -94,3 +71,13 @@ Independently of Thonny program files' location, on first run it creates a direc
 
 This directory can be opened when you select "Tools => Open Thonny data directory" in Thonny.
 
+customize.py
+-----------------
+Since version 2.1.10 Thonny looks for a script named ``customize.py`` under ``thonny`` package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). If present, it is run as first step of launching.
+
+You can use this to prepare the environment for Thonny, eg:
+
+.. sourcecode:: python
+
+    import thonny
+    thonny.THONNY_USER_DIR = "H:\\home\\.thonny"
