@@ -8,7 +8,7 @@ All users in the local machine
 ------------------------------
 Thonny Windows installer has also all-users mode -- for this you just need to run it as administrator (Right-click and "Run as administrator").
 
-In Linux you can either install ``thonny`` package from your distro's repository (may be older version) or you can simply run the bundle installer with ``sudo` and choose a target directory which is accessible for all users. If the install location is outside of `/home`, the installer creates launcher for all users.
+In Linux you can either install ``thonny`` package from your distro's repository (may be older version) or you can simply run the bundle installer with ``sudo`` and choose a target directory which is accessible for all users. If the install location is outside of `/home`, the installer creates launcher for all users.
 
 Windows classroom
 ------------------
