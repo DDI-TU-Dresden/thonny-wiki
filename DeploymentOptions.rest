@@ -2,28 +2,23 @@ NB! These instructions apply to Thonny since version 3.0
 
 Single user
 ------------
-Main Thonny+Python bundles are designed to be installed by the end user. Therefore Windows installer does not require admin privileges and installs under ``%LOCALAPPDATA%\Programs\Thonny`` by default. Since version 2.1.21 the installer has also all-users mode -- for this you just need to run it as administrator (Right-click and "Run as administrator").
+Main Thonny+Python bundles are designed to be installed by the end user. Therefore Windows and Linux installers don't require admin privileges and install under user home (``%LOCALAPPDATA%\Programs\Thonny`` / ``~/apps/thonny``) by default. For macOS it's a non-issue -- you simply copy the bundle where you want it.
 
-Location of configuration and log files
-----------------------------------------
-Independently of Thonny program files' location, on first run it creates a directory which is used for storing user configuration and logs. The path of this directory is chosen as follows:
+All users in the local machine
+------------------------------
+Thonny Windows installer has also all-users mode -- for this you just need to run it as administrator (Right-click and "Run as administrator").
 
-* if **environment variable** ``THONNY_USER_DIR`` is defined ⇒ the value of this variable
-* else if Thonny runs in **portable mode** ⇒ ``user_data`` under the main directory of the program (Since 3.2)
-* else if pip-installed into a **virtual environment** ⇒ ``.thonny`` under the root of the environment
-* else if installed on **Windows** ⇒ ``%APPDATA%\Thonny``
-* else if installed on **macOS** ⇒ ``~/Library/Thonny``
-* else if installed on **Linux** ⇒ ``$XDG_CONFIG_HOME/Thonny`` (usually ``~/.config/Thonny``)
-
-This directory can be opened when you select "Tools => Open Thonny data directory" in Thonny.
+In Linux you can either install the package from distro's repository (may be older version) or you can simply run the bundle installer with ``sudo` and choose a target directory which is accessible for all users. If the install location is outside of `/home`, the installer creates launcher for all users.
 
 Windows classroom
 ------------------
 If the computer lab supports persistent user profiles and users' disk quota is big enough, then the **single user** deployment scheme is suitable also in classroom setting. (Depending on your lab set-up you may want to recommend students to install into ``...\AppData\Roaming\...`` instead of ``...\AppData\Local\...``.)
 
-Most likely the admins want to install it for all users (see above). The installation program can be scripted -- see http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline for details. You can install Thonny either locally or to a network drive. 
+Most likely the admins want to install it for all users (see above). The installation program can be scripted -- see http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline for details. You can install Thonny either locally or to a network drive.
 
-You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their Thonny user directory. Since version 2.1.10 you can do it by letting Thonny know how to initialize that directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny\user_dir_template``). 
+Pre-configuring an all-users installation
+-----------------------------------------
+You could **pre-configure Thonny** for all users by arranging a suitable ``configuration.ini`` in their Thonny user directory. You can do it by letting Thonny know how to initialize that directory. For this you should create a directory named ``user_dir_template`` under ``thonny``-package (eg. ``P:\ClassroomNetworkPrograms\Thonny\Lib\site-packages\thonny\user_dir_template``). 
 
 For example, if you want to use a separate Python installation for the backend:
 
@@ -33,14 +28,17 @@ For example, if you want to use a separate Python installation for the backend:
     backend_name = CustomCPython
     
     [CustomInterpreter]
-    path = C:\Python36-64\python.exe
+    path = C:\Python37-64\python.exe
 
 
 Preparing shared 3rd party packages and plug-ins
 ------------------------------------------------
 You can arrange your shared Thonny so that the students can start off with same set of 3rd party packages.
 
-Just  pip-install the required packages and plug-ins directly into the ``site-packages`` of the bundled Python (or external Python if so configured). The easiest way for this is to open Thonny, select "Tools => Open system shell..." and use command-line pip.
+Just  pip-install the required packages and plug-ins directly into the ``site-packages`` of the bundled Python (or external Python if so configured). The easiest way for this is to open Thonny, select "Tools => Open system shell..." and use command-line pip. 
+
+**NB!** Each time you re-install Thonny, its program directory will be cleaned first. This means, the shared packages you installed into bundled Python's ``site-packages`` need to be reinstalled after reinstalling/upgrading Thonny.
+
 
 Changing the location of user directory
 ------------------------------------------------------
@@ -82,3 +80,17 @@ Following ``customize.py`` should do:
 pip-installing Thonny to an existing Python 
 --------------------------------------------
 See `here <SeparateInstall>`_.
+
+Location of configuration and log files
+----------------------------------------
+Independently of Thonny program files' location, on first run it creates a directory which is used for storing user configuration and logs. The path of this directory is chosen as follows:
+
+* if **environment variable** ``THONNY_USER_DIR`` is defined ⇒ the value of this variable
+* else if Thonny runs in **portable mode** ⇒ ``user_data`` under the main directory of the program (Since 3.2)
+* else if pip-installed into a **virtual environment** ⇒ ``.thonny`` under the root of the environment
+* else if installed on **Windows** ⇒ ``%APPDATA%\Thonny``
+* else if installed on **macOS** ⇒ ``~/Library/Thonny``
+* else if installed on **Linux** ⇒ ``$XDG_CONFIG_HOME/Thonny`` (usually ``~/.config/Thonny``)
+
+This directory can be opened when you select "Tools => Open Thonny data directory" in Thonny.
+
