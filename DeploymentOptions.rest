@@ -10,11 +10,11 @@ Thonny Windows installer has also all-users mode -- for this you just need to ru
 
 In Linux you can either install ``thonny`` package from your distro's repository (may be older version) or you can simply run the bundle installer with ``sudo`` and choose a target directory which is accessible for all users. If the target directory is outside of ``/home``, the installer creates launcher for all users.
 
-Windows classroom
+Classroom
 ------------------
-If the computer lab supports persistent user profiles and users' disk quota is big enough, then the **single user** deployment scheme is suitable also in classroom setting. (Depending on your lab set-up you may want to recommend students to install into ``...\AppData\Roaming\...`` instead of ``...\AppData\Local\...``.)
+If the computer lab supports persistent user profiles and users' disk quota is big enough, then the **single user** deployment scheme is suitable also in classroom setting. (Depending on your lab set-up you may want to recommend students to install into ``...\AppData\Roaming\...`` instead of ``...\AppData\Local\...`` in Windows.)
 
-Most likely the admins want to install it for all users (see above). The installation program can be scripted -- see http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline for details. You can install Thonny either locally or to a network drive.
+Most likely the admins want to install it for all users (see above). The installation procedure can be scripted (see http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline for instructions about command line usage of Windows installer). You can install Thonny either locally or to a network drive.
 
 Pre-configuring an all-users installation
 -----------------------------------------
