@@ -39,6 +39,12 @@ Just  pip-install the required packages and plug-ins directly into the ``site-pa
 
 **NB!** Each time you re-install Thonny, its program directory will be cleaned first. This means, the shared packages you installed into bundled Python's ``site-packages`` need to be reinstalled after reinstalling/upgrading Thonny.
 
+Prescribing 3rd party packages to students who installed Thonny themselves
+---------------------------------------------------------------------------
+Just forward the list of package names to your students and have them install packages via "Tools => Manage packages".
+
+In a future version (3.2 or 4.0) Thonny allows also provides GUI for installing from `requirements.txt` file.
+
 Portable version
 ----------------
 You can put Thonny+Python bundle to an external hard-drive or USB stick and run it in compatible systems without installing anything.
