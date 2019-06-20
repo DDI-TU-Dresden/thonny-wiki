@@ -39,20 +39,19 @@ Just  pip-install the required packages and plug-ins directly into the ``site-pa
 
 **NB!** Each time you re-install Thonny, its program directory will be cleaned first. This means, the shared packages you installed into bundled Python's ``site-packages`` need to be reinstalled after reinstalling/upgrading Thonny.
 
-Creating a portable version of Thonny
--------------------------------------
-You can use the information from previous sections to prepare yourself a portable, USB-stick-ready Thonny.
+Portable version
+----------------
+You can put Thonny+Python bundle to an external hard-drive or USB stick and run it in compatible systems without installing anything.
 
-Following ``customize.py`` should do:
+* In Windows extract zip-file from the release page to the removable drive. Launch the program with ``thonny.exe``
+* (Since 3.2) In Linux extract tar.gz file from the release page to the removable drive. Delete (or ignore) ``install`` and ``install.py`` files. Launch the program with ``bin/thonny``.
+* (Since 3.2) In macOS simply copy the app bundle to the removable drive. Launch the program as usual.
 
-.. sourcecode:: python
+Since 3.2 Thonny will work in portable mode simply when being run from a removable drive. In this mode it keeps (almost) all traces of its work (configuration files, logs) within its program directory. 
 
-    import os.path
-    import thonny
-    
-    user_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", ".thonny")
-    thonny.THONNY_USER_DIR = os.path.abspath(user_dir)
+NB! Always pay attention to the installation target directory in "Tools => Manage packages" and "Tools => Manage plug-ins". Unless you are using a virtual backend, Thonny will install new packages to global user-site-packages even when running in portable mode. This will be probably changed in version 4.0 (#718).
 
+If you want to add new 3rd party packages to your portable Thonny, then install them directly into main site-packages (see above).
 
 pip-installing Thonny to an existing Python 
 --------------------------------------------
