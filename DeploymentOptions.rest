@@ -40,7 +40,7 @@ Preparing shared 3rd party packages and plug-ins
 ------------------------------------------------
 You can arrange your shared Thonny so that the students can start off with same set of 3rd party packages.
 
-Just  pip-install the required packages and plug-ins directly into the ``site-packages`` of the built-in Python (or external Python if so configured). The easiest way for this is to open Thonny with sufficient privileges, select "Tools => Open system shell..." and use command-line pip.
+Just  pip-install the required packages and plug-ins directly into the ``site-packages`` of the bundled Python (or external Python if so configured). The easiest way for this is to open Thonny, select "Tools => Open system shell..." and use command-line pip.
 
 Changing the location of user directory
 ------------------------------------------------------
