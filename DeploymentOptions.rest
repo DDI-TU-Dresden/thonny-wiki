@@ -41,9 +41,9 @@ Just  pip-install the required packages and plug-ins directly into the ``site-pa
 
 Prescribing 3rd party packages to students who installed Thonny themselves
 ---------------------------------------------------------------------------
-Just forward the list of package names to your students and have them install packages via "Tools => Manage packages".
+If you use only couple of packages then have your students install these one-by-one via "Tools => Manage packages". Alternatively have them use from command line, but pay attention whether to use ``--user`` or not.
 
-In a future version (3.2 or 4.0) Thonny allows also provides GUI for installing from `requirements.txt` file.
+Since version 3.2 same dialog also allows installing from a `requirements.txt` file.
 
 Portable version
 ----------------
