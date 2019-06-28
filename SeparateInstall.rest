@@ -4,7 +4,7 @@ General steps
 --------------
 
 1. Install Python 3.5 or later (or choose an existing installation).
-2. Install Thonny package with ``pip`` (possibly ``pip3'') using your operating system command line.
+2. Install Thonny package with ``pip`` (possibly ``pip3``) using your operating system command line.
 3. Run Thonny package.
 
 
