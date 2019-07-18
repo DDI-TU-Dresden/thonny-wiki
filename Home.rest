@@ -2,6 +2,7 @@ For users:
 
 * `Changelog <https://github.com/thonny/thonny/blob/master/CHANGELOG.rst>`_
 * `FAQ <FAQ>`_
+* `Troubleshooting <Troubleshooting>`_
 * `Using Thonny on Mac OS X <MacOSX>`_
 * `Using Thonny on Windows <Windows>`_
 * `Using Thonny on Linux <Linux>`_
