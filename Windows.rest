@@ -7,7 +7,7 @@ Installing Thonny and Python bundle
 Thonny bundles are supported on Windows 7, 8 and 10. If you need Thonny on Vista or XP, then see below how to install Thonny and Python separately.
 
 
-By default the Windows installer doesn't request admin privileges to run (but see the section on SmartScreen Filter). This way students can install it on their lab computers at school without bugging the administrator. Without admin privileges it's not possible to install under Program Files. That's why the installer proposes a folder under the current user's home folder. (BTW, Microsoft now recommends per user installs. Look for "The recommended default installation context is per-user" in http://msdn.microsoft.com/en-us/library/aa367559%28v=vs.85%29.aspx)*
+By default the Windows installer doesn't request admin privileges to run (but see the section on SmartScreen Filter). This way students can install it on their lab computers at school without bugging the administrator. Without admin privileges it's not possible to install it under Program Files. That's why the installer proposes a folder under the current user's home folder. (BTW, Microsoft now recommends per user installs. Look for "The recommended default installation context is per-user" in http://msdn.microsoft.com/en-us/library/aa367559%28v=vs.85%29.aspx)*
 
 If you want to install it for all users (under Program Files), then right-click on the installer executable and select "Run as Administrator".
 
