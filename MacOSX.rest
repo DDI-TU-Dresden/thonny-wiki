@@ -49,4 +49,4 @@ Starting with macOS Sierra, you may need to do more tinkering: http://osxdaily.c
 
 Uninstallation
 ---------------
-Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to trash".
+Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to Trash".
