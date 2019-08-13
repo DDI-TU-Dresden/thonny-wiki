@@ -26,7 +26,7 @@ Actually, it's hard to predict exactly what kind of warnings SmartScreen will gi
 
 How to work around the SmartScreen Filter?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Option 1: If you run the Thonny installer from Internet Explorer or Edge and see the warning "SmartScreen Filter reported Thonny-3.0.8.exe as unsafe", then click the button "View downloads", right-click on Thonny installer and select "Run anyway".
+* Option 1: If you run the Thonny installer from Internet Explorer or Edge and see the warning "SmartScreen Filter reported Thonny-3.0.8.exe as unsafe", then click the button "View downloads", right-click on the Thonny installer and select "Run anyway".
 * Option 2: Just download the installer, open your Downloads folder in Windows Explorer and run the installer from there. Most likely you will see the usual confirmation titled "Do you want to run this file?". Just click "Run" and the installer will start.
 * Option 3: If you got a warning with no option to confirm your intention, or were asked to provide the admin password when you don't have one, then close the warning, right-click the installer, select "Properties" and check "Unblock" at the bottom of the "General" tab. After clicking "OK" you should be able to run the installer without problems.
 * Option 4: Lower the suspicion level in the SmartScreen settings (type "SmartScreen settings" in the Start Menu or Start Screen)
