@@ -1,4 +1,4 @@
-Starting with version 3.0 Thonny+Python bundle is supported on macOS 10.9 Mavericks and later. On older systems you can `install Python and Thonny separately <SeparateInstall>`_.
+Starting with version 3.0, the Thonny+Python bundle is supported on macOS 10.9 Mavericks and later. On older systems you can `install Python and Thonny separately <SeparateInstall>`_.
 
 (Version 2.1.21 can be used on macOS 10.6 and later)
 
@@ -7,7 +7,7 @@ Starting with version 3.0 Thonny+Python bundle is supported on macOS 10.9 Maveri
 Installation
 -------------------------------------
 
-Download latest *.dmg file and open it. You should see a small window with single icon labeled "Thonny" in it.
+Download the latest *.dmg file and open it. You should see a small window with a single icon labelled "Thonny" in it.
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/3178666057-Screen%20Shot%202015-11-26%20at%2011.55.30.png
    :alt: Screen Shot 2015-11-26 at 11.55.30.png
@@ -22,12 +22,12 @@ When copying has finished, you can close the original small window by Ctrl-click
 .. image:: https://bitbucket.org/repo/gXnbod/images/3393714686-Screen%20Shot%202015-11-26%20at%2012.04.04.png
    :alt: Screen Shot 2015-11-26 at 12.04.04.png
 
-Now you can (try to) run Thonny by double-clicking its icon on Desktop or Applications folder. Most likely first time your Mac refuses running it, because I haven't paid Apple 99$ per year to prove that I'm a trustworthy developer :p
+Now you can (try to) run Thonny by double-clicking its icon on the Desktop or Applications folder. Most likely the first time, your Mac will refuse to run it, because I haven't paid Apple $99 per year to prove that I'm a trustworthy developer :p
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/127107093-Screen%20Shot%202015-11-26%20at%2012.08.36.png
    :alt: Screen Shot 2015-11-26 at 12.08.36.png
 
-If this happens, you should Ctrl-click (or right-click) the icon and select "Open" from context menu:
+If this happens, you should Ctrl-click (or right-click) the icon and select "Open" from the context menu:
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/3915137553-Screen%20Shot%202015-11-26%20at%2012.11.36.png
    :alt: Screen Shot 2015-11-26 at 12.11.36.png
@@ -37,11 +37,11 @@ You will get a confirmation dialog where you should click "Open":
 .. image:: https://bitbucket.org/repo/gXnbod/images/3258528481-Screen%20Shot%202015-11-26%20at%2014.54.39.png
    :alt: Screen Shot 2015-11-26 at 14.54.39.png
 
-You may need to provide password for your (or admin) account. (If you don't have admin rights, then you can use this little trick to make your Mac believe the application didn't come from the internet: https://www.youtube.com/watch?v=I4TrFaYVlB0)
+You may need to provide the password for your (or admin) account. (If you don't have admin rights, then you can use this little trick to make your Mac believe the application didn't come from the Internet: https://www.youtube.com/watch?v=I4TrFaYVlB0)
 
-Opening Thonny first time may take several seconds, because Thonny needs to prepare it's files.
+Opening Thonny the first time may take several seconds, because Thonny needs to prepare its files.
 
-Finally you should see Thonny window. Next time you open Thonny, everything should go without any confirmations and much faster.
+Finally you should see the Thonny window. Next time you open Thonny, everything should proceed much more quickly and without any confirmations.
 
 Allowing apps from anywhere
 ----------------------------
@@ -49,4 +49,4 @@ Starting with macOS Sierra, you may need to do more tinkering: http://osxdaily.c
 
 Uninstallation
 ---------------
-Just Ctrl-click (or right-click) Thonny icon on your Desktop or Applications and select "Move to trash".
+Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications and select "Move to trash".
