@@ -1,4 +1,4 @@
-Installing via distribution's package manager
+Installing via the distribution's package manager
 ----------------------------------------------
 
 * **Raspbian** since Stretch comes with Thonny preinstalled. On older Raspbians try ``sudo apt-get install python3-thonny``.
