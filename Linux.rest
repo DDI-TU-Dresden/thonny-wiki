@@ -32,7 +32,7 @@ If you want to install the latest bundle with default settings, then execute the
 
     bash <(curl -s https://thonny.org/installer-for-linux)
 
-This script downloads and unpacks the installer suitable for your platform and executes it.
+This script downloads and unpacks the installer suitable for your platform and then executes it.
 
 Alternative way for installing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
