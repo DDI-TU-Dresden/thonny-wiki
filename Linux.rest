@@ -38,7 +38,7 @@ Alternative installation method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 If you want more control, then you can do the installation steps separately.
 
-`Download <https://github.com/thonny/thonny/releases>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix (run ``uname -m`` in the terminal if you are not sure which you have).
+`Download <https://github.com/thonny/thonny/releases>`_ the file with tar.gz extension. If you have 64-bit Linux, then use file with x86_64 suffix, otherwise use the one with i686 suffix. (Run ``uname -m`` in the terminal if you are not sure which you have).
 
 Unpack the file and run the installation script. For example, in the Ubuntu command line you could execute the following commands:
 
