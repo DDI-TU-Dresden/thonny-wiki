@@ -5,7 +5,7 @@ Installing via the distribution's package manager
 * **Ubuntu** since 18.04: ``sudo apt install thonny``
 * **Fedora** since 27: ``sudo dnf install thonny``
 
-**nb! We're looking for contributors, who are willing to package Thonny for other distros!**
+**nb! We're looking for contributors who are willing to package Thonny for other distros!**
 
 Installing prebuilt Thonny+Python bundles
 -----------------------------------------
