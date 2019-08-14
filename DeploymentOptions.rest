@@ -2,7 +2,7 @@ nb! These instructions apply to Thonny since version 3.0
 
 Single user
 ------------
-The main Thonny+Python bundles are designed to be installed by the end user. Therefore Windows and Linux installers don't require admin privileges and install under the user home (``%LOCALAPPDATA%\Programs\Thonny`` or ``~/apps/thonny`` respectively) by default. For macOS it's a non-issue -- you simply copy the app bundle where you want it.
+The main Thonny+Python bundles are designed to be installed by the end user. Therefore the Windows and Linux installers don't require admin privileges and install under the user home (``%LOCALAPPDATA%\Programs\Thonny`` or ``~/apps/thonny`` respectively) by default. For macOS it's a non-issue -- you simply copy the app bundle where you want it.
 
 All users in the local machine
 ------------------------------
