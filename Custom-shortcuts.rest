@@ -1,4 +1,4 @@
-As of version 3.1, Thonny lacks `the GUI for changing commands' keyboard shortcuts <https://github.com/thonny/thonny/issues/306>`_, but if you really want, you can change shortcuts by editing the configuration file manually.
+As at version 3.1, Thonny lacks `the GUI for changing commands' keyboard shortcuts <https://github.com/thonny/thonny/issues/306>`_, but if you really want, you can change shortcuts by editing the configuration file manually.
 
 Let's say you want to change the shortcut for "Run => Run current script" to ``Ctrl+E`` (I know, ``Ctrl+R`` would be more suitable, but it wouldn't suit as an example, because this command already has ``Ctrl+R`` as its alternative shortcut. I know, hidden alternative shortcuts may not be the best idea - maybe I'll get rid of these in the future).
 
