@@ -60,7 +60,7 @@ Usage
 Each time Thonny connects with your device, it first interrupts the current process 
 and enters the REPL, which is supposed to work just like Thonny's regular Python REPL.
 
-During writing your scripts, Thonny also offers autocomplete (performed by 
+During writing your scripts, Thonny also offers autocomplete (performed by the 
 `jedi <https://jedi.readthedocs.io/>`_ library).
 At the moment this is based on the API-s scraped from specific devices with specific
 MicroPython / CircuitPython versions (different for each backend type).
