@@ -75,7 +75,7 @@ and the script will be executed on your device.
 Once you are happy with your program, you can store it as your device's main script
 which is run each time you reset the device. For this you just need to select
 *Device → Upload current script as main script* or press *Ctrl-U*. (Note that
-with micro:bit and Calliope mini this feature requires that firmware doesn't have
+with micro:bit and Calliope mini this feature requires that the firmware doesn't have
 a main script embedded into it.)
 
 You can list files on the device's filesystem with the magic command ``%lsdevice``.
