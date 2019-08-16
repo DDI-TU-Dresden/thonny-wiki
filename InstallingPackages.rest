@@ -11,7 +11,7 @@ With pip on command line
 #. Enter ``pip install <package name>`` (eg. ``pip install pygame``) and press ENTER. You should see *pip* downloading and installing the package and printing a success message.
 #. Close the terminal (optional)
 #. Return to Thonny
-#. Reset the interpreter by selecting "Stop/Reset" from the "Run menu" (this is required only the first time you do pip install)
+#. Reset the interpreter by selecting "Stop/Reset" from the "Run menu" (this is only required the first time you do the pip install)
 #. Start using the package
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/1183520217-pipinstall_cmdline.png
@@ -27,10 +27,10 @@ Recent versions of most popular scientific Python packages (eg. numpy, pandas an
 
 Example: Using Anaconda
 ------------------------------------
-Go to https://www.continuum.io/downloads and download a suitable binary distribution for your platform. Most likely you want graphical installer and 64-bit version (you may need a 32-bit version if you have a very old system). **Note that Thonny supports only Python 3, so make sure you choose a Python 3 version of Anaconda.**
+Go to https://www.continuum.io/downloads and download a suitable binary distribution for your platform. Most likely you want the graphical installer and the 64-bit version (you may need a 32-bit version if you have a very old system). **Note that Thonny supports only Python 3, so make sure you choose a Python 3 version of Anaconda.**
 
 Install it and find out where it puts the Python executable (*pythonw.exe* in Windows and *python3* or *python* in Linux and Mac). For example in Windows the full path is by default ``c:\anaconda\pythonw.exe``.
 
-In Thonny open the "Tools" menu and select "Options...". In the options dialog open the "Intepreter" tab, click "Select executable" and show the location of Anaconda's Python executable.
+In Thonny, open the "Tools" menu and select "Options...". In the options dialog, open the "Intepreter" tab, click "Select executable" and show the location of Anaconda's Python executable.
 
 After you have done this, the next time you run your program, it will be run through Anaconda's Python and all the libraries installed there will be available.
