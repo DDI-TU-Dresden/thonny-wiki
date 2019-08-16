@@ -1,6 +1,6 @@
 # Plug-ins
 
-**NB! The plug-in system was changed in 3.0**
+**NB! The plug-in system was changed in version 3.0**
 
 Thonny can be extended with 3rd party plug-ins. Usually they are distributed via https://pypi.org and can be installed with Tools => Mangage plug-ins.
 
