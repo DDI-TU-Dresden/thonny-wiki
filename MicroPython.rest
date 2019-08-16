@@ -8,7 +8,7 @@ Some things in Thonny 3.2 work differently as follows:
 * Scripts saved on the device can be opened and saved directly (ie. without copying to a local file first)
 * The "Upload" commands are gone. Use "File => Save as" or "File => Save copy as" instead.
 * The commands in the "Device" menu have been moved to other menus.
-* CircuitPython and micro:bit plug-ins are now part of main Thonny package.
+* CircuitPython and micro:bit plug-ins are now part of the main Thonny package.
 
 
 Thonny 3.0 and 3.1
