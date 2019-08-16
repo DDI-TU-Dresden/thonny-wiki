@@ -14,9 +14,9 @@ See `Windows <Windows>`_
 
 Mac OS X
 -----------
-If you don't have Python 3.5 or later installed, go to https://www.python.org/downloads/mac-osx/ and install the latest Python from there. (NB! Thonny requires Python which is linked to Tk 8.6. Python installers provided at www.python.org are suitable.)
+If you don't have Python 3.5 or later installed, go to https://www.python.org/downloads/mac-osx/ and install the latest Python from there. (nb! Thonny requires Python which is linked to Tk 8.6. Python installers provided at www.python.org are suitable.)
 
-For installing Thonny as a package, you need to go to the system command line and execute something like ``pip install thonny``, but you need to make sure command ``pip`` is related to correct Python installation.
+For installing Thonny as a package, you need to go to the system command line and execute something like ``pip install thonny``, but you need to make sure that the command ``pip`` is related to the correct Python installation.
 
 For opening system command line: 
 
@@ -24,7 +24,7 @@ For opening system command line:
 2. from the menu choose Go => Utilities
 3. open "Terminal"
 
-Assuming you are using official Python 3.7 distribution, paste following into Terminal and press ENTER:
+Assuming you are using official Python 3.7 distribution, paste the following into Terminal and press ENTER:
 
 .. sourcecode:: bash
 
@@ -35,7 +35,7 @@ You should see something like this:
 .. image:: https://bitbucket.org/repo/gXnbod/images/4031047622-Screen%20Shot%202015-11-26%20at%2014.24.23.png
    :alt: Screen Shot 2015-11-26 at 14.24.23.png
 
-Now you can run Thonny with following command:
+Now you can run Thonny with the following command:
 
 .. sourcecode:: bash
 
