@@ -4,7 +4,7 @@ The main part of this text applies to Thonny 3.0 and 3.1. Some things in Thonny 
 
 * The "Files" view can display files on the device
 * Scripts saved on the device can be opened and saved directly (ie. without copying to a local file first)
-* The "Upload " commands are gone. Use "File => Save as" or "File => Save copy as" instead.
+* The "Upload" commands are gone. Use "File => Save as" or "File => Save copy as" instead.
 * The commands in the "Device" menu have been moved to other menus.
 * CircuitPython and micro:bit plug-ins are now part of main Thonny package.
 
@@ -14,7 +14,7 @@ Thonny 3.0 and 3.1
 
 Since version 3.0 Thonny has basic MicroPython support built-in. In addition to this, there are several plug-ins which add more complete support for specific devices:
 
-* `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ (NB! Version 0.2 is meant for Thonny 2.1. Thonny 3 requires version 0.3b2 or later of this plug-in! Click on "..." button in plug-in manager to install beta versions)  
+* `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ (nb! Version 0.2 is meant for Thonny 2.1. Thonny 3 requires version 0.3b2 or later of this plug-in! Click on the "..." button in the plug-in manager to install beta versions)  
 * `thonny-circuitpython <https://github.com/thonny/thonny-circuitpython/>`_
 * `thonny-esp <https://github.com/thonny/thonny-esp/>`_
 * `thonny-pyboard <https://github.com/thonny/thonny-pyboard/>`_
@@ -26,8 +26,7 @@ If your device is supported by a more specific plug-in (listed above), then
 it is recommended to install that plug-in first.
 
 For this, open Thonny's plug-in manager 
-(Tools → Manage plug-ins ...), enter the name of your chosen plug-in name
-and press "Search".  You should now see the details. Press "Install" to
+(Tools → Manage plug-ins ...), enter the name of your chosen plug-in and press "Search".  You should now see the details. Press "Install" to
 install the default version or "..." to choose specific version.
 
 Note that you need to restart Thonny for the plug-ins to take effect.
