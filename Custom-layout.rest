@@ -1,8 +1,8 @@
-At the moment you can't change the layout of views from the GUI itself, but if you really want, you can do it by editing configuration file by hand. 
+At the moment you can't change the layout of views from the GUI itself, but if you really want, you can do it by editing the configuration file by hand. 
 
 Let's say you want Shell view to appear to the right of the editor:
 
-1. From Thonny "Tools" menu select "Open Thonny data folder ..."
+1. From the Thonny "Tools" menu select "Open Thonny data folder ..."
 2. Close Thonny (otherwise your manual changes will be overwritten when Thonny gets closed later)
 3. Open configuration.ini from the data folder in a text editor.
 4. Under section ``[view]`` add following line: ``shellview.location = ne``
