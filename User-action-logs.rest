@@ -1,3 +1,5 @@
+**NB! Since version 3.2.0 user action logging is disabled by default. It can be turned on from "Tools => Options => General". Don't forget to restart Thonny after this! Export command ("Tools => Export usage logs") is only visible when logging is turned on.**
+
 Thonny logs each user action to a directory under user home directory. You'll find this directory by selecting *Tools => Open Thonny data folder* and check into subdirectory *user_logs*. The data in these logs is sufficent to reconstruct the history of how the user edited and ran their programs, which commands did they issue and which results did they get.
 
 You can replay these logs when you switch Thonny to expert mode (Tools => Options => General => UI mode). After restarting Thonny you should see a new item in the Tools menu ("Open replayer..."). In the Replayer first select a log from the left and then browse through the events in the right. The replayer is currently "academic quality" software, sorry about this.
