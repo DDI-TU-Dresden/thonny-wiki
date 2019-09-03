@@ -50,3 +50,11 @@ Starting with macOS Sierra, you may need to do more tinkering: http://osxdaily.c
 Uninstallation
 ---------------
 Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to Trash".
+
+Opening all py files with Thonny
+--------------------------------
+1. Right-click on a file with the ``.py`` extension.
+2. Choose ``Get Info``.
+3. Under ``Open with:`` select ``Thonny`` in the drop-down.
+4. Click the ``Change All...`` button.
+5. Click the ``Continue`` button when it asks ``Are you sure you want to change all similar documents to open with the application “Thonny”?``
