@@ -50,6 +50,6 @@ macOS 10.15 Catalina changed how apps are given permissions for accessing certai
     
     Backend terminated or disconnected. Use 'Stop/Restart' to restart ...
 
-If this happens, then you may be able to fix it by making Thonny save a new Python file to (or open a file from) the directory you were using last time before upgrading to Catalina -- this is the first directory shown when you open the file selection dialog with "Files => Open" or "Files => Save as". Restart Thonny after this.
+If this happens, then you may be able to fix it by making Thonny save a new Python file to (or open a file from) the directory you were using last time before upgrading to Catalina -- this is the first directory shown when you open the file selection dialog with "File => Open" or "File => Save as". Restart Thonny after this.
 
 If it doesn't help, then you can try `opening Thonny from Terminal <Troubleshooting#open-in-the-terminal-macos>`_ or deleting its configuration file ``~/Library/Thonny/configuration.ini`` (close Thonny first). More details here: https://github.com/thonny/thonny/issues/813
