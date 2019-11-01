@@ -42,7 +42,7 @@ Opening all py files with Thonny
 
 Catalina
 --------
-macOS 10.15 Catalina changed how apps are given permissions for accessing certain folders. If you used Thonny in a previous version and upgraded to Catalina, Thonny may stop working with following message in the shell:
+macOS 10.15 Catalina changed how apps are given permissions for accessing certain folders. If you used Thonny in a previous macOS version and upgraded to Catalina, Thonny may stop working with following message in the shell:
 
 ::
 
