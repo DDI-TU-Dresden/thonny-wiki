@@ -39,3 +39,11 @@ Opening all py files with Thonny
 3. Under ``Open with:`` select ``Thonny`` in the drop-down.
 4. Click the ``Change All...`` button.
 5. Click the ``Continue`` button when it asks ``Are you sure you want to change all similar documents to open with the application “Thonny”?``
+
+Catalina
+--------
+macOS 10.15 Catalina changed how apps get permissions from the operating system. If you used Thonny in a previous version and upgraded to Catalina, Thonny may stop working with following message in the shell:
+
+::
+
+   shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
