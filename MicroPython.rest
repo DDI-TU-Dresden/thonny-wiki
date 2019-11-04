@@ -1,4 +1,4 @@
-*This page describes MicroPython support since Thonny 3.2. See bottom of the page for historical notes.*
+*This page describes MicroPython support since Thonny 3.2. See the bottom of the page for historical notes.*
 
 Configuration
 -------------
