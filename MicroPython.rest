@@ -30,7 +30,7 @@ You can also open files by double-clicking them in Thonny's file browser (View =
 During editing your scripts, Thonny offers autocomplete (performed by the `jedi <https://jedi.readthedocs.io/>`_ library). This is based on the API-s scraped from specific devices with specific MicroPython / CircuitPython versions (different for each backend type). This means that if you are using a different version of firmware then the 
 autocompleter may offer some names that are not present on your device and miss some that are.
 
-*Although Thonny allows you to work without saving anything locally, we recommend keeping master copies of your scripts in your main computer (preferably under version control) and copy them to the device as required (File => Save copy as). It is too easy to lose your work if you rely only on the device's flash memory.*
+*Although Thonny allows you to work without saving anything locally, for serious work we recommend keeping master copies of your scripts in your main computer (preferably under version control) and copy them to the device as required (File => Save copy as). It is too easy to lose your work if you rely only on the device's flash memory.*
 
 
 Running scripts
