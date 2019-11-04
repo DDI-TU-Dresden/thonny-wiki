@@ -13,7 +13,7 @@ Now you can specify the port your device is connected to. If you have only
 one board connected, then you could leave this setting for automatic 
 detection.
 
-If you press "OK", then Thonny's shell should present either the prompt of your 
+After you press "OK", Thonny's shell should present either the prompt of your 
 device's REPL or the output of the script which is currently running on your device.
 
 (If you don't have suitable MicroPython (or CircuitPython) firmware installed 
