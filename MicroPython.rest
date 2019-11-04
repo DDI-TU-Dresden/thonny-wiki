@@ -7,7 +7,7 @@ If required, install the necessary drivers for serial communication.
 
 In Thonny, open the back-end manager (Run → Select interpreter) and choose 
 the type of your device from the drop-down list. If your device doesn't have a 
-specific back-end, then try "MicroPython on generic device".
+specific back-end, then try "MicroPython (generic)".
 
 Now you can specify the port your device is connected to, but if you have only
 one board connected, then you could leave this setting for automatic 
