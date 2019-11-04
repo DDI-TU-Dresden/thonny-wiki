@@ -23,7 +23,7 @@ Editing scripts
 ----------------------------
 When you have a MicroPython back-end selected, "File => Open" allows you to open a file either from local disk, device's USB drive, or "directly" form your device's file system. Same goes to save commands ("Save", "Save as", "Save copy as"). 
 
-Note that Thonny always synchronizes file writes -- this reduces the risk of corrupt files when you accidentally reset your device without proper eject right after saving a file onto its USB drive.
+*Note that Thonny always synchronizes file writes -- this reduces the risk of corrupt files when you accidentally reset your device without proper eject right after saving a file onto its USB drive.*
 
 You can also open files by double-clicking in Thonny's file browser (View => Files).
 
