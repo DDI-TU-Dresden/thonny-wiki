@@ -41,7 +41,7 @@ When you have saved your script onto the device (eg. as "main.py"), you can chec
 
 Managing other files
 ====================
-You can upload / download data files via respective commands in the file browser (View => Files) menu (≡) or files' context menu (opened by right-clicking on a file).
+You can upload / download data and library files and directories via respective commands in the file browser (View => Files) menu (≡) or files' context menu (opened by right-clicking on a file).
 
 Thonny REPL vs. plain MicroPython serial REPL
 ==============================================
