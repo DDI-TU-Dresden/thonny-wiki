@@ -64,6 +64,6 @@ History
 ======================
 * MicroPython support in Thonny started with `BBC micro:bit plug-in by Kauri Raba <https://bitbucket.org/KauriRaba/thonny-microbit/src>`_.
 * General MicroPython support appeared in Thonny 3.0 and was meant to be used via separate plug-ins.
-* Initially one had to edit scripts as local files and save them to the device with special commands in "Device" menu (as described `here <https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/>`_.
+* Initially one had to edit scripts as local files and save them to the device with special commands in "Device" menu (as described `here <https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/>`_).
 * Thonny 3.2 introduced device file browser and allowed to edit files directly in device's file system. "Device" menu was deprecated as file handling commands moved to file browser and firmware commands moved to respective back-end configuration pages. Upload commands are substituted with "File => Save as" and "File => Save copy as" commands.
 * Thonny 3.2 incorporated several plug-ins (microbit, circuitpython, esp) into the main "thonny" package.
