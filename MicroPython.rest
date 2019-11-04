@@ -59,15 +59,6 @@ Firmware installation / upgrade
 Some MicroPython back-ends offer support for installing MicroPython to your device. In this case the back-end configuration page (Run => Select interpreter) has a button for this.
 
 
-Plug-ins
-========
-
-General features and extra support to some boards (BBC micro:bit, CircuitPython boards, ESP-8266, ESP-32) are built into main Thonny package. In addition to this, there are some external plug-ins which add code completion for other devices:
-
-* `thonny-pyboard <https://github.com/thonny/thonny-pyboard/>`_
-* `thonny-calliope <https://github.com/thonny/thonny-calliope/>`_
-
-As of Thonny 3.2, these plug-ins have not gotten much attention from the developers.
 
 History
 ======================
