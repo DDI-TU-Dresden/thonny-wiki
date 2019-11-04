@@ -33,7 +33,6 @@ autocompleter may offer some names that are not present on your device and miss 
 *Although Thonny allows you to work without saving anything locally, we recommend keeping master copies of your scripts in your main computer (preferably under version control) and copy them to the device as required (File => Save copy as). It is too easy to lose your work if you rely only on the device's flash memory.*
 
 
-
 Running scripts
 ----------------
 The easiest way to test your script is to execute it like you would with CPython back-end -- "Run → Run current script (F5)". It doesn't matter whether your script is stored on the local disk or on the device -- in both ways Thonny simply submits the program text to device's REPL.
@@ -54,21 +53,8 @@ regular Thonny REPL.
 
 Firmware installation / upgrade
 -------------------------------
-Device specific plug-ins in this plug-in line also offer support for uploading or 
-updating devices' firmware. Look for suitable commands under the "Device" menu. In some cases the
-latest firmware is provided by the plug-in, in other cases the plug-in assists you
-in downloading one and in further cases you need to download and point to it yourself.
+Some MicroPython back-ends offer support for installing MicroPython to your device. In this case the back-end configuration page (Run => Select interpreter) has a button for this.
 
-
-
-Support
--------
-At the moment, the plug-ins for specific boards are developed by Thonny's main developers, so you can
-use `Thonny's forum <https://groups.google.com/forum/#!forum/thonny>`_ to ask for help.
-
-General bugs and proposals should be registered under 
-`Thonny's bug-tracker <https://bitbucket.org/plas/thonny/issues>`_.
-Device specific issues should be reported under specific projects' bug-trackers.
 
 Plug-ins
 ========
