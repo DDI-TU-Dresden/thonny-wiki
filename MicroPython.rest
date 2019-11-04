@@ -1,39 +1,4 @@
-Changed in Thonny 3.2
-======================
-The main part of this text applies to Thonny 3.0 and 3.1.
-
-Some things in Thonny 3.2 work differently as follows: 
-
-* The "Files" view can display files on the device
-* Scripts saved on the device can be opened and saved directly (ie. without copying to a local file first)
-* The "Upload" commands are gone. Use "File => Save as" or "File => Save copy as" instead.
-* The commands in the "Device" menu have been moved to other menus.
-* CircuitPython and micro:bit plug-ins are now part of the main Thonny package.
-
-
-Thonny 3.0 and 3.1
-==================
-
-Since version 3.0 Thonny has basic MicroPython support built-in. In addition to this, there are several plug-ins which add more complete support for specific devices:
-
-* `thonny-microbit <https://bitbucket.org/KauriRaba/thonny-microbit/>`_ (nb! Version 0.2 is intended for Thonny 2.1.    Thonny 3 requires version 0.3b2 or later of this plug-in! Click on the "..." button in the plug-in manager to install beta versions.)  
-* `thonny-circuitpython <https://github.com/thonny/thonny-circuitpython/>`_
-* `thonny-esp <https://github.com/thonny/thonny-esp/>`_
-* `thonny-pyboard <https://github.com/thonny/thonny-pyboard/>`_
-* `thonny-calliope <https://github.com/thonny/thonny-calliope/>`_
-
-Installation
-------------
-If your device is supported by a more specific plug-in (listed above), then 
-it is recommended to install that plug-in first.
-
-For this, open Thonny's plug-in manager (Tools → Manage plug-ins ...), 
-enter the name of your chosen plug-in and press "Search".  You should now see 
-the details. Press "Install" to install the default version or "..." to 
-choose a specific version.
-
-Note that you need to restart Thonny for the plug-ins to take effect.
-
+*This page describes MicroPython support since Thonny 3.2. See bottom of the page for historical notes.*
 
 Configuration
 -------------
@@ -130,3 +95,21 @@ use `Thonny's forum <https://groups.google.com/forum/#!forum/thonny>`_ to ask fo
 General bugs and proposals should be registered under 
 `Thonny's bug-tracker <https://bitbucket.org/plas/thonny/issues>`_.
 Device specific issues should be reported under specific projects' bug-trackers.
+
+Plug-ins
+========
+
+General features and extra support to some boards (BBC micro:bit, CircuitPython boards, ESP-8266, ESP-32) are built into main Thonny package. In addition to this, there are some external plug-ins which add code completion for other devices:
+
+* `thonny-pyboard <https://github.com/thonny/thonny-pyboard/>`_
+* `thonny-calliope <https://github.com/thonny/thonny-calliope/>`_
+
+As of Thonny 3.2, these plug-ins have not gotten much attention from the developers.
+
+History
+======================
+* MicroPython support in Thonny started with `BBC micro:bit plug-in by Kauri Raba <https://bitbucket.org/KauriRaba/thonny-microbit/src>`_.
+* General MicroPython support appeared in Thonny 3.0 and was meant to be used via separate plug-ins.
+* Initially one had to edit scripts as local files and save them to the device with special commands in "Device" menu (as described `here <https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/>`_.
+* Thonny 3.2 introduced device file browser and allowed to edit files directly in device's file system. "Device" menu was deprecated as file handling commands moved to file browser and firmware commands moved to respective back-end configuration pages. Upload commands are substituted with "File => Save as" and "File => Save copy as" commands.
+* Thonny 3.2 also included several plug-ins (microbit, circuitpython, esp) in the main "thonny" package.
