@@ -1,7 +1,7 @@
 *This page describes MicroPython support since Thonny 3.2. See the bottom of the page for historical notes.*
 
 Configuration
--------------
+==============
 Before continuing, make sure that you have your device attached to a USB port. 
 If required, install the necessary drivers for serial communication.
 
@@ -20,10 +20,10 @@ device's REPL or the output of the script which is currently running on your dev
 on your device yet, then see below for the section about firmware installation.) 
 
 Editing scripts
-----------------------------
+===============
 When you have a MicroPython back-end selected, "File => Open" allows you to open a file either from local disk, device's USB drive, or "directly" form your device's file system. Same goes to save commands ("Save", "Save as", "Save copy as"). 
 
-*Note that Thonny always synchronizes file writes -- this reduces the risk of corrupt files when you accidentally reset your device without proper eject right after saving a file onto its USB drive.*
+*Note that Thonny always synchronizes file writes — this reduces the risk of corrupt files when you accidentally reset your device without proper eject right after saving a file onto its USB drive.*
 
 You can also open files by double-clicking them in Thonny's file browser (View => Files).
 
@@ -34,17 +34,20 @@ autocompleter may offer some names that are not present on your device and miss 
 
 
 Running scripts
-----------------
-The easiest way to test your script is to execute it like you would with CPython back-end -- "Run → Run current script (F5)". It doesn't matter whether your script is stored on the local disk or on the device -- in both ways Thonny simply submits the program text to device's REPL.
+================
+The easiest way to test your script is to execute it like you would with the CPython back-end — "Run → Run current script (F5)". It doesn't matter whether your script is stored on the local disk or on the device — in both ways Thonny simply submits the program text to device's REPL.
 
 When you have saved your script onto the device (eg. as "main.py"), you can check how your device would perform without Thonny. This can be done easily by selecting "Run => Send EOF / Soft reboot (Ctrl+D)".
 
+Managing other files
+====================
+You can upload / download data files via respective commands in the file browser (View => Files) menu (≡) or files' context menu (opened by right-clicking on a file).
 
 Thonny REPL vs. plain MicroPython serial REPL
-----------------------------------------------
+==============================================
 After connecting to your device, Thonny switches it to raw REPL mode and uses this 
 mode under the hood to run the scripts, query global variables, etc. For the user it is still presented as regular REPL.
-(Note that this change is not permanent -- if you reset the device and open it with another program, REPL is back in regular mode). 
+(Note that this mode change is not permanent — if you reset the device and open it with another program, REPL is back in regular mode. If you don't want to reset it then you can get back to regular mode with Ctrl+B.) 
 
 Because of using raw REPL under the hood, Thonny doesn't support Ctrl-A and Ctrl-B
 for switching between raw and regular REPL. It also doesn't support Ctrl-E for entering
@@ -52,7 +55,7 @@ paste mode -- this is not necessary as you can paste any amount of code into the
 regular Thonny REPL.
 
 Firmware installation / upgrade
--------------------------------
+===================================
 Some MicroPython back-ends offer support for installing MicroPython to your device. In this case the back-end configuration page (Run => Select interpreter) has a button for this.
 
 
