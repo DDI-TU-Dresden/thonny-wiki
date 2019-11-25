@@ -75,3 +75,14 @@ Independently of the Thonny program files' location, on the first run it creates
 * else if installed on **Linux** ⇒ ``$XDG_CONFIG_HOME/Thonny`` (usually ``~/.config/Thonny``)
 
 This directory can be opened when you select "Tools => Open Thonny data directory" in Thonny.
+
+customize.py
+------------
+At launch time Thonny looks for a script named ``customize.py`` under thonny package (eg. ``C:\Users\Aivar\AppData\Local\Programs\Thonny\Lib\site-packages\thonny``). If present, this is run before the main launch procedure.
+
+You can use this to prepare the environment for Thonny, eg:
+
+.. sourcecode:: python
+
+    import os
+    os.environ["AN_IMPORTANT_ENV_VAR"] = "1234"
