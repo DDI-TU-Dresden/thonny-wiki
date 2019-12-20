@@ -12,6 +12,7 @@ For users:
 * `Using Thonny for MicroPython / CircuitPython <MicroPython>`_
 * `Custom shortcuts <Custom-shortcuts>`_
 * `Custom layout <Custom-layout>`_
+* `Using Friendly traceback <Friendly-traceback>`_
 
 For contributors:
 
