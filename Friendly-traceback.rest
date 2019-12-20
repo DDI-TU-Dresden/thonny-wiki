@@ -1,4 +1,4 @@
-``friendly-traceback`` is a Python package by André Roberge, which aims to offer more beginner-friendly Python error messages. See the documentation for more info: https://aroberge.github.io/friendly-traceback-docs/docs/html/
+``friendly-traceback`` is a Python package by André Roberge, which aims to offer beginner-friendly Python error messages. See the documentation for more info: https://aroberge.github.io/friendly-traceback-docs/docs/html/
 
 Thonny supports friendly-traceback since version 3.2.5. In order to use it, you need to 
 
