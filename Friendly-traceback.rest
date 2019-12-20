@@ -2,5 +2,5 @@
 
 Thonny supports friendly-traceback since version 3.2.5. In order to use it, you need to 
 
-1. Install the package named ``friendly-traceback`` ("Tools => Manage packages" or pip on command line);
+1. Install ``friendly-traceback`` ("Tools => Manage packages" or pip on command line);
 2. Enable it via "Tools => Options => Assistant". Level ``0`` means Thonny won't use it at all. FT's default level is ``1``. The meaning of levels is described here: https://aroberge.github.io/friendly-traceback-docs/docs/html/design.html#verbosity.
