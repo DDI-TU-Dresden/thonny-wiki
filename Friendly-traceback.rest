@@ -1,6 +1,6 @@
-``friendly-traceback`` is a Python package by André Roberge, which aims to offer beginner-friendly Python error messages. See the documentation for more info: https://aroberge.github.io/friendly-traceback-docs/docs/html/
+*Friendly traceback* is a Python package by André Roberge, which aims to offer beginner-friendly Python error messages. See the documentation for more info: https://aroberge.github.io/friendly-traceback-docs/docs/html/
 
-Thonny supports friendly-traceback since version 3.2.5. In order to use it, you need to 
+Thonny supports Friendly traceback since version 3.2.5. In order to use it, you need to 
 
 1. Install ``friendly-traceback`` ("Tools => Manage packages" or pip on command line);
 2. Enable it via "Tools => Options => Assistant". Level ``0`` means Thonny won't use it at all. FT's default level is ``1``. The meaning of levels is described here: https://aroberge.github.io/friendly-traceback-docs/docs/html/design.html#verbosity.
