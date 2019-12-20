@@ -3,5 +3,5 @@ In the following, substitute ``python3`` with your Python interpreter command (P
 1. Clone the repository (or fork and clone if you intend to submit a pull request). If you prefer not to use git then get the source from  https://github.com/thonny/thonny/archive/master.zip 
 2. ``cd <your thonny project directory>``
 3. Install requirements (``python3 -m pip install -r requirements.txt``)
-4. Set ``PYTHONPATH`` environment variable to your Thonny directory, eg ``set PYTHONPATH=C:\Users\Aivar\python_stuff\thonny`` on Windows.
+4. Set ``PYTHONPATH`` environment variable to your Thonny directory, eg ``set PYTHONPATH=C:\Users\Aivar\python_stuff\thonny`` when using Windows command line. Consult your IDE documentation about running your project with specific environment variables.
 5. Run `thonny` module (``python3 -m thonny``)
