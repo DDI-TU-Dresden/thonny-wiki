@@ -57,7 +57,7 @@ Since 3.2 Thonny will work in portable mode simply when being run from a removab
 
 nb! Always pay attention to the installation target directory in "Tools => Manage packages" and "Tools => Manage plug-ins". Unless you are using a virtual backend, Thonny will install new packages to global user-site-packages even when running in portable mode. This will probably be changed in version 4.0 (#718).
 
-If you want to add new 3rd party packages to your portable Thonny, then install them directly into main site-packages (see above).
+If you want to add new 3rd party packages to your portable Thonny, then install them directly into main site-packages ("Tools => Open System shell" and `pip install ...`).
 
 pip-installing Thonny to an existing Python 
 --------------------------------------------
