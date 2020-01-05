@@ -6,7 +6,7 @@ For users:
 * `Using Thonny on Mac OS X <MacOSX>`_
 * `Using Thonny on Windows <Windows>`_
 * `Using Thonny on Linux <Linux>`_
-* `Classroom usage / deployment options <DeploymentOptions>`_
+* `Classroom usage / deployment options / portable variant <DeploymentOptions>`_
 * `Installing Thonny to an existing Python <SeparateInstall>`_
 * `Installing extra packages <InstallingPackages>`_
 * `Using Thonny for MicroPython / CircuitPython <MicroPython>`_
