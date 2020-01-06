@@ -7,7 +7,7 @@ Starting with version 3.0, the Thonny+Python bundle is supported on macOS 10.9 M
 Installation
 -------------------------------------
 
-Download the latest *.dmg file and open it. You should see a small window with a single icon labelled "Thonny" in it.
+Download the latest *.dmg file on https://thonny.org/ and open it. You should see a small window with a single icon labelled "Thonny" in it.
 
 .. image:: https://bitbucket.org/repo/gXnbod/images/3178666057-Screen%20Shot%202015-11-26%20at%2011.55.30.png
    :alt: Screen Shot 2015-11-26 at 11.55.30.png
