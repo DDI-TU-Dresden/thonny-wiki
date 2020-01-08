@@ -45,7 +45,7 @@ The following commands show how to set up both Thonny and your plugin project wi
 cd ~
 mkdir thonny_stuff
 cd thonny_stuff
-git clone https://bitbucket.org/plas/thonny
+git clone https://github.com/thonny/thonny
 mkdir -p my_plugin/thonnycontrib
 cp hello.py my_plugin/thonnycontrib
 export PYTHONPATH=~/thonny_stuff/my_plugin
