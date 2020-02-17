@@ -1,4 +1,4 @@
-Starting with version 3.0, the Thonny+Python bundle is supported on macOS 10.9 Mavericks and later. On older systems you can `install Python and Thonny separately <SeparateInstall>`_.
+Thonny+Python bundle is supported on macOS 10.11 and later (it may also work on 10.9 and 10.10, but this is not tested). On older systems you can `install Python and Thonny separately <SeparateInstall>`_.
 
 (Version 2.1.21 can be used on macOS 10.6 and later)
 
@@ -7,30 +7,11 @@ Starting with version 3.0, the Thonny+Python bundle is supported on macOS 10.9 M
 Installation
 -------------------------------------
 
-Download the latest *.dmg file on https://thonny.org/ and open it. You should see a small window with a single icon labelled "Thonny" in it.
-
-.. image:: https://bitbucket.org/repo/gXnbod/images/3178666057-Screen%20Shot%202015-11-26%20at%2011.55.30.png
-   :alt: Screen Shot 2015-11-26 at 11.55.30.png
-
-Drag the icon to your Desktop or Applications folder. This will copy Thonny to your computer. 
-
-.. image:: https://bitbucket.org/repo/gXnbod/images/3987278567-Screen%20Shot%202015-11-26%20at%2012.02.09.png
-   :alt: Screen Shot 2015-11-26 at 12.02.09.png
-
-When copying has finished, you can close the original small window by Ctrl-clicking (or right-clicking) and selecting "Eject":
-
-.. image:: https://bitbucket.org/repo/gXnbod/images/3393714686-Screen%20Shot%202015-11-26%20at%2012.04.04.png
-   :alt: Screen Shot 2015-11-26 at 12.04.04.png
-
-Now you can (try to) run Thonny by double-clicking its icon on the Desktop or Applications folder. Opening Thonny the first time may take several seconds because Thonny needs to prepare its files.
-
-Allowing apps from identified developers
-----------------------------------------
-If you have used only apps from the App Store so far, you may need to enable apps from identified developers (System preferences => Secrity & Privacy => General).
+Download the latest *.pkg file on https://thonny.org/ and follow the instructions.
 
 Uninstallation
 ---------------
-Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to Trash".
+Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to Bin".
 
 Opening all py files with Thonny
 --------------------------------
@@ -50,6 +31,8 @@ macOS 10.15 Catalina changed how apps are given permissions for accessing certai
     
     Backend terminated or disconnected. Use 'Stop/Restart' to restart ...
 
-If this happens, then you may be able to fix it by making Thonny save a new Python file to (or open a file from) the directory you were using last time before upgrading to Catalina -- usually this is the first directory shown when you open the file selection dialog with "File => Open" or "File => Save as". Restart Thonny after this. Now Thonny should have gained proper permissions for corresponding special directory (Documents, Desktop or Downloads).
+If this happens, then you may be able to fix it by reinstalling Thonny using a .pkg. NB! When Thonny starts up it may ask for permissions to your Desktop, Documents or other special folders you have stored your scripts in -- make sure you grant the permission!
 
-If this doesn't help, then you can try `opening Thonny from Terminal <Troubleshooting#open-in-the-terminal-macos>`_ or deleting its configuration file ``~/Library/Thonny/configuration.ini`` (close Thonny first). More details here: https://github.com/thonny/thonny/issues/813
+Another solution is making Thonny save a new Python file to (or open a file from) the directory you were using last time before upgrading to Catalina -- usually this is the first directory shown when you open the file selection dialog with "File => Open" or "File => Save as". Restart Thonny after this. Now Thonny should have gained proper permissions for corresponding directory.
+
+If this doesn't help, then you can try `opening Thonny from Terminal <Troubleshooting#open-in-the-terminal-macos>`_ or deleting its configuration file ``~/Library/Thonny/configuration.ini`` (close Thonny first).
