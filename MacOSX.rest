@@ -7,7 +7,7 @@ Thonny+Python bundle is supported on macOS 10.11 and later (it may also work on 
 Installation
 -------------------------------------
 
-Download the latest *.pkg file on https://thonny.org/ and follow the instructions.
+Download the latest pkg-file on https://thonny.org/ and follow the instructions.
 
 Uninstallation
 ---------------
