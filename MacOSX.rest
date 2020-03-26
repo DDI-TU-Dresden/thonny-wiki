@@ -11,7 +11,7 @@ Download the latest pkg-file on https://thonny.org/, launch it and follow the in
 
 Uninstallation
 ---------------
-Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to Bin".
+Just Ctrl-click (or right-click) the Thonny icon on your Desktop or Applications folder and select "Move to Trash".
 
 Opening all py files with Thonny
 --------------------------------
