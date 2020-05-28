@@ -22,7 +22,7 @@ The warnings are strongest when the installer is downloaded and run via Internet
 Actually, it's hard to predict exactly what kind of warnings SmartScreen will give you, because 
 
 * it depends on your SmartScreen settings
-* SmartScreen uses some kind of reputation system, and Thonny's reputation is supposed to improve over time. (The system is not very transparent, but the main idea is that, the more users install and approve Thonny, the more likely it is that the following users won't be bothered with warnings. See http://blogs.msdn.com/b/ie/archive/2011/03/22/smartscreen-174-application-reputation-building-reputation.aspx for more info)
+* SmartScreen uses some kind of reputation system, and Thonny's reputation is supposed to improve over time. (The system is not very transparent, but the main idea is that, the more users install and approve Thonny, the more likely it is that subsequent users won't be bothered with warnings. See http://blogs.msdn.com/b/ie/archive/2011/03/22/smartscreen-174-application-reputation-building-reputation.aspx for more info)
 
 How to work around the SmartScreen Filter?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
