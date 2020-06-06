@@ -47,13 +47,13 @@ Since version 3.2 the same dialog also allows installing from a `requirements.tx
 
 Portable version
 ----------------
-You can put the Thonny+Python bundle onto an external hard-drive or USB stick and run it in compatible systems without installing anything.
-
 Since 3.2 Thonny will work in portable mode simply when being run from a removable drive. In this mode it keeps (almost) all traces of its work (configuration files, logs) within its program directory. 
 
-* In Windows extract the zip-file from the release page to the removable drive. Launch the program with ``thonny.exe``
-* (Since 3.2) In Linux extract the tar.gz file from the release page to the removable drive. Delete (or ignore) the ``install`` and ``install.py`` files. Launch the program with ``bin/thonny``.
-* (Since 3.2) In macOS simply copy the app bundle to the removable drive. Launch the program as usual.
+Go to https://github.com/thonny/thonny/releases .
+
+* For Windows download the file with the suffix "windows-portable.zip" to the removable drive and extract it there. Launch the program with ``thonny.exe``
+* (Since 3.2) In Linux check your processor architecture in a terminal with the command "uname -m". After that download the file with the suffix of your architecture and tar.gz (e.g. "x86_64.tar.gz") to the removable drive. Delete (or ignore) the ``install`` and ``install.py`` files. Launch the program with ``bin/thonny``.
+* (Since 3.2) In macOS simply copy the app bundle (suffix .dmg or .pkg since 3.2.6) to the removable drive. Launch the program as usual.
 
 nb! Always pay attention to the installation target directory in "Tools => Manage packages" and "Tools => Manage plug-ins". Unless you are using a virtual backend, Thonny will install new packages to global user-site-packages even when running in portable mode. This will probably be changed in version 4.0 (#718).
 
